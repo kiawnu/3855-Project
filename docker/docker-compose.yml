@@ -1,0 +1,10 @@
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_USER: dev1
+      MYSQL_PASSWORD: Dev1-mysql
+      MYSQL_DATABASE: port-data
+    ports:
+      - 3306:3306

@@ -1,0 +1,106 @@
+openapi: 3.0.0
+info:
+  title: Port
+  description: Port event tracking
+  version: 1.0.0.0
+servers:
+  - url: /
+paths:
+  /ship/arrival:
+    post:
+      tags: []
+      summary: Your POST endpoint
+      operationId: app.report_ship_arrived
+      parameters: []
+      requestBody:
+        description: Adds a new entry when a ship arrives to port
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Ship_Arrival"
+      responses:
+        "201":
+          description: Ship arrived
+        "400":
+          description: Bad or insufficient ship data
+  /container/arrival:
+    post:
+      tags: []
+      summary: Your POST endpoint
+      operationId: app.report_container_processed
+      requestBody:
+        description: Adds a new entry when a container is processed
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Container_Processing"
+      responses:
+        "201":
+          description: Container Processed
+        "400":
+          description: Bad or insufficient container data
+components:
+  schemas:
+    Ship_Arrival:
+      required:
+        - ship_id
+        - port_id
+        - containers_onboard
+        - docking_time
+        - origin_country
+      title: Ship_Arrival
+      type: object
+      properties:
+        id:
+          type: number
+        ship_id:
+          type: number
+        port_id:
+          type: number
+          x-stoplight:
+            id: 7o2upxybyi8af
+        containers_onboard:
+          type: number
+          x-stoplight:
+            id: tqb3u54ijnr18
+        docking_time:
+          type: string
+          format: date-time
+          x-stoplight:
+            id: 4vx9e78s0qgvm
+        origin_country:
+          type: string
+          x-stoplight:
+            id: hwkbaf3smjas7
+      description: ""
+    Container_Processing:
+      required:
+        - container_id
+        - processing_hub_id
+        - container_weight
+        - destination
+        - unloading_time
+      title: Container_Processing
+      type: object
+      properties:
+        id:
+          type: number
+        container_id:
+          type: number
+        processing_hub_id:
+          type: number
+          x-stoplight:
+            id: nhbyjvmuueuz7
+        container_weight:
+          type: number
+          x-stoplight:
+            id: zgepuhdzuh05g
+        destination:
+          type: string
+          x-stoplight:
+            id: f15qb11kgqqof
+        unloading_time:
+          type: string
+          format: date-time
+          x-stoplight:
+            id: wo510kxf9qn30
