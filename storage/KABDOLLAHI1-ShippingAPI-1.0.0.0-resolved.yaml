@@ -23,6 +23,37 @@ paths:
           description: Ship arrived
         "400":
           description: Bad or insufficient ship data
+    get:
+      tags:
+        - ships
+      summary: Gets ship arrival data
+      operationId: app.get_ship_event
+      description: Gets ship arrival data
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        "200":
+          description: Successfully returned a list of ship arrival events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Ship_Arrival"
+
   /container/arrival:
     post:
       tags: []
@@ -39,6 +70,36 @@ paths:
           description: Container Processed
         "400":
           description: Bad or insufficient container data
+    get:
+      tags:
+        - ships
+      summary: Gets container processing data
+      operationId: app.get_container_event
+      description: Gets container processing data
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        "200":
+          description: Successfully returned a list of container processing events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Container_Processing"
 components:
   schemas:
     Ship_Arrival:

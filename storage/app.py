@@ -5,6 +5,9 @@ from connexion import NoContent
 from pathlib import Path
 from db import make_session, create_tables, drop_tables
 from models import ShipArrivals, ContainerProcessing
+from sqlalchemy import select
+
+
 
 with open("log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
@@ -48,6 +51,42 @@ def report_container_processed(body):
 
 
     return NoContent, 201
+
+def get_ship_event(start_timestamp, end_timestamp):
+
+    session = make_session()
+
+    start = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+
+    statement = select(ShipArrivals).where(ShipArrivals.date_created >= start).where(ShipArrivals.date_created < end)
+
+    results = [
+        result.to_dict()
+        for result in session.execute(statement).scalars().all()
+    ]
+    session.close()
+
+    logger.info("Found %d ship arrival events (start: %s, end: %s)", len(results), start, end)   
+    return results
+
+def get_container_event(start_timestamp, end_timestamp):
+
+    session = make_session()
+
+    start = datetime.fromtimestamp(start_timestamp)
+    end = datetime.fromtimestamp(end_timestamp)
+
+    statement = select(ContainerProcessing).where(ContainerProcessing.date_created >= start).where(ContainerProcessing.date_created < end)
+
+    results = [
+        result.to_dict()
+        for result in session.execute(statement).scalars().all()
+    ]
+    session.close()
+
+    logger.info("Found %d ship arrival events (start: %s, end: %s)", len(results), start, end)   
+    return results
 
 app = connexion.FlaskApp(__name__, specification_dir='')
 

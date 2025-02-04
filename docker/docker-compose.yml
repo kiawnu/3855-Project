@@ -8,3 +8,8 @@ services:
       MYSQL_DATABASE: port-data
     ports:
       - 3306:3306
+    volumes:
+      - ACIT3855-storage:/var/lib/mysql
+
+volumes:
+  ACIT3855-storage:
