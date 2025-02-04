@@ -1,0 +1,60 @@
+openapi: 3.0.0
+info:
+  title: Stats API
+  description: Event Stats
+  version: 1.0.0.0
+servers:
+  - url: /
+paths:
+  /stats:
+    get:
+      tags:
+        - Stats
+      summary: Get event stats
+      operationId: app.get_stats
+      description: Gets stats on ship and container arrivals
+      responses:
+        "200":
+          description: Successfully returned a list of ship arrival events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Ship_Arrival"
+
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    ReadingStats:
+      required:
+        - num_ships_arrived
+        - num_containers_proccessed
+        - max_containers_onboard
+        - heaviest_container
+        - lightest_container
+      properties:
+        num_ships_arrived:
+          type: integer
+          example: 50000
+        num_containers_proccessed:
+          type: integer
+          example: 300
+        max_containers_onboard:
+          type: integer
+          example: 1802
+        heaviest_container:
+          type: integer
+          example: 20000
+        lightest_container:
+          type: integer
+          example: 250
+      type: object
