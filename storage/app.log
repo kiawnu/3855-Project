@@ -224,3 +224,5 @@
 2025-02-04 11:04:36,647 - basicLogger - DEBUG - Stored event report_container_processed with trace id of a110cea6-2e4a-49f5-bcae-9fb659a392cc
 2025-02-04 11:04:36,751 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 231c76b9-44d6-47e3-b1a8-141fb68b4e57
 2025-02-04 12:18:47,188 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
+2025-02-04 19:58:58,122 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
+2025-02-04 20:00:47,417 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)

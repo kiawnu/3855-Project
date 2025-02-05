@@ -21,7 +21,7 @@ paths:
               schema:
                 type: array
                 items:
-                  $ref: "#/components/schemas/Ship_Arrival"
+                  $ref: "#/components/schemas/ReadingStats"
 
         "400":
           description: Invalid request

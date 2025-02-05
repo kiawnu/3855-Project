@@ -3,8 +3,8 @@ import connexion, json, datetime, logging, yaml
 from datetime import datetime
 from connexion import NoContent
 from pathlib import Path
-from storage.db import make_session, create_tables, drop_tables
-from storage.models import ShipArrivals, ContainerProcessing
+# from storage.db import make_session, create_tables, drop_tables
+# from storage.models import ShipArrivals, ContainerProcessing
 from sqlalchemy import select
 from apscheduler.schedulers.background import BackgroundScheduler
 
@@ -20,14 +20,14 @@ def get_stats():
     pass
 
 def populate_stats():
-    print("In function populate stats!")
+    logger.info("Periodic processing has started")
+    
+    
 
 
 def init_scheduler():
     sched = BackgroundScheduler(daemon=True)
-    # sched.add_job(populate_stats,
-    #     'interval',
-    #     seconds=app_config['scheduler']['interval'])
+    sched.add_job(populate_stats,'interval',seconds=5)
     sched.start()
 
 app = connexion.FlaskApp(__name__, specification_dir='')
