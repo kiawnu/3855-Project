@@ -3,6 +3,8 @@ import connexion
 import json
 import logging
 import yaml
+import time
+import threading
 import httpx
 from datetime import datetime
 from pathlib import Path
@@ -50,22 +52,28 @@ def populate_stats():
     logger.info("Periodic processing has started")
 
     current_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    # time.sleep(5)
 
     # If no JSON file present, will use the default value to get all events
     default_values = {"last_updated": "1970-02-10T12:34:56.789Z"}
 
     if STATS_FILE_PATH.is_file():
         with open(STATS_FILE, "r") as f:
-            data = json.load(f)
-        most_recent_event_time = data[0]["last_updated"]
+            stats_json = json.load(f)
 
     else:
         logger.info("Stats file does not exist. Using default values.")
-        data = []
-        most_recent_event_time = default_values["last_updated"]
+        stats_json = {
+            "num_ships_arrived": 0,
+            "num_containers_proccessed": 0,
+            "max_containers_onboard": 0,
+            "heaviest_container": 0,
+            "lightest_container": 10000000,
+            "last_updated": default_values["last_updated"],
+        }
 
     params = {
-        "start_timestamp": most_recent_event_time,
+        "start_timestamp": stats_json["last_updated"],
         "end_timestamp": current_time,
     }
 
@@ -77,7 +85,7 @@ def populate_stats():
     ship_events = ship_events_r.json()
     container_events = container_events_r.json()
 
-    # Error handling
+    # Error handlingen
     if container_events_r.status_code != 200:
         logger.error(
             f"Error fetching container events, Response: {container_events_r.status_code}"
@@ -92,38 +100,63 @@ def populate_stats():
     )
 
     # Stat calculations
-    num_ships_arrived = len(ship_events)
-    num_containers_processed = len(container_events)
-    max_containers_onboard = max(ship_events, key=lambda x: x["containers_onboard"])
-    heaviest_container = max(container_events, key=lambda x: x["container_weight"])
-    lightest_container = min(container_events, key=lambda x: x["container_weight"])
 
-    # Most recent event timestamp
-    last_ship_event = datetime.strptime(
-        ship_events[-1]["date_created"], "%Y-%m-%dT%H:%M:%SZ"
-    )
-    last_container_event = datetime.strptime(
-        container_events[-1]["date_created"], "%Y-%m-%dT%H:%M:%SZ"
-    )
+    if len(container_events) > 0:
+        current_max_weight = stats_json["heaviest_container"]
+        current_min_weight = stats_json["lightest_container"]
+
+        stats_json["num_containers_proccessed"] += len(container_events)
+
+        temp_heavy = max(container_events, key=lambda x: x["container_weight"])[
+            "container_weight"
+        ]
+
+        temp_lightest = min(container_events, key=lambda x: x["container_weight"])[
+            "container_weight"
+        ]
+
+        if current_max_weight < temp_heavy:
+            stats_json["heaviest_container"] = temp_heavy
+
+        if current_min_weight > temp_lightest:
+            stats_json["lightest_container"] = temp_lightest
+
+        last_container_event = datetime.strptime(
+            container_events[-1]["date_created"], "%Y-%m-%dT%H:%M:%SZ"
+        )
+
+    if len(ship_events) > 0:
+        current_max_containers = stats_json["max_containers_onboard"]
+
+        stats_json["num_ships_arrived"] += len(ship_events)
+
+        temp_max = max(ship_events, key=lambda x: x["containers_onboard"])[
+            "containers_onboard"
+        ]
+
+        if current_max_containers < temp_max:
+            stats_json["max_containers_onboard"] = temp_max
+
+        last_ship_event = datetime.strptime(
+            ship_events[-1]["date_created"], "%Y-%m-%dT%H:%M:%SZ"
+        )
 
     # Get the most recent timestamp
-    most_recent = max(last_ship_event, last_container_event)
 
-    # Convert back to proper format
-    date_formatted = most_recent.strftime("%Y-%m-%dT%H:%M:%S.%fZ")[:-3] + "Z"
+    if len(ship_events) > 0 and len(container_events) > 0:
+        most_recent = max(last_ship_event, last_container_event)
 
-    stats_json = [
-        {
-            "num_ships_arrived": num_ships_arrived,
-            "num_containers_proccessed": num_containers_processed,
-            "max_containers_onboard": max_containers_onboard["containers_onboard"],
-            "heaviest_container": heaviest_container["container_weight"],
-            "lightest_container": lightest_container["container_weight"],
-            "last_updated": date_formatted,
-        }
-    ]
+        # Convert back to proper format
+        date_formatted = most_recent.strftime("%Y-%m-%dT%H:%M:%S.%fZ")[:-3] + "Z"
+        stats_json["last_updated"] = date_formatted
+
+    stats_json["last_updated"] = current_time
 
     # write to json
+    # lock = threading.Lock()
+    # with lock:
+    #     with open(STATS_FILE, "w") as f:
+    #         json.dump(stats_json, f, indent=4)
     with open(STATS_FILE, "w") as f:
         json.dump(stats_json, f, indent=4)
 
