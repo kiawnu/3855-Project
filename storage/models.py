@@ -1,8 +1,10 @@
 from sqlalchemy.orm import DeclarativeBase, mapped_column
-from sqlalchemy import Integer, String, DateTime, func, BigInteger
+from sqlalchemy import Integer, String, DateTime, func
+
 
 class Base(DeclarativeBase):
     pass
+
 
 class ShipArrivals(Base):
     __tablename__ = "ship_arrivals"
@@ -14,7 +16,7 @@ class ShipArrivals(Base):
     origin_country = mapped_column(String(50), nullable=False)
     date_created = mapped_column(DateTime, nullable=False, default=func.now())
     trace_id = mapped_column(String(50), nullable=False)
-    
+
     def to_dict(self):
         ship_dict = {}
         ship_dict["id"] = self.id
@@ -27,8 +29,6 @@ class ShipArrivals(Base):
         ship_dict["trace_id"] = self.trace_id
 
         return ship_dict
-
-
 
 
 class ContainerProcessing(Base):
@@ -54,6 +54,3 @@ class ContainerProcessing(Base):
         container_dict["trace_id"] = self.trace_id
 
         return container_dict
-
-
-

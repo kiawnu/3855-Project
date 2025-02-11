@@ -1299,3 +1299,103 @@
 2025-02-10 16:59:18,614 - basicLogger - INFO - Response for event report_ship_arrived (id:9225737) has status 201
 2025-02-10 16:59:18,616 - basicLogger - INFO - Received event report_container_processed with trace id 9417faea-89ec-4f13-aa43-eafb15caaeff
 2025-02-10 16:59:18,660 - basicLogger - INFO - Response for event report_container_processed (id:4644782) has status 201
+2025-02-11 09:22:38,278 - basicLogger - INFO - Received event report_ship_arrived with trace id 6eecaccc-212d-4db2-a55f-67948eae67ea
+2025-02-11 09:22:38,351 - basicLogger - INFO - Response for event report_ship_arrived (id:3480740) has status 201
+2025-02-11 09:22:38,369 - basicLogger - INFO - Received event report_container_processed with trace id 29dce42c-cbfe-4b7a-a5fb-403e4b1443df
+2025-02-11 09:22:38,399 - basicLogger - INFO - Received event report_ship_arrived with trace id 6c43cd73-1f4a-4287-8756-532f8d268007
+2025-02-11 09:22:38,438 - basicLogger - INFO - Response for event report_container_processed (id:5466865) has status 201
+2025-02-11 09:22:38,441 - basicLogger - INFO - Received event report_ship_arrived with trace id 94df9e9c-517f-4c54-80ab-dee23f54cff5
+2025-02-11 09:22:38,461 - basicLogger - INFO - Response for event report_ship_arrived (id:2750515) has status 201
+2025-02-11 09:22:38,464 - basicLogger - INFO - Received event report_container_processed with trace id 7f8ac9f9-84d9-4448-8cc8-d3626f586e6b
+2025-02-11 09:22:38,500 - basicLogger - INFO - Response for event report_ship_arrived (id:8278982) has status 201
+2025-02-11 09:22:38,503 - basicLogger - INFO - Received event report_container_processed with trace id a1f7a1cc-e720-4d0a-8531-7824824acb6f
+2025-02-11 09:22:38,523 - basicLogger - INFO - Response for event report_container_processed (id:9082115) has status 201
+2025-02-11 09:22:38,525 - basicLogger - INFO - Received event report_ship_arrived with trace id 23665c69-209b-4ecd-b24c-be734bc21a60
+2025-02-11 09:22:38,562 - basicLogger - INFO - Response for event report_container_processed (id:7301169) has status 201
+2025-02-11 09:22:38,565 - basicLogger - INFO - Received event report_ship_arrived with trace id 3279ea9e-2326-4b41-a141-d3b7fd673d2a
+2025-02-11 09:22:38,584 - basicLogger - INFO - Response for event report_ship_arrived (id:6348223) has status 201
+2025-02-11 09:22:38,586 - basicLogger - INFO - Received event report_container_processed with trace id 6dea857d-8282-4ba4-a358-e0a84c917658
+2025-02-11 09:22:38,601 - basicLogger - INFO - Received event report_ship_arrived with trace id 1b07839f-3f72-4892-9e82-c6b47d48edf6
+2025-02-11 09:22:38,633 - basicLogger - INFO - Response for event report_ship_arrived (id:762845) has status 201
+2025-02-11 09:22:38,636 - basicLogger - INFO - Received event report_container_processed with trace id e909d234-86d8-4e10-8024-a6e8c8b4cb13
+2025-02-11 09:22:38,661 - basicLogger - INFO - Response for event report_container_processed (id:2813505) has status 201
+2025-02-11 09:22:38,664 - basicLogger - INFO - Received event report_ship_arrived with trace id b9568ce2-7d80-4ff6-8705-3030a0cd9f7a
+2025-02-11 09:22:38,677 - basicLogger - INFO - Response for event report_ship_arrived (id:2470612) has status 201
+2025-02-11 09:22:38,680 - basicLogger - INFO - Received event report_container_processed with trace id 91e8d325-3641-45ff-a42a-8ddee530d9cf
+2025-02-11 09:22:38,711 - basicLogger - INFO - Response for event report_container_processed (id:4412830) has status 201
+2025-02-11 09:22:38,714 - basicLogger - INFO - Received event report_ship_arrived with trace id 3d01ff20-e584-4699-9a7c-05d27489cff5
+2025-02-11 09:22:38,743 - basicLogger - INFO - Response for event report_ship_arrived (id:9569456) has status 201
+2025-02-11 09:22:38,746 - basicLogger - INFO - Received event report_container_processed with trace id 9dc1ad11-5ae0-4484-9079-7193a13a743d
+2025-02-11 09:22:38,755 - basicLogger - INFO - Response for event report_container_processed (id:6499806) has status 201
+2025-02-11 09:22:38,757 - basicLogger - INFO - Received event report_ship_arrived with trace id b37b6045-c36b-4620-a83a-46add6f1d55d
+2025-02-11 09:22:38,782 - basicLogger - INFO - Response for event report_ship_arrived (id:9160321) has status 201
+2025-02-11 09:22:38,785 - basicLogger - INFO - Received event report_container_processed with trace id 9529a875-dfa3-46fe-849d-2ae5067fccfb
+2025-02-11 09:22:38,796 - basicLogger - INFO - Received event report_ship_arrived with trace id 2ef15bc8-8a3f-4a3c-98ba-7bb158351cb6
+2025-02-11 09:22:38,837 - basicLogger - INFO - Response for event report_container_processed (id:3490059) has status 201
+2025-02-11 09:22:38,840 - basicLogger - INFO - Received event report_ship_arrived with trace id aab318a7-5e44-48ce-ac47-7b88e07126f8
+2025-02-11 09:22:38,850 - basicLogger - INFO - Response for event report_ship_arrived (id:3858102) has status 201
+2025-02-11 09:22:38,852 - basicLogger - INFO - Received event report_container_processed with trace id 84c216e5-8e62-4fed-8522-26beea3c4b86
+2025-02-11 09:22:38,893 - basicLogger - INFO - Response for event report_container_processed (id:9253705) has status 201
+2025-02-11 09:22:38,895 - basicLogger - INFO - Received event report_ship_arrived with trace id 7f33a8ee-b7a5-425e-ba3e-e4d6e1821bd1
+2025-02-11 09:22:38,901 - basicLogger - INFO - Response for event report_ship_arrived (id:3481895) has status 201
+2025-02-11 09:22:38,904 - basicLogger - INFO - Received event report_container_processed with trace id 667d083c-8504-408b-a93f-9c8a104fcb99
+2025-02-11 09:22:38,926 - basicLogger - INFO - Response for event report_ship_arrived (id:5332306) has status 201
+2025-02-11 09:22:38,929 - basicLogger - INFO - Received event report_container_processed with trace id bbddc9da-5a55-4f93-82cb-929c2dd397dd
+2025-02-11 09:22:38,944 - basicLogger - INFO - Response for event report_container_processed (id:3016545) has status 201
+2025-02-11 09:22:38,946 - basicLogger - INFO - Received event report_ship_arrived with trace id 8ee2ca08-3fb9-4f22-bf9c-15c4516c2b98
+2025-02-11 09:22:38,997 - basicLogger - INFO - Received event report_ship_arrived with trace id c7f8ef90-b308-4da7-8319-1b641e121212
+2025-02-11 09:22:39,002 - basicLogger - INFO - Response for event report_container_processed (id:7713974) has status 201
+2025-02-11 09:22:39,005 - basicLogger - INFO - Received event report_ship_arrived with trace id 20f53d49-e99f-4955-ab4f-37d1f67fb6c5
+2025-02-11 09:22:39,011 - basicLogger - INFO - Response for event report_ship_arrived (id:5022156) has status 201
+2025-02-11 09:22:39,013 - basicLogger - INFO - Received event report_container_processed with trace id 778e3780-8985-466f-9e59-5fd574d668dc
+2025-02-11 09:22:39,025 - basicLogger - INFO - Response for event report_container_processed (id:1018604) has status 201
+2025-02-11 09:22:39,028 - basicLogger - INFO - Received event report_ship_arrived with trace id 34fdbf87-c35f-4532-920c-62e9fda7ef82
+2025-02-11 09:22:39,049 - basicLogger - INFO - Response for event report_ship_arrived (id:112206) has status 201
+2025-02-11 09:22:39,052 - basicLogger - INFO - Received event report_container_processed with trace id 7e6a4dd0-6550-4513-a042-b024925200d5
+2025-02-11 09:22:39,120 - basicLogger - INFO - Response for event report_ship_arrived (id:5857840) has status 201
+2025-02-11 09:22:39,123 - basicLogger - INFO - Received event report_container_processed with trace id b3b75907-0bbd-4014-9158-8bede1a9022a
+2025-02-11 09:22:39,128 - basicLogger - INFO - Response for event report_ship_arrived (id:917057) has status 201
+2025-02-11 09:22:39,130 - basicLogger - INFO - Received event report_container_processed with trace id 10492c2d-cbae-4c20-a63e-530e7010a649
+2025-02-11 09:22:39,136 - basicLogger - INFO - Response for event report_container_processed (id:7438748) has status 201
+2025-02-11 09:22:39,144 - basicLogger - INFO - Response for event report_ship_arrived (id:2103185) has status 201
+2025-02-11 09:22:39,147 - basicLogger - INFO - Received event report_container_processed with trace id a8003550-2b26-430a-9036-fe56a66e7f07
+2025-02-11 09:22:39,175 - basicLogger - INFO - Response for event report_container_processed (id:8185973) has status 201
+2025-02-11 09:22:39,177 - basicLogger - INFO - Received event report_ship_arrived with trace id 4dad7585-476b-49af-8e8d-566bd96b8762
+2025-02-11 09:22:39,219 - basicLogger - INFO - Response for event report_container_processed (id:9982557) has status 201
+2025-02-11 09:22:39,222 - basicLogger - INFO - Received event report_ship_arrived with trace id a659824c-bee4-4991-affe-7f66e7a173e6
+2025-02-11 09:22:39,228 - basicLogger - INFO - Response for event report_container_processed (id:4358955) has status 201
+2025-02-11 09:22:39,230 - basicLogger - INFO - Received event report_ship_arrived with trace id 8a064334-ee46-49f6-afb0-a270dc4047ee
+2025-02-11 09:22:39,247 - basicLogger - INFO - Response for event report_container_processed (id:4051615) has status 201
+2025-02-11 09:22:39,271 - basicLogger - INFO - Response for event report_ship_arrived (id:9727474) has status 201
+2025-02-11 09:22:39,273 - basicLogger - INFO - Received event report_container_processed with trace id 0d833116-4b2b-4c94-bb82-2b3636a86ef0
+2025-02-11 09:22:39,302 - basicLogger - INFO - Response for event report_ship_arrived (id:2676769) has status 201
+2025-02-11 09:22:39,304 - basicLogger - INFO - Received event report_container_processed with trace id ad939afc-77e1-4fb1-8392-c501e83ac888
+2025-02-11 09:22:39,310 - basicLogger - INFO - Response for event report_ship_arrived (id:3849331) has status 201
+2025-02-11 09:22:39,312 - basicLogger - INFO - Received event report_container_processed with trace id 81585e99-2ae7-4f4d-9650-3d2a158b3521
+2025-02-11 09:22:39,350 - basicLogger - INFO - Response for event report_container_processed (id:8184413) has status 201
+2025-02-11 09:22:39,352 - basicLogger - INFO - Received event report_ship_arrived with trace id 58b42c10-465d-4a76-8324-f886fbd03d85
+2025-02-11 09:22:39,394 - basicLogger - INFO - Response for event report_container_processed (id:5702636) has status 201
+2025-02-11 09:22:39,398 - basicLogger - INFO - Received event report_ship_arrived with trace id 2caca9ff-97c9-451b-a4ec-762f1ef8738f
+2025-02-11 09:22:39,401 - basicLogger - INFO - Response for event report_container_processed (id:8579577) has status 201
+2025-02-11 09:22:39,403 - basicLogger - INFO - Received event report_ship_arrived with trace id e370b015-766e-4b52-8266-8bb85a585e38
+2025-02-11 09:22:39,415 - basicLogger - INFO - Response for event report_ship_arrived (id:3575486) has status 201
+2025-02-11 09:22:39,418 - basicLogger - INFO - Received event report_container_processed with trace id 5691a625-7c3d-4f3e-af6a-795bf434998e
+2025-02-11 09:22:39,480 - basicLogger - INFO - Response for event report_ship_arrived (id:3026352) has status 201
+2025-02-11 09:22:39,483 - basicLogger - INFO - Received event report_container_processed with trace id c21b9c48-568b-44db-9c61-de109be88882
+2025-02-11 09:22:39,486 - basicLogger - INFO - Response for event report_ship_arrived (id:4506971) has status 201
+2025-02-11 09:22:39,489 - basicLogger - INFO - Received event report_container_processed with trace id e5fc0e1c-112a-4346-aa18-ac2b66007b89
+2025-02-11 09:22:39,495 - basicLogger - INFO - Response for event report_container_processed (id:421861) has status 201
+2025-02-11 09:22:39,553 - basicLogger - INFO - Response for event report_container_processed (id:4661644) has status 201
+2025-02-11 09:22:39,555 - basicLogger - INFO - Received event report_ship_arrived with trace id fe7dcbcd-af12-48f2-98a8-160094e0859a
+2025-02-11 09:22:39,560 - basicLogger - INFO - Response for event report_container_processed (id:3392078) has status 201
+2025-02-11 09:22:39,562 - basicLogger - INFO - Received event report_ship_arrived with trace id e8b618de-b05f-4087-98e6-85ab56b8f3d7
+2025-02-11 09:22:39,624 - basicLogger - INFO - Response for event report_ship_arrived (id:772416) has status 201
+2025-02-11 09:22:39,626 - basicLogger - INFO - Received event report_container_processed with trace id ec0c2e43-eb93-42d5-aaad-985bfadee842
+2025-02-11 09:22:39,632 - basicLogger - INFO - Response for event report_ship_arrived (id:6145975) has status 201
+2025-02-11 09:22:39,633 - basicLogger - INFO - Received event report_container_processed with trace id 1a00996e-ecd9-4c16-9fb2-0c74fd2544a8
+2025-02-11 09:22:39,690 - basicLogger - INFO - Response for event report_container_processed (id:2087305) has status 201
+2025-02-11 09:22:39,692 - basicLogger - INFO - Received event report_ship_arrived with trace id 28dc8779-1026-4aa2-ae1b-080f2849c0d4
+2025-02-11 09:22:39,700 - basicLogger - INFO - Response for event report_container_processed (id:3139784) has status 201
+2025-02-11 09:22:39,744 - basicLogger - INFO - Response for event report_ship_arrived (id:4388245) has status 201
+2025-02-11 09:22:39,748 - basicLogger - INFO - Received event report_container_processed with trace id 62845540-458a-47e9-827c-5d981182f9ea
+2025-02-11 09:22:39,803 - basicLogger - INFO - Response for event report_container_processed (id:8042773) has status 201

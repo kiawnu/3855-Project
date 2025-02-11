@@ -2,4 +2,4 @@ venv
 receiver/arrival.jmx
 **/__pycache__
 **/app_conf.yml
-
+jmeter*
