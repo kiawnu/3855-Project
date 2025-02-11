@@ -1,0 +1,10 @@
+[
+    {
+        "num_ships_arrived": 7,
+        "num_containers_proccessed": 7,
+        "max_containers_onboard": 9177,
+        "heaviest_container": 9037274,
+        "lightest_container": 915465,
+        "last_updated": "2025-02-11T00:59:18.0000Z"
+    }
+]

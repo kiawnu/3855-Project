@@ -226,3 +226,1054 @@
 2025-02-04 12:18:47,188 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
 2025-02-04 19:58:58,122 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
 2025-02-04 20:00:47,417 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
+2025-02-10 10:22:37,926 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
+2025-02-10 11:25:39,845 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:25:39.756304)
+2025-02-10 11:25:44,800 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:25:44.755220)
+2025-02-10 11:25:49,800 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:25:49.755470)
+2025-02-10 11:25:54,800 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:25:54.754447)
+2025-02-10 11:25:59,814 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:25:59.755241)
+2025-02-10 11:26:04,800 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:26:04.755019)
+2025-02-10 11:26:09,801 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:26:09.754954)
+2025-02-10 11:26:14,795 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:26:14.754558)
+2025-02-10 11:26:19,806 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:26:19.755376)
+2025-02-10 11:30:57,306 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:30:57.237197)
+2025-02-10 11:31:02,280 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:31:02.235406)
+2025-02-10 11:31:07,286 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:31:07.235926)
+2025-02-10 11:31:12,281 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:31:12.235922)
+2025-02-10 11:36:55,532 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:36:55.459782)
+2025-02-10 11:36:55,580 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:36:55.459782)
+2025-02-10 11:37:00,505 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:37:00.459675)
+2025-02-10 11:37:00,550 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:37:00.459675)
+2025-02-10 11:38:35,578 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:35.522453)
+2025-02-10 11:38:35,623 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:35.522453)
+2025-02-10 11:38:40,571 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:40.522366)
+2025-02-10 11:38:40,616 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:40.522366)
+2025-02-10 11:38:45,570 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:45.521523)
+2025-02-10 11:38:45,619 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:45.521523)
+2025-02-10 11:38:50,564 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:50.521438)
+2025-02-10 11:38:50,609 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:50.521438)
+2025-02-10 11:38:55,573 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:55.522316)
+2025-02-10 11:38:55,616 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:38:55.522316)
+2025-02-10 11:39:00,567 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:39:00.521365)
+2025-02-10 11:39:00,610 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 11:39:00.521365)
+2025-02-10 14:17:47,185 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:17:47.087976)
+2025-02-10 14:17:47,239 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:17:47.087976)
+2025-02-10 14:17:52,137 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:17:52.086726)
+2025-02-10 14:17:52,181 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:17:52.086726)
+2025-02-10 14:17:57,137 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:17:57.086143)
+2025-02-10 14:17:57,181 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:17:57.086143)
+2025-02-10 14:18:02,128 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:02.085873)
+2025-02-10 14:18:02,183 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:02.085873)
+2025-02-10 14:18:14,918 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:14.852970)
+2025-02-10 14:18:14,963 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:14.852970)
+2025-02-10 14:18:19,899 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:19.851295)
+2025-02-10 14:18:19,943 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:19.851295)
+2025-02-10 14:18:24,910 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:24.851896)
+2025-02-10 14:18:24,963 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:24.851896)
+2025-02-10 14:18:29,900 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:29.851759)
+2025-02-10 14:18:29,943 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:29.851759)
+2025-02-10 14:18:34,902 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:34.851533)
+2025-02-10 14:18:34,949 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:34.851533)
+2025-02-10 14:18:39,911 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:39.851694)
+2025-02-10 14:18:39,962 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:39.851694)
+2025-02-10 14:18:44,894 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:44.850878)
+2025-02-10 14:18:44,940 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:44.850878)
+2025-02-10 14:18:49,896 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:49.851596)
+2025-02-10 14:18:49,940 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:49.851596)
+2025-02-10 14:18:54,905 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:54.851638)
+2025-02-10 14:18:54,948 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:54.851638)
+2025-02-10 14:18:59,898 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:59.851666)
+2025-02-10 14:18:59,941 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:18:59.851666)
+2025-02-10 14:19:04,897 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:19:04.851589)
+2025-02-10 14:19:04,939 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:19:04.851589)
+2025-02-10 14:19:09,898 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:19:09.851699)
+2025-02-10 14:19:09,942 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:19:09.851699)
+2025-02-10 14:24:58,773 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:24:58.703538)
+2025-02-10 14:24:58,822 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:24:58.703538)
+2025-02-10 14:25:03,750 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:25:03.702578)
+2025-02-10 14:25:03,793 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:25:03.702578)
+2025-02-10 14:25:08,754 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:25:08.701781)
+2025-02-10 14:25:08,798 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:25:08.701781)
+2025-02-10 14:25:13,747 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:25:13.701911)
+2025-02-10 14:25:13,790 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:25:13.701911)
+2025-02-10 14:25:22,082 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:22.013972)
+2025-02-10 14:25:22,137 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:22.013972)
+2025-02-10 14:25:27,071 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:27.012612)
+2025-02-10 14:25:27,122 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:27.012612)
+2025-02-10 14:25:32,063 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:32.012629)
+2025-02-10 14:25:32,109 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:32.012629)
+2025-02-10 14:25:37,060 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:37.013005)
+2025-02-10 14:25:37,110 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:37.013005)
+2025-02-10 14:25:42,065 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:42.012708)
+2025-02-10 14:25:42,112 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:42.012708)
+2025-02-10 14:25:47,076 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:47.012184)
+2025-02-10 14:25:47,129 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:47.012184)
+2025-02-10 14:25:52,068 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:52.012986)
+2025-02-10 14:25:52,114 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:52.012986)
+2025-02-10 14:25:57,073 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:57.012684)
+2025-02-10 14:25:57,118 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:25:57.012684)
+2025-02-10 14:26:02,060 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:26:02.012109)
+2025-02-10 14:26:02,105 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:26:02.012109)
+2025-02-10 14:26:07,059 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:26:07.012125)
+2025-02-10 14:26:07,108 - basicLogger - INFO - Found 25 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-10 14:26:07.012125)
+2025-02-10 14:37:26,205 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:37:26.137905)
+2025-02-10 14:37:26,260 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 14:37:26.137905)
+2025-02-10 14:52:40,730 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:52:40.682476, end: 2025-02-10 14:52:40.682476)
+2025-02-10 14:52:40,764 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:52:40.682476, end: 2025-02-10 14:52:40.682476)
+2025-02-10 14:52:45,721 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:52:45.683295, end: 2025-02-10 14:52:45.683295)
+2025-02-10 14:52:45,762 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:52:45.683295, end: 2025-02-10 14:52:45.683295)
+2025-02-10 14:56:19,514 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:19.463942, end: 2025-02-10 14:56:19.463942)
+2025-02-10 14:56:19,548 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:19.463942, end: 2025-02-10 14:56:19.463942)
+2025-02-10 14:56:24,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:24.463579, end: 2025-02-10 14:56:24.463579)
+2025-02-10 14:56:24,531 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:24.463579, end: 2025-02-10 14:56:24.463579)
+2025-02-10 14:56:29,503 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:29.463578, end: 2025-02-10 14:56:29.463578)
+2025-02-10 14:56:29,543 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:29.463578, end: 2025-02-10 14:56:29.463578)
+2025-02-10 14:56:34,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:34.463739, end: 2025-02-10 14:56:34.463739)
+2025-02-10 14:56:34,530 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:34.463739, end: 2025-02-10 14:56:34.463739)
+2025-02-10 14:56:39,500 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:39.463548, end: 2025-02-10 14:56:39.463548)
+2025-02-10 14:56:39,540 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:39.463548, end: 2025-02-10 14:56:39.463548)
+2025-02-10 14:56:44,500 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:44.463708, end: 2025-02-10 14:56:44.463708)
+2025-02-10 14:56:44,534 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:44.463708, end: 2025-02-10 14:56:44.463708)
+2025-02-10 14:56:49,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:49.463690, end: 2025-02-10 14:56:49.463690)
+2025-02-10 14:56:49,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:49.463690, end: 2025-02-10 14:56:49.463690)
+2025-02-10 14:56:54,495 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:54.463819, end: 2025-02-10 14:56:54.463819)
+2025-02-10 14:56:54,533 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:54.463819, end: 2025-02-10 14:56:54.463819)
+2025-02-10 14:56:59,498 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:59.463425, end: 2025-02-10 14:56:59.463425)
+2025-02-10 14:56:59,539 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:56:59.463425, end: 2025-02-10 14:56:59.463425)
+2025-02-10 14:57:04,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:04.463498, end: 2025-02-10 14:57:04.463498)
+2025-02-10 14:57:04,536 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:04.463498, end: 2025-02-10 14:57:04.463498)
+2025-02-10 14:57:09,497 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:09.463869, end: 2025-02-10 14:57:09.463869)
+2025-02-10 14:57:09,544 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:09.463869, end: 2025-02-10 14:57:09.463869)
+2025-02-10 14:57:14,505 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:14.463751, end: 2025-02-10 14:57:14.463751)
+2025-02-10 14:57:14,543 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:14.463751, end: 2025-02-10 14:57:14.463751)
+2025-02-10 14:57:19,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:19.463464, end: 2025-02-10 14:57:19.463464)
+2025-02-10 14:57:19,530 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:19.463464, end: 2025-02-10 14:57:19.463464)
+2025-02-10 14:57:24,497 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:24.463677, end: 2025-02-10 14:57:24.463677)
+2025-02-10 14:57:24,531 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:24.463677, end: 2025-02-10 14:57:24.463677)
+2025-02-10 14:57:29,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:29.463676, end: 2025-02-10 14:57:29.463676)
+2025-02-10 14:57:29,533 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:29.463676, end: 2025-02-10 14:57:29.463676)
+2025-02-10 14:57:34,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:34.463699, end: 2025-02-10 14:57:34.463699)
+2025-02-10 14:57:34,534 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:34.463699, end: 2025-02-10 14:57:34.463699)
+2025-02-10 14:57:39,498 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:39.463907, end: 2025-02-10 14:57:39.463907)
+2025-02-10 14:57:39,531 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-10 14:57:39.463907, end: 2025-02-10 14:57:39.463907)
+2025-02-10 14:59:12,532 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:12.491061)
+2025-02-10 14:59:12,567 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:12.491061)
+2025-02-10 14:59:17,524 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:17.490400)
+2025-02-10 14:59:17,558 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:17.490400)
+2025-02-10 14:59:22,524 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:22.490799)
+2025-02-10 14:59:22,559 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:22.490799)
+2025-02-10 14:59:45,933 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:45.892119)
+2025-02-10 14:59:45,968 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 14:59:45.892119)
+2025-02-10 15:16:35,885 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:35.830165)
+2025-02-10 15:16:35,922 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:35.830165)
+2025-02-10 15:16:40,870 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:40.829508)
+2025-02-10 15:16:40,905 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:40.829508)
+2025-02-10 15:16:45,862 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:45.829424)
+2025-02-10 15:16:45,899 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:45.829424)
+2025-02-10 15:16:50,862 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:50.829204)
+2025-02-10 15:16:50,897 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:50.829204)
+2025-02-10 15:16:55,863 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:55.829647)
+2025-02-10 15:16:55,898 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:16:55.829647)
+2025-02-10 15:23:50,301 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:23:50.257789)
+2025-02-10 15:23:50,338 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 15:23:50.257789)
+2025-02-10 15:23:55,290 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:23:55.257171)
+2025-02-10 15:23:55,325 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:23:55.257171)
+2025-02-10 15:24:00,289 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:00.257287)
+2025-02-10 15:24:00,324 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:00.257287)
+2025-02-10 15:24:05,292 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:05.257235)
+2025-02-10 15:24:05,326 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:05.257235)
+2025-02-10 15:24:10,289 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:10.257225)
+2025-02-10 15:24:10,323 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:10.257225)
+2025-02-10 15:24:15,290 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:15.257024)
+2025-02-10 15:24:15,324 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:15.257024)
+2025-02-10 15:24:20,290 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:20.257269)
+2025-02-10 15:24:20,324 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:20.257269)
+2025-02-10 15:24:25,294 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:25.257185)
+2025-02-10 15:24:25,327 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:25.257185)
+2025-02-10 15:24:30,289 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:30.257311)
+2025-02-10 15:24:30,324 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:30.257311)
+2025-02-10 15:24:35,289 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:35.257247)
+2025-02-10 15:24:35,322 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:35.257247)
+2025-02-10 15:24:40,293 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:40.257108)
+2025-02-10 15:24:40,328 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:40.257108)
+2025-02-10 15:24:45,293 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:45.257260)
+2025-02-10 15:24:45,328 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:45.257260)
+2025-02-10 15:24:50,297 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:50.257306)
+2025-02-10 15:24:50,337 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:50.257306)
+2025-02-10 15:24:55,290 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:55.257051)
+2025-02-10 15:24:55,324 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:24:55.257051)
+2025-02-10 15:25:00,290 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:00.257087)
+2025-02-10 15:25:00,330 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:00.257087)
+2025-02-10 15:25:05,294 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:05.257284)
+2025-02-10 15:25:05,331 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:05.257284)
+2025-02-10 15:25:10,292 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:10.257039)
+2025-02-10 15:25:10,327 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:10.257039)
+2025-02-10 15:25:15,291 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:15.257481)
+2025-02-10 15:25:15,329 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:15.257481)
+2025-02-10 15:25:20,292 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:20.257021)
+2025-02-10 15:25:20,330 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:20.257021)
+2025-02-10 15:25:25,294 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:25.256899)
+2025-02-10 15:25:25,332 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:25.256899)
+2025-02-10 15:25:30,289 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:30.257254)
+2025-02-10 15:25:30,322 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:30.257254)
+2025-02-10 15:25:35,290 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:35.256910)
+2025-02-10 15:25:35,324 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:25:35.256910)
+2025-02-10 15:26:57,172 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:26:57.124699)
+2025-02-10 15:26:57,207 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:26:57.124699)
+2025-02-10 15:27:02,158 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:27:02.124819)
+2025-02-10 15:27:02,193 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:27:02.124819)
+2025-02-10 15:40:50,883 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:40:50.837999)
+2025-02-10 15:40:50,918 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:40:50.837999)
+2025-02-10 15:40:55,871 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:40:55.837492)
+2025-02-10 15:40:55,908 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:40:55.837492)
+2025-02-10 15:41:00,871 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:00.837430)
+2025-02-10 15:41:00,906 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:00.837430)
+2025-02-10 15:41:05,873 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:05.837728)
+2025-02-10 15:41:05,907 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:05.837728)
+2025-02-10 15:41:10,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:10.837276)
+2025-02-10 15:41:10,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:10.837276)
+2025-02-10 15:41:15,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:15.837486)
+2025-02-10 15:41:15,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:15.837486)
+2025-02-10 15:41:20,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:20.837544)
+2025-02-10 15:41:20,906 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:20.837544)
+2025-02-10 15:41:25,874 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:25.837201)
+2025-02-10 15:41:25,908 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:25.837201)
+2025-02-10 15:41:30,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:30.837141)
+2025-02-10 15:41:30,905 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:30.837141)
+2025-02-10 15:41:35,871 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:35.837075)
+2025-02-10 15:41:35,905 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:35.837075)
+2025-02-10 15:41:40,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:40.837174)
+2025-02-10 15:41:40,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:40.837174)
+2025-02-10 15:41:45,876 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:45.837254)
+2025-02-10 15:41:45,911 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:45.837254)
+2025-02-10 15:41:50,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:50.837383)
+2025-02-10 15:41:50,907 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:50.837383)
+2025-02-10 15:41:55,872 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:55.837507)
+2025-02-10 15:41:55,906 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:41:55.837507)
+2025-02-10 15:42:00,868 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:00.837047)
+2025-02-10 15:42:00,901 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:00.837047)
+2025-02-10 15:42:05,873 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:05.837347)
+2025-02-10 15:42:05,907 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:05.837347)
+2025-02-10 15:42:10,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:10.837153)
+2025-02-10 15:42:10,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:10.837153)
+2025-02-10 15:42:15,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:15.837561)
+2025-02-10 15:42:15,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:15.837561)
+2025-02-10 15:42:20,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:20.837082)
+2025-02-10 15:42:20,906 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:20.837082)
+2025-02-10 15:42:25,873 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:25.837108)
+2025-02-10 15:42:25,906 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:25.837108)
+2025-02-10 15:42:30,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:30.837136)
+2025-02-10 15:42:30,914 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:30.837136)
+2025-02-10 15:42:35,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:35.837694)
+2025-02-10 15:42:35,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:35.837694)
+2025-02-10 15:42:40,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:40.837057)
+2025-02-10 15:42:40,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:40.837057)
+2025-02-10 15:42:45,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:45.837123)
+2025-02-10 15:42:45,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:45.837123)
+2025-02-10 15:42:50,876 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:50.837158)
+2025-02-10 15:42:50,911 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:50.837158)
+2025-02-10 15:42:55,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:55.837072)
+2025-02-10 15:42:55,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:42:55.837072)
+2025-02-10 15:43:00,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:00.837254)
+2025-02-10 15:43:00,913 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:00.837254)
+2025-02-10 15:43:05,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:05.837146)
+2025-02-10 15:43:05,905 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:05.837146)
+2025-02-10 15:43:10,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:10.837144)
+2025-02-10 15:43:10,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:10.837144)
+2025-02-10 15:43:15,875 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:15.837416)
+2025-02-10 15:43:15,915 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:15.837416)
+2025-02-10 15:43:20,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:20.837605)
+2025-02-10 15:43:20,909 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:20.837605)
+2025-02-10 15:43:25,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:25.837141)
+2025-02-10 15:43:25,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:25.837141)
+2025-02-10 15:43:30,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:30.837188)
+2025-02-10 15:43:30,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:30.837188)
+2025-02-10 15:43:35,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:35.837293)
+2025-02-10 15:43:35,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:35.837293)
+2025-02-10 15:43:40,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:40.837251)
+2025-02-10 15:43:40,907 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:40.837251)
+2025-02-10 15:43:45,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:45.837114)
+2025-02-10 15:43:45,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:45.837114)
+2025-02-10 15:43:50,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:50.837178)
+2025-02-10 15:43:50,905 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:50.837178)
+2025-02-10 15:43:55,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:55.837102)
+2025-02-10 15:43:55,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:43:55.837102)
+2025-02-10 15:44:00,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:00.837120)
+2025-02-10 15:44:00,908 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:00.837120)
+2025-02-10 15:44:05,869 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:05.837034)
+2025-02-10 15:44:05,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:05.837034)
+2025-02-10 15:44:10,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:10.837121)
+2025-02-10 15:44:10,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:10.837121)
+2025-02-10 15:44:15,871 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:15.837161)
+2025-02-10 15:44:15,907 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:15.837161)
+2025-02-10 15:44:20,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:20.837169)
+2025-02-10 15:44:20,908 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:20.837169)
+2025-02-10 15:44:25,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:25.837228)
+2025-02-10 15:44:25,907 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:25.837228)
+2025-02-10 15:44:30,870 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:30.837564)
+2025-02-10 15:44:30,905 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:44:30.837564)
+2025-02-10 15:49:56,026 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:49:55.984972)
+2025-02-10 15:49:56,062 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:49:55.984972)
+2025-02-10 15:51:22,867 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:22.821657)
+2025-02-10 15:51:22,903 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:22.821657)
+2025-02-10 15:51:27,855 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:27.821274)
+2025-02-10 15:51:27,891 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:27.821274)
+2025-02-10 15:51:32,854 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:32.820952)
+2025-02-10 15:51:32,890 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:32.820952)
+2025-02-10 15:51:37,858 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:37.820991)
+2025-02-10 15:51:37,893 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:37.820991)
+2025-02-10 15:51:42,854 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:42.821312)
+2025-02-10 15:51:42,889 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:42.821312)
+2025-02-10 15:51:47,854 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:47.821014)
+2025-02-10 15:51:47,888 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:47.821014)
+2025-02-10 15:51:52,854 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:52.821045)
+2025-02-10 15:51:52,889 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:52.821045)
+2025-02-10 15:51:57,860 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:57.821102)
+2025-02-10 15:51:57,904 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:51:57.821102)
+2025-02-10 15:52:02,854 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:52:02.820963)
+2025-02-10 15:52:02,888 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:52:02.820963)
+2025-02-10 15:52:07,855 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:52:07.820959)
+2025-02-10 15:52:07,891 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:52:07.820959)
+2025-02-10 15:52:12,853 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:52:12.821001)
+2025-02-10 15:52:12,892 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 15:52:12.821001)
+2025-02-10 16:06:52,134 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:06:52.078035)
+2025-02-10 16:06:52,171 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:06:52.078035)
+2025-02-10 16:06:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:06:57.077547)
+2025-02-10 16:06:57,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:06:57.077547)
+2025-02-10 16:07:02,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:02.077770)
+2025-02-10 16:07:02,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:02.077770)
+2025-02-10 16:07:07,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:07.077798)
+2025-02-10 16:07:07,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:07.077798)
+2025-02-10 16:07:12,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:12.077723)
+2025-02-10 16:07:12,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:12.077723)
+2025-02-10 16:07:17,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:17.077626)
+2025-02-10 16:07:17,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:17.077626)
+2025-02-10 16:07:22,113 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:22.077452)
+2025-02-10 16:07:22,148 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:22.077452)
+2025-02-10 16:07:27,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:27.077548)
+2025-02-10 16:07:27,146 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:27.077548)
+2025-02-10 16:07:32,114 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:32.077696)
+2025-02-10 16:07:32,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:32.077696)
+2025-02-10 16:07:37,117 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:37.078204)
+2025-02-10 16:07:37,157 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:37.078204)
+2025-02-10 16:07:42,118 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:42.077719)
+2025-02-10 16:07:42,153 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:42.077719)
+2025-02-10 16:07:47,117 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:47.077867)
+2025-02-10 16:07:47,160 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:47.077867)
+2025-02-10 16:07:52,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:52.077673)
+2025-02-10 16:07:52,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:52.077673)
+2025-02-10 16:07:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:57.077642)
+2025-02-10 16:07:57,151 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:07:57.077642)
+2025-02-10 16:08:02,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:02.077824)
+2025-02-10 16:08:02,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:02.077824)
+2025-02-10 16:08:07,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:07.077637)
+2025-02-10 16:08:07,150 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:07.077637)
+2025-02-10 16:08:12,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:12.077482)
+2025-02-10 16:08:12,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:12.077482)
+2025-02-10 16:08:17,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:17.077788)
+2025-02-10 16:08:17,146 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:17.077788)
+2025-02-10 16:08:22,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:22.077397)
+2025-02-10 16:08:22,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:22.077397)
+2025-02-10 16:08:27,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:27.077813)
+2025-02-10 16:08:27,148 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:27.077813)
+2025-02-10 16:08:29,083 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 4b59d58b-ed73-4a1f-8488-bc30893e8182
+2025-02-10 16:08:29,141 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 3e1572aa-2a81-43f3-8f9a-69b029861b5b
+2025-02-10 16:08:29,203 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c2f483ee-6a44-4f2f-8ca7-86e921731803
+2025-02-10 16:08:29,211 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e0d6ee4b-7a1a-4137-90f1-6babcbca4e0d
+2025-02-10 16:08:29,261 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 1a82587f-6db1-451b-9b55-fddc315668ba
+2025-02-10 16:08:29,268 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 97d1c247-1e3f-40ea-9b36-684ee5ea4abb
+2025-02-10 16:08:29,326 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of ae5f83a6-ce66-43f5-a13e-9d006538b25c
+2025-02-10 16:08:29,331 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 1fe84724-7aec-4dfa-9942-3da34acdc724
+2025-02-10 16:08:29,396 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8429aab9-eab7-4b4b-9b76-6eec3139cc00
+2025-02-10 16:08:29,402 - basicLogger - DEBUG - Stored event report_container_processed with trace id of ecbfce6d-11fd-431d-94a3-01a15e390845
+2025-02-10 16:08:29,411 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 25361ab3-c17c-447b-a01c-3ddf117440f4
+2025-02-10 16:08:29,465 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of d8cb2eda-1600-41eb-83c6-66d26acc52c0
+2025-02-10 16:08:29,473 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of a65dd180-6c3a-45cf-9327-30916d635bcd
+2025-02-10 16:08:29,484 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 86adea26-3ff0-4deb-a642-45263b0fa2c2
+2025-02-10 16:08:29,539 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 2de71d6c-73a9-4219-ad4f-93d178c8ba12
+2025-02-10 16:08:29,547 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 26a41806-4f30-4a77-aca8-3bec7d4c8b4a
+2025-02-10 16:08:29,553 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 592c1766-1b4e-4ea4-9b1b-4c37a24cd48a
+2025-02-10 16:08:29,618 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 91c4c24d-7bc8-475a-ac3c-d6a46bf91fa4
+2025-02-10 16:08:29,625 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 8803c3ba-7d97-47ad-a3d8-43d2705a94b5
+2025-02-10 16:08:29,633 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 00ae4f61-276b-48fb-98b5-a81d38189327
+2025-02-10 16:08:29,640 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 4062d63e-6a6e-469d-ac31-d345af2dd468
+2025-02-10 16:08:29,697 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 08b1fa81-942a-4749-8e66-6e25c421afd5
+2025-02-10 16:08:29,705 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 2a53db83-a22d-4aaa-a481-f575750eb7d4
+2025-02-10 16:08:29,716 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 4a7a326d-61ef-4806-b1f9-7b899e6a17d2
+2025-02-10 16:08:29,724 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e42d9a0c-7e4f-4faa-8e58-cf55d017220d
+2025-02-10 16:08:29,767 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 655eada8-2f0d-4a3a-8780-08481582429b
+2025-02-10 16:08:29,787 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 4f7a95ab-5c2a-455e-986c-5b6a905090d4
+2025-02-10 16:08:29,794 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 225475e8-1416-45fe-a38b-e5122fcdbecb
+2025-02-10 16:08:29,836 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e7bd3e70-7dcc-4de2-8505-4b76988a6b9c
+2025-02-10 16:08:29,843 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e9f75e74-9541-41ab-aaf5-aea2dc8c3cdf
+2025-02-10 16:08:29,859 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 24d3cdff-33bf-4727-8c8e-ecc8263d5222
+2025-02-10 16:08:29,869 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of d7aa7727-51a1-45bf-95b1-6c0c18f12e5c
+2025-02-10 16:08:29,893 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 9ce09eb8-8e06-4333-8532-befba27d3762
+2025-02-10 16:08:29,917 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of ef9f723a-f8b9-4887-9011-ee921c23f89b
+2025-02-10 16:08:29,926 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d18d4afc-293a-43af-904f-d0ed52d081d7
+2025-02-10 16:08:29,961 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 0a398c42-6914-4893-a993-8aa462fab552
+2025-02-10 16:08:29,982 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 9ae6b601-cd48-4445-a0c1-4b85be6fcf14
+2025-02-10 16:08:29,995 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of bd514aa5-b686-4696-9237-336c11da4be1
+2025-02-10 16:08:30,024 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 9baea5c6-425a-4890-8443-4a1155fea0dc
+2025-02-10 16:08:30,054 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of cc1f22fc-4342-48b7-ad25-892d884673b0
+2025-02-10 16:08:30,070 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 025494d4-0d7e-4bd5-97dd-e536190dce94
+2025-02-10 16:08:30,083 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e622a7c3-b71d-401d-b54c-ff54b8cd43a3
+2025-02-10 16:08:30,101 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 1fb1d518-7366-4c80-ac72-e27cfd3fa3d4
+2025-02-10 16:08:30,139 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d52ff046-4ca9-4a8c-b79b-d5563775c71a
+2025-02-10 16:08:30,151 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of dac09fac-395e-46c3-b711-fba492a9e18c
+2025-02-10 16:08:30,195 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 90978086-fd2b-4a0a-b122-2a33e1db14ee
+2025-02-10 16:08:30,204 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 47f70ddb-371a-4dc7-a77e-bdafb80b453f
+2025-02-10 16:08:30,246 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 4eacc8fc-1be3-44b8-b28e-70a758c9fc8b
+2025-02-10 16:08:30,305 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 90788ed0-fd9f-4d3c-9310-7cf0516aa5ee
+2025-02-10 16:08:30,361 - basicLogger - DEBUG - Stored event report_container_processed with trace id of bf96d54c-6c2c-4de8-b5c9-7d2988082b74
+2025-02-10 16:08:32,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:32.077376)
+2025-02-10 16:08:32,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:32.077376)
+2025-02-10 16:08:37,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:37.077497)
+2025-02-10 16:08:37,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:37.077497)
+2025-02-10 16:08:42,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:42.077750)
+2025-02-10 16:08:42,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:42.077750)
+2025-02-10 16:08:47,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:47.077562)
+2025-02-10 16:08:47,148 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:47.077562)
+2025-02-10 16:08:52,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:52.077881)
+2025-02-10 16:08:52,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:52.077881)
+2025-02-10 16:08:57,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:57.077838)
+2025-02-10 16:08:57,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:08:57.077838)
+2025-02-10 16:09:02,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:02.077478)
+2025-02-10 16:09:02,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:02.077478)
+2025-02-10 16:09:07,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:07.077802)
+2025-02-10 16:09:07,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:07.077802)
+2025-02-10 16:09:12,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:12.077781)
+2025-02-10 16:09:12,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:12.077781)
+2025-02-10 16:09:17,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:17.077721)
+2025-02-10 16:09:17,142 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:17.077721)
+2025-02-10 16:09:22,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:22.077801)
+2025-02-10 16:09:22,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:22.077801)
+2025-02-10 16:09:27,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:27.077862)
+2025-02-10 16:09:27,152 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:27.077862)
+2025-02-10 16:09:32,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:32.077710)
+2025-02-10 16:09:32,142 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:32.077710)
+2025-02-10 16:09:37,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:37.077815)
+2025-02-10 16:09:37,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:37.077815)
+2025-02-10 16:09:42,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:42.077793)
+2025-02-10 16:09:42,142 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:42.077793)
+2025-02-10 16:09:47,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:47.077376)
+2025-02-10 16:09:47,146 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:47.077376)
+2025-02-10 16:09:52,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:52.077584)
+2025-02-10 16:09:52,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:52.077584)
+2025-02-10 16:09:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:57.077803)
+2025-02-10 16:09:57,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:09:57.077803)
+2025-02-10 16:10:02,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:02.077563)
+2025-02-10 16:10:02,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:02.077563)
+2025-02-10 16:10:07,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:07.077865)
+2025-02-10 16:10:07,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:07.077865)
+2025-02-10 16:10:12,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:12.077923)
+2025-02-10 16:10:12,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:12.077923)
+2025-02-10 16:10:17,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:17.077421)
+2025-02-10 16:10:17,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:17.077421)
+2025-02-10 16:10:22,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:22.077829)
+2025-02-10 16:10:22,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:22.077829)
+2025-02-10 16:10:27,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:27.077762)
+2025-02-10 16:10:27,148 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:27.077762)
+2025-02-10 16:10:32,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:32.077472)
+2025-02-10 16:10:32,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:32.077472)
+2025-02-10 16:10:37,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:37.077359)
+2025-02-10 16:10:37,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:37.077359)
+2025-02-10 16:10:42,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:42.077871)
+2025-02-10 16:10:42,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:42.077871)
+2025-02-10 16:10:47,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:47.077846)
+2025-02-10 16:10:47,148 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:47.077846)
+2025-02-10 16:10:52,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:52.077624)
+2025-02-10 16:10:52,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:52.077624)
+2025-02-10 16:10:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:57.077587)
+2025-02-10 16:10:57,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:10:57.077587)
+2025-02-10 16:11:02,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:02.077820)
+2025-02-10 16:11:02,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:02.077820)
+2025-02-10 16:11:07,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:07.077618)
+2025-02-10 16:11:07,148 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:07.077618)
+2025-02-10 16:11:12,112 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:12.077425)
+2025-02-10 16:11:12,146 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:12.077425)
+2025-02-10 16:11:17,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:17.077750)
+2025-02-10 16:11:17,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:17.077750)
+2025-02-10 16:11:22,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:22.077464)
+2025-02-10 16:11:22,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:22.077464)
+2025-02-10 16:11:27,116 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:27.077707)
+2025-02-10 16:11:27,155 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:27.077707)
+2025-02-10 16:11:32,113 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:32.077568)
+2025-02-10 16:11:32,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:32.077568)
+2025-02-10 16:11:37,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:37.077487)
+2025-02-10 16:11:37,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:37.077487)
+2025-02-10 16:11:42,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:42.077561)
+2025-02-10 16:11:42,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:42.077561)
+2025-02-10 16:11:47,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:47.077592)
+2025-02-10 16:11:47,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:47.077592)
+2025-02-10 16:11:52,114 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:52.077773)
+2025-02-10 16:11:52,153 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:52.077773)
+2025-02-10 16:11:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:57.077837)
+2025-02-10 16:11:57,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:11:57.077837)
+2025-02-10 16:12:02,110 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 16:12:02.077418)
+2025-02-10 16:12:02,144 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 16:12:02.077418)
+2025-02-10 16:12:07,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:07.077641)
+2025-02-10 16:12:07,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:07.077641)
+2025-02-10 16:12:12,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:12.077764)
+2025-02-10 16:12:12,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:12.077764)
+2025-02-10 16:12:17,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:17.077643)
+2025-02-10 16:12:17,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:17.077643)
+2025-02-10 16:12:22,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:22.077449)
+2025-02-10 16:12:22,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:22.077449)
+2025-02-10 16:12:27,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:27.077775)
+2025-02-10 16:12:27,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:27.077775)
+2025-02-10 16:12:32,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:32.077583)
+2025-02-10 16:12:32,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:32.077583)
+2025-02-10 16:12:37,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:37.077440)
+2025-02-10 16:12:37,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:37.077440)
+2025-02-10 16:12:42,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:42.077481)
+2025-02-10 16:12:42,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:42.077481)
+2025-02-10 16:12:47,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:47.077819)
+2025-02-10 16:12:47,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:47.077819)
+2025-02-10 16:12:52,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:52.077632)
+2025-02-10 16:12:52,146 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:52.077632)
+2025-02-10 16:12:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:57.077421)
+2025-02-10 16:12:57,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:12:57.077421)
+2025-02-10 16:13:02,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:02.077465)
+2025-02-10 16:13:02,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:02.077465)
+2025-02-10 16:13:07,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:07.077765)
+2025-02-10 16:13:07,149 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:07.077765)
+2025-02-10 16:13:12,111 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:12.077817)
+2025-02-10 16:13:12,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:12.077817)
+2025-02-10 16:13:17,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:17.077892)
+2025-02-10 16:13:17,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:17.077892)
+2025-02-10 16:13:22,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:22.077733)
+2025-02-10 16:13:22,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:22.077733)
+2025-02-10 16:13:27,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:27.077546)
+2025-02-10 16:13:27,154 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:27.077546)
+2025-02-10 16:13:32,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:32.077403)
+2025-02-10 16:13:32,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:32.077403)
+2025-02-10 16:13:37,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:37.077552)
+2025-02-10 16:13:37,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:37.077552)
+2025-02-10 16:13:42,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:42.077531)
+2025-02-10 16:13:42,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:42.077531)
+2025-02-10 16:13:47,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:47.077766)
+2025-02-10 16:13:47,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:47.077766)
+2025-02-10 16:13:52,117 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:52.077767)
+2025-02-10 16:13:52,151 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:52.077767)
+2025-02-10 16:13:57,118 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:57.077799)
+2025-02-10 16:13:57,158 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:13:57.077799)
+2025-02-10 16:14:02,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:02.077892)
+2025-02-10 16:14:02,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:02.077892)
+2025-02-10 16:14:07,118 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:07.077438)
+2025-02-10 16:14:07,158 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:07.077438)
+2025-02-10 16:14:12,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:12.077726)
+2025-02-10 16:14:12,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:12.077726)
+2025-02-10 16:14:17,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:17.077608)
+2025-02-10 16:14:17,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:17.077608)
+2025-02-10 16:14:22,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:22.077778)
+2025-02-10 16:14:22,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:22.077778)
+2025-02-10 16:14:27,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:27.077464)
+2025-02-10 16:14:27,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:27.077464)
+2025-02-10 16:14:32,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:32.077524)
+2025-02-10 16:14:32,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:32.077524)
+2025-02-10 16:14:37,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:37.077809)
+2025-02-10 16:14:37,144 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:37.077809)
+2025-02-10 16:14:42,109 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:42.077455)
+2025-02-10 16:14:42,143 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:42.077455)
+2025-02-10 16:14:47,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:47.077512)
+2025-02-10 16:14:47,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:47.077512)
+2025-02-10 16:14:52,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:52.077487)
+2025-02-10 16:14:52,147 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:52.077487)
+2025-02-10 16:14:57,110 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:57.077603)
+2025-02-10 16:14:57,145 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:14:57.077603)
+2025-02-10 16:19:18,837 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 16:19:18.792750)
+2025-02-10 16:19:18,873 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 16:19:18.792750)
+2025-02-10 16:19:23,825 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:19:23.792488)
+2025-02-10 16:19:23,859 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:19:23.792488)
+2025-02-10 16:19:28,826 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:19:28.792823)
+2025-02-10 16:19:28,860 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:19:28.792823)
+2025-02-10 16:19:33,826 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:19:33.792446)
+2025-02-10 16:19:33,860 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:19:33.792446)
+2025-02-10 16:31:06,786 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 16:31:06.733614)
+2025-02-10 16:31:06,827 - basicLogger - INFO - Found 25 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-10 16:31:06.733614)
+2025-02-10 16:31:11,768 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:11.733341)
+2025-02-10 16:31:11,804 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:11.733341)
+2025-02-10 16:31:16,766 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:16.733220)
+2025-02-10 16:31:16,801 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:16.733220)
+2025-02-10 16:31:21,773 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:21.733255)
+2025-02-10 16:31:21,814 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:21.733255)
+2025-02-10 16:31:26,765 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:26.733185)
+2025-02-10 16:31:26,799 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:31:26.733185)
+2025-02-10 16:38:25,725 - basicLogger - INFO - Found 13 ship arrival events (start: 2025-02-04 19:04:33, end: 2025-02-04 19:04:35)
+2025-02-10 16:40:08,153 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:08.109670)
+2025-02-10 16:40:08,188 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:08.109670)
+2025-02-10 16:40:13,144 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:13.109208)
+2025-02-10 16:40:13,178 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:13.109208)
+2025-02-10 16:40:18,142 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:18.109182)
+2025-02-10 16:40:18,177 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:18.109182)
+2025-02-10 16:40:23,144 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:23.109197)
+2025-02-10 16:40:23,178 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:23.109197)
+2025-02-10 16:40:28,145 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:28.109333)
+2025-02-10 16:40:28,180 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:28.109333)
+2025-02-10 16:40:33,141 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:33.109582)
+2025-02-10 16:40:33,175 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:33.109582)
+2025-02-10 16:40:38,142 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:38.109155)
+2025-02-10 16:40:38,175 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:38.109155)
+2025-02-10 16:40:43,146 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:43.109108)
+2025-02-10 16:40:43,180 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:43.109108)
+2025-02-10 16:40:48,142 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:48.109248)
+2025-02-10 16:40:48,176 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:48.109248)
+2025-02-10 16:40:53,142 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:53.109487)
+2025-02-10 16:40:53,176 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:53.109487)
+2025-02-10 16:40:58,141 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:58.109550)
+2025-02-10 16:40:58,177 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:40:58.109550)
+2025-02-10 16:41:03,147 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:41:03.109686)
+2025-02-10 16:41:03,183 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:41:03.109686)
+2025-02-10 16:41:14,101 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:41:14.058600)
+2025-02-10 16:41:14,136 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:41:14.058600)
+2025-02-10 16:41:19,090 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:41:19.057935)
+2025-02-10 16:41:19,124 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:41:19.057935)
+2025-02-10 16:45:06,150 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:06.103866)
+2025-02-10 16:45:06,184 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:06.103866)
+2025-02-10 16:45:11,135 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:11.103513)
+2025-02-10 16:45:11,169 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:11.103513)
+2025-02-10 16:45:16,137 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:16.103336)
+2025-02-10 16:45:16,173 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:16.103336)
+2025-02-10 16:45:21,138 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:21.103644)
+2025-02-10 16:45:21,173 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:21.103644)
+2025-02-10 16:45:26,139 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:26.103563)
+2025-02-10 16:45:26,173 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:26.103563)
+2025-02-10 16:45:31,140 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:31.103523)
+2025-02-10 16:45:31,178 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:31.103523)
+2025-02-10 16:45:36,137 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:36.103193)
+2025-02-10 16:45:36,173 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:36.103193)
+2025-02-10 16:45:41,140 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:41.103187)
+2025-02-10 16:45:41,177 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:41.103187)
+2025-02-10 16:45:46,136 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:46.103208)
+2025-02-10 16:45:46,170 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:46.103208)
+2025-02-10 16:45:59,006 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:58.965152)
+2025-02-10 16:45:59,040 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:45:58.965152)
+2025-02-10 16:46:03,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:03.965034)
+2025-02-10 16:46:04,032 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:03.965034)
+2025-02-10 16:46:08,998 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:08.965012)
+2025-02-10 16:46:09,032 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:08.965012)
+2025-02-10 16:46:14,000 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:13.965095)
+2025-02-10 16:46:14,038 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:13.965095)
+2025-02-10 16:46:18,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:18.965093)
+2025-02-10 16:46:19,033 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:18.965093)
+2025-02-10 16:46:23,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:23.964519)
+2025-02-10 16:46:24,032 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:23.964519)
+2025-02-10 16:46:28,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:28.964606)
+2025-02-10 16:46:29,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:28.964606)
+2025-02-10 16:46:34,001 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:33.964823)
+2025-02-10 16:46:34,035 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:33.964823)
+2025-02-10 16:46:38,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:38.964841)
+2025-02-10 16:46:39,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:38.964841)
+2025-02-10 16:46:43,998 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:43.964809)
+2025-02-10 16:46:44,032 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:43.964809)
+2025-02-10 16:46:48,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:48.964769)
+2025-02-10 16:46:49,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:48.964769)
+2025-02-10 16:46:54,001 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:53.964581)
+2025-02-10 16:46:54,034 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:53.964581)
+2025-02-10 16:46:58,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:58.964638)
+2025-02-10 16:46:59,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:46:58.964638)
+2025-02-10 16:47:03,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:03.964799)
+2025-02-10 16:47:04,030 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:03.964799)
+2025-02-10 16:47:09,004 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:08.965050)
+2025-02-10 16:47:09,038 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:08.965050)
+2025-02-10 16:47:14,001 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:13.964830)
+2025-02-10 16:47:14,035 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:13.964830)
+2025-02-10 16:47:18,996 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:18.964768)
+2025-02-10 16:47:19,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:18.964768)
+2025-02-10 16:47:23,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:23.964555)
+2025-02-10 16:47:24,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:23.964555)
+2025-02-10 16:47:28,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:28.964757)
+2025-02-10 16:47:29,029 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:28.964757)
+2025-02-10 16:47:34,001 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:33.964802)
+2025-02-10 16:47:34,034 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:33.964802)
+2025-02-10 16:47:38,996 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:38.964791)
+2025-02-10 16:47:39,034 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:38.964791)
+2025-02-10 16:47:43,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:43.964598)
+2025-02-10 16:47:44,031 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:43.964598)
+2025-02-10 16:47:48,997 - basicLogger - INFO - Found 4 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:48.965126)
+2025-02-10 16:47:49,032 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:47:48.965126)
+2025-02-10 16:53:49,008 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:53:48.964586)
+2025-02-10 16:53:49,043 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:53:48.964586)
+2025-02-10 16:53:53,999 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:53:53.964995)
+2025-02-10 16:53:54,032 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-10 16:53:53.964995)
+2025-02-10 16:54:45,166 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:54:45.125874)
+2025-02-10 16:54:45,201 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:54:45.125874)
+2025-02-10 16:54:50,159 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:54:50.125616)
+2025-02-10 16:54:50,193 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:54:50.125616)
+2025-02-10 16:54:55,158 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:54:55.125420)
+2025-02-10 16:54:55,191 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:54:55.125420)
+2025-02-10 16:55:46,243 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of bd615458-744d-481c-b361-ae5476188c76
+2025-02-10 16:55:46,289 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 377e9149-7e48-4a37-81d5-2caed97b00a1
+2025-02-10 16:55:46,337 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of d4ab0a64-8d7e-4859-92d0-9a11bf8e043b
+2025-02-10 16:55:46,383 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 56a133a7-f0eb-47cf-af16-92f5388a7a92
+2025-02-10 16:55:46,439 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 27797385-bc63-4780-8382-acc73a9891e7
+2025-02-10 16:55:46,447 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 88924841-7987-428e-97f9-fb3ce035087d
+2025-02-10 16:55:46,502 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c63328f6-e407-4bf7-b4b6-2bf1cfde4c36
+2025-02-10 16:55:46,510 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 02aa1e57-95c1-4d85-a71c-04f616766ab7
+2025-02-10 16:55:46,554 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5b074280-1fa3-463b-8b63-e90a7d4b2372
+2025-02-10 16:55:46,566 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c2654f7a-3091-4de8-8333-c88e035793b6
+2025-02-10 16:55:46,620 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d8755294-f0f6-4862-bd45-84f3cd6e436a
+2025-02-10 16:55:46,636 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8e94dd93-0169-4f93-a4b8-49b7d8e9a524
+2025-02-10 16:55:46,644 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 481a4f20-1146-45ac-9397-ed70b4a4fc47
+2025-02-10 16:55:46,689 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of dd003ff5-5309-4176-ad2f-00e1d3f92df9
+2025-02-10 16:55:46,702 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 535e6d46-a787-4fdd-8e48-73f1227a0ac2
+2025-02-10 16:55:46,711 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 498b1e35-7336-4076-88dd-adf8a836e675
+2025-02-10 16:55:46,749 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 59998f0f-5021-438b-bf1c-0b77870fbccd
+2025-02-10 16:55:46,766 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 457d37fd-209e-46ca-82aa-51cf0a259be9
+2025-02-10 16:55:46,772 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e6ab7f62-d537-4eb9-8e19-e3ccf0228669
+2025-02-10 16:55:46,819 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 8ec076f5-87a3-46b7-bbed-eba9a3382ff3
+2025-02-10 16:55:46,838 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 2f9908d3-9009-4aae-8879-a3490111dd93
+2025-02-10 16:55:46,846 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e77c63ed-06b5-4fcf-ab0e-5ebd32eedb17
+2025-02-10 16:55:46,854 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 89505542-2681-4705-9983-202882b87010
+2025-02-10 16:55:46,891 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e38d6342-cbd7-461a-9218-d09d379e70d5
+2025-02-10 16:55:46,915 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 7a63b3b9-9b14-44fe-9b74-549fcdc5ab32
+2025-02-10 16:55:46,926 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 19c4bbce-0d57-416d-8716-5baf6a162ca9
+2025-02-10 16:55:46,934 - basicLogger - DEBUG - Stored event report_container_processed with trace id of f1acf2d2-1ab4-4ed7-b70b-f530dc6ca86a
+2025-02-10 16:55:46,958 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f00deb05-1cf1-4eb2-bccc-5f92d4f759b1
+2025-02-10 16:55:47,002 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5167a09c-448e-4aa5-9f0e-aa240d5b9c7b
+2025-02-10 16:55:47,011 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 5bac1272-acf4-4ac5-adfd-07aadaedfa92
+2025-02-10 16:55:47,017 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of a55f0a00-4e9e-497b-839f-f2acadc53889
+2025-02-10 16:55:47,037 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b445e78c-cdf7-42f5-beac-e4d6d6cf8983
+2025-02-10 16:55:47,082 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 6a6c9a57-194e-4b82-a6cf-732973288823
+2025-02-10 16:55:47,091 - basicLogger - DEBUG - Stored event report_container_processed with trace id of da913b7d-2fed-42ee-b57c-58b9c0cf2a98
+2025-02-10 16:55:47,105 - basicLogger - DEBUG - Stored event report_container_processed with trace id of bccc6aec-a323-4c4f-b17a-42fd3b2f2d6b
+2025-02-10 16:55:47,113 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f7ddcfb2-f24f-4ac9-8a63-a54f4a498333
+2025-02-10 16:55:47,132 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 8478cd5b-90eb-4c60-9f9d-4cd544f312bb
+2025-02-10 16:55:47,175 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 9e0934e4-1695-4a08-871a-992284165d5b
+2025-02-10 16:55:47,183 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of d6c9567e-c96c-4e60-9bcd-548039c4d125
+2025-02-10 16:55:47,192 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of dddca0de-7702-4e73-baaf-af9b57ad536b
+2025-02-10 16:55:47,205 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 4bdb138a-6d07-44b5-82a1-35d187e71e60
+2025-02-10 16:55:47,222 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8c332452-3fe9-47c5-94a3-0e54202673cc
+2025-02-10 16:55:47,276 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 88a06584-169b-4a23-8402-7746a17ebe29
+2025-02-10 16:55:47,281 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 78b9b22f-be3b-494f-8fbd-e87fcce5dcab
+2025-02-10 16:55:47,287 - basicLogger - DEBUG - Stored event report_container_processed with trace id of a22e99c4-69c4-4022-b112-1270d303d8b9
+2025-02-10 16:55:47,293 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 87e6ccff-cf8f-4628-a243-92894eb8689f
+2025-02-10 16:55:47,313 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 43b373d5-617c-4f6c-9124-d97b1f10511c
+2025-02-10 16:55:47,363 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 1cef84f6-7c05-4958-9213-8e983be47212
+2025-02-10 16:55:47,372 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c918b282-0027-42f9-959f-d123480ef99b
+2025-02-10 16:55:47,380 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of d341d222-7ca4-45c7-8abc-fd0b8b648f96
+2025-02-10 16:55:47,389 - basicLogger - DEBUG - Stored event report_container_processed with trace id of cc361890-a839-49b5-9980-9872dbefb03f
+2025-02-10 16:55:47,397 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 7b662d08-5436-423b-8ecb-a12233a17ad2
+2025-02-10 16:55:47,445 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 83fb67b9-748e-44a5-8512-0893909e49d3
+2025-02-10 16:55:47,467 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8e8973f6-1474-438d-9dfe-3a1b0e3e44c8
+2025-02-10 16:55:47,473 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 909e0fa3-065c-477a-bcf7-40e87b33610f
+2025-02-10 16:55:47,486 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 1e9952ba-9226-4ba4-923c-6623f465d203
+2025-02-10 16:55:47,494 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of af3d544c-ec2c-4ab8-aba8-576960dd64a9
+2025-02-10 16:55:47,529 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e736f0bc-06d5-4745-997e-02370730004f
+2025-02-10 16:55:47,556 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of dc60a6b9-4483-4f29-867f-01f752be5537
+2025-02-10 16:55:47,570 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 9f68c101-83af-4b1c-a1d2-05d1f779a453
+2025-02-10 16:55:47,582 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 5f151160-0800-47d7-8f2a-bcd921e6c634
+2025-02-10 16:55:47,588 - basicLogger - DEBUG - Stored event report_container_processed with trace id of fbbfe21c-0e3e-4b05-9cad-9c0e9ab3616d
+2025-02-10 16:55:47,610 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of ddf5f3a9-00e6-4273-8d44-14f116592f6a
+2025-02-10 16:55:47,631 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 51a46b7e-129a-45d9-b92f-22bc5f958389
+2025-02-10 16:55:47,648 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 7b7a151d-6295-4717-b5c1-d75921ec3e1d
+2025-02-10 16:55:47,664 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 921f7cc0-750c-43de-bd8f-19c36d08c3fd
+2025-02-10 16:55:47,692 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b34eabc8-b3bc-4c79-81e1-edf891e31d0c
+2025-02-10 16:55:47,708 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 2fce242e-ca59-4c96-bcbc-eea52563c457
+2025-02-10 16:55:47,721 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of da7843f0-24bb-4010-9504-47988dec988f
+2025-02-10 16:55:47,741 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 90e93221-cbf1-4d08-9a0d-0ee02c658d4a
+2025-02-10 16:55:47,768 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of a68ac604-bd6c-4399-bcea-4ed4e11d2a0f
+2025-02-10 16:55:47,784 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 0424b3f4-fb94-443f-a1bd-3759a9d8d583
+2025-02-10 16:55:47,800 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d1c1aac8-4d63-4c1d-9665-f9e114836402
+2025-02-10 16:55:47,817 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 16706ab5-2f65-424d-ba4d-db2e373e29c5
+2025-02-10 16:55:47,840 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8bea46f2-70c7-4fc3-a501-302b0db1d939
+2025-02-10 16:55:47,862 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 41ba6728-d71f-4692-8ac9-249e326d03e5
+2025-02-10 16:55:47,884 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 233f968a-5538-497c-941c-42f9acb1bd2b
+2025-02-10 16:55:47,893 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 093e4c68-0d32-4c72-b212-9a7cf0f3975e
+2025-02-10 16:55:47,917 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 24cb6220-3385-4405-a3f3-f4b89b8391aa
+2025-02-10 16:55:47,936 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 50a2b81f-78b7-4c31-b2f8-595985392cde
+2025-02-10 16:55:47,960 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 3b33ddfe-504e-472b-bfb8-8e57cd4e7dc7
+2025-02-10 16:55:47,969 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of ab11d4ca-c37d-4bfb-8864-e36900c11534
+2025-02-10 16:55:47,978 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 06bd7690-351a-494b-9ff1-fe661599aaf0
+2025-02-10 16:55:48,039 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 2bf43fcf-9391-4371-8f9c-c4052539e4d4
+2025-02-10 16:55:48,049 - basicLogger - DEBUG - Stored event report_container_processed with trace id of fc41ba37-4604-457e-9b6c-79d692f40120
+2025-02-10 16:55:48,056 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 0d20321d-7465-44ef-bece-3627a58011c2
+2025-02-10 16:55:48,106 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 6ac7f35b-1fcb-4c62-bd36-c8365eae03ce
+2025-02-10 16:55:48,114 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5df4e7ac-29d1-4b46-ad0f-ef52eb8cec6c
+2025-02-10 16:55:48,122 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 688c1d51-d84a-4896-b6e6-76d5f229d38c
+2025-02-10 16:55:48,181 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f4f4255f-c2d0-4cb6-99ba-145416d2e18b
+2025-02-10 16:55:48,189 - basicLogger - DEBUG - Stored event report_container_processed with trace id of debdd719-c453-4d4e-aaea-2c0bb6266fb5
+2025-02-10 16:55:48,195 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5cbb3398-46cf-4fde-84a8-a66fee57279a
+2025-02-10 16:55:48,234 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b6d99484-37b8-4fe6-b9e4-ef2ad2d54f31
+2025-02-10 16:55:48,246 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 16a8ac03-ef27-4c06-9e64-6c0accb8d62d
+2025-02-10 16:55:48,290 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7b1f7dc9-72c0-471c-9824-e1328cc5ecea
+2025-02-10 16:55:48,304 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 16afe143-99cd-4c0f-9ba5-c05a122ffeed
+2025-02-10 16:55:48,349 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 90e65914-7c1d-4720-81a4-e012e3406c5b
+2025-02-10 16:55:48,364 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 86cfbe7e-170e-4942-9ba3-0afd18fe7d20
+2025-02-10 16:55:48,411 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5dd6428b-567b-4614-9d47-c645fe4d5e83
+2025-02-10 16:55:48,457 - basicLogger - DEBUG - Stored event report_container_processed with trace id of ec35b20a-99a7-4ff7-a0ab-97c0be74507e
+2025-02-10 16:56:12,348 - basicLogger - INFO - Found 50 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:56:12.303739)
+2025-02-10 16:56:12,386 - basicLogger - INFO - Found 50 ship arrival events (start: 2025-02-04 19:04:36, end: 2025-02-11 00:56:12.303739)
+2025-02-10 16:56:17,336 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:17.302726)
+2025-02-10 16:56:17,370 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:17.302726)
+2025-02-10 16:56:22,342 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:22.302614)
+2025-02-10 16:56:22,384 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:22.302614)
+2025-02-10 16:56:27,338 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:27.302685)
+2025-02-10 16:56:27,374 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:27.302685)
+2025-02-10 16:56:32,336 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:32.302419)
+2025-02-10 16:56:32,372 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:32.302419)
+2025-02-10 16:56:37,335 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:37.302494)
+2025-02-10 16:56:37,369 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:37.302494)
+2025-02-10 16:56:42,336 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:42.302748)
+2025-02-10 16:56:42,372 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:42.302748)
+2025-02-10 16:56:47,343 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:47.302700)
+2025-02-10 16:56:47,380 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:47.302700)
+2025-02-10 16:56:52,335 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:52.302382)
+2025-02-10 16:56:52,370 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:52.302382)
+2025-02-10 16:56:57,342 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:57.302607)
+2025-02-10 16:56:57,385 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:56:57.302607)
+2025-02-10 16:57:02,336 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:02.302491)
+2025-02-10 16:57:02,370 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:02.302491)
+2025-02-10 16:57:07,339 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:07.302691)
+2025-02-10 16:57:07,374 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:07.302691)
+2025-02-10 16:57:12,336 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:12.302630)
+2025-02-10 16:57:12,371 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:12.302630)
+2025-02-10 16:57:17,335 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:17.302509)
+2025-02-10 16:57:17,370 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:17.302509)
+2025-02-10 16:57:22,342 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:22.302678)
+2025-02-10 16:57:22,378 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:22.302678)
+2025-02-10 16:57:27,339 - basicLogger - INFO - Found 8 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:27.302482)
+2025-02-10 16:57:27,373 - basicLogger - INFO - Found 9 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:27.302482)
+2025-02-10 16:57:30,317 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7d73f4ad-2c8e-42cb-bd0a-895d6cc2410c
+2025-02-10 16:57:30,363 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 695aa85e-3274-4927-b697-156ceb8f9f1e
+2025-02-10 16:57:30,410 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 014fa08f-869f-42d4-adbd-b9ce4f85a163
+2025-02-10 16:57:30,456 - basicLogger - DEBUG - Stored event report_container_processed with trace id of bdccb8c1-79ba-48fc-8370-e43ee6424a8c
+2025-02-10 16:57:30,525 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c3b4ce44-a2a6-44c3-836f-96953c6100f3
+2025-02-10 16:57:30,532 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 499354e1-6b96-44b2-88c8-41e69459480b
+2025-02-10 16:57:30,574 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 73459977-15f9-4d2c-bf74-03789777233d
+2025-02-10 16:57:30,581 - basicLogger - DEBUG - Stored event report_container_processed with trace id of faeb0de7-38fc-48b4-a739-5031385954e5
+2025-02-10 16:57:30,637 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of aef40718-3de6-4d7f-a6d5-d45eba9b6892
+2025-02-10 16:57:30,644 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 49c048c8-4507-4aca-9ec7-9c4676c7d00f
+2025-02-10 16:57:30,700 - basicLogger - DEBUG - Stored event report_container_processed with trace id of eab09a5f-1807-4630-95dc-f71a645f884c
+2025-02-10 16:57:30,707 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 79d1ef11-4389-4c85-903c-df8b94847617
+2025-02-10 16:57:30,722 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 47647736-847c-4a85-ac33-ee7702fbd132
+2025-02-10 16:57:30,760 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5273dd1f-7ab9-46c5-ab2d-8a9741deed7f
+2025-02-10 16:57:30,768 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 60c0c0e3-a827-4e7c-8d13-641a7b73f8a3
+2025-02-10 16:57:30,783 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c59bbb08-2e34-4359-b69d-ab7693b0fb9d
+2025-02-10 16:57:30,826 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b96da416-3077-4fb0-9069-544dfb88b373
+2025-02-10 16:57:30,836 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d49f3c32-e716-42ab-9489-d92222edcf77
+2025-02-10 16:57:30,845 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c736c8c5-5f47-4a4f-86cc-894cd2b9603b
+2025-02-10 16:57:30,893 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 1868e132-b35c-44ae-8238-3b075489be26
+2025-02-10 16:57:30,905 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 122bcdb7-21c3-4ee2-990c-162b16d1a9d5
+2025-02-10 16:57:30,918 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8f78d753-f95f-4280-8819-62e9eb0bf18e
+2025-02-10 16:57:30,934 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of ab4dcc1e-bbf4-42a0-853b-8c78724b0e2e
+2025-02-10 16:57:30,972 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 103e172a-ed52-4b95-9430-859ddf866878
+2025-02-10 16:57:30,979 - basicLogger - DEBUG - Stored event report_container_processed with trace id of be7131fd-1cbc-47de-923b-0966d235ab38
+2025-02-10 16:57:30,988 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 4729f235-4f73-4867-97d8-85415c1a9a74
+2025-02-10 16:57:31,002 - basicLogger - DEBUG - Stored event report_container_processed with trace id of eef0755f-f9d8-4150-986f-f367ccec8095
+2025-02-10 16:57:31,052 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 8654d430-9f4c-4088-a2e4-99a7a9e7232d
+2025-02-10 16:57:31,060 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of a31812a3-e4da-4d71-a61a-184c24cf79dc
+2025-02-10 16:57:31,068 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b1032bb8-55de-48cf-93cf-7ec7176c4033
+2025-02-10 16:57:31,081 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 3ff0452e-2b3a-435a-bdb6-d82c3e13cefe
+2025-02-10 16:57:31,144 - basicLogger - DEBUG - Stored event report_container_processed with trace id of f2d2c1cc-774b-48d8-86a4-637651562e61
+2025-02-10 16:57:31,150 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c5abcfee-705c-4076-a155-a2612f29a4cc
+2025-02-10 16:57:31,154 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 4a2c1ee6-f3a7-4e92-bcdc-1f9caf611658
+2025-02-10 16:57:31,160 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 0d508bdb-5c50-4c16-b8db-01a23c69a48e
+2025-02-10 16:57:31,177 - basicLogger - DEBUG - Stored event report_container_processed with trace id of deda6f9c-a916-4047-8cb6-9ebafceae973
+2025-02-10 16:57:31,250 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 855d4865-8ec5-4ce4-a212-b7f047c9fb0c
+2025-02-10 16:57:31,254 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7cf668fd-0ca4-4419-a01d-77ad40232ed5
+2025-02-10 16:57:31,260 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 33a136e8-ed6d-49ab-b0c9-e7e738c2ad09
+2025-02-10 16:57:31,260 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d831447c-9d95-4ae1-b0c8-787055707920
+2025-02-10 16:57:31,266 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5c32f843-c5c3-49ea-b5d4-52bbcc8c1fa3
+2025-02-10 16:57:31,332 - basicLogger - DEBUG - Stored event report_container_processed with trace id of fc4e6856-4e92-4b61-8abb-e81e70ddf973
+2025-02-10 16:57:31,339 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 760cc910-4fa6-496e-bfd7-4489964e72ff
+2025-02-10 16:57:31,351 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f1b3ae78-d170-4296-a40f-5c643d7025d5
+2025-02-10 16:57:31,357 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e7d80f94-1a8d-4a04-836b-8c2306d5f946
+2025-02-10 16:57:31,378 - basicLogger - DEBUG - Stored event report_container_processed with trace id of aa1b8027-a804-427b-a7e7-f3dd82520a16
+2025-02-10 16:57:31,406 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 4591edec-84ae-4c61-b01f-6aa82a2ac49f
+2025-02-10 16:57:31,415 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7574c488-b978-4357-b5da-88a1e39f07e9
+2025-02-10 16:57:31,456 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d33d123d-af10-4239-a9e7-1f1da5991611
+2025-02-10 16:57:31,464 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 776f3330-9509-4310-81c0-44ccc71b6cfd
+2025-02-10 16:57:31,473 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 29f31f37-4907-4ea4-a40c-028cb5b0afcb
+2025-02-10 16:57:31,491 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 9240c726-dfc3-4cc4-b5b0-898cb921a8d9
+2025-02-10 16:57:31,507 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 01efaff8-8131-4588-8843-78adf632407c
+2025-02-10 16:57:31,549 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 74c12349-5afd-4818-8d7f-4fc2f1037104
+2025-02-10 16:57:31,557 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of caa05b4e-25e6-4746-82f2-eb5f64a5321e
+2025-02-10 16:57:31,565 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 13008482-bbd8-4321-8348-218f0c34e5cc
+2025-02-10 16:57:31,582 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 9dd8b517-6a22-4262-b569-d3242ceb7c53
+2025-02-10 16:57:31,595 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 016dc5c1-966e-4885-aa47-a8e95fa33196
+2025-02-10 16:57:31,644 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 15cdb8a5-5635-41c0-804b-eaf9237cead2
+2025-02-10 16:57:31,651 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c880f369-a624-4040-b991-cb81e7975c5e
+2025-02-10 16:57:31,665 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 35d18038-471a-4299-b830-3b175ad76c9a
+2025-02-10 16:57:31,674 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 736dbacc-821f-451b-a377-f1aba301f001
+2025-02-10 16:57:31,682 - basicLogger - DEBUG - Stored event report_container_processed with trace id of aeffda68-381f-48be-b370-7384ce1c8952
+2025-02-10 16:57:31,731 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 022b75ab-ba25-4ba8-a832-440a9430de1d
+2025-02-10 16:57:31,737 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 459e37c8-f537-4d1f-a378-43354c700175
+2025-02-10 16:57:31,747 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 20b6b55c-a557-476c-88f6-1720c2af1f5f
+2025-02-10 16:57:31,753 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e8b687ee-80ec-4992-a6ac-94916d36956e
+2025-02-10 16:57:31,809 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b389e741-89d3-4513-acd2-6fe7c0996975
+2025-02-10 16:57:31,817 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 39b07255-7ac9-4383-8a94-33f465819b4d
+2025-02-10 16:57:31,823 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of db63b383-d8fd-450f-a55b-826908977ea2
+2025-02-10 16:57:31,830 - basicLogger - DEBUG - Stored event report_container_processed with trace id of bd360e78-627c-43af-9dfe-15ce1889d53e
+2025-02-10 16:57:31,887 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 774260be-4259-4bda-b79e-0619c9f28481
+2025-02-10 16:57:31,895 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 1f98e59b-711d-44e7-9a5d-becfcbdbc4c6
+2025-02-10 16:57:31,902 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 3fb5ec32-d374-4dfc-8ad1-9361ac267719
+2025-02-10 16:57:31,908 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5f547981-3700-4d70-b01e-424b5f5868ee
+2025-02-10 16:57:31,964 - basicLogger - DEBUG - Stored event report_container_processed with trace id of a4ea3f9a-1a42-4ed5-b917-5bb0afe26b71
+2025-02-10 16:57:31,972 - basicLogger - DEBUG - Stored event report_container_processed with trace id of d304f3b0-b0a0-4b8c-afc3-aed16b727fdd
+2025-02-10 16:57:31,980 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 3c26d8bd-9044-4194-8a01-5ca23d6f0199
+2025-02-10 16:57:31,988 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c7945f65-cbfa-40c4-b298-07f2b5b741c8
+2025-02-10 16:57:32,032 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f45da0ad-8811-451d-98ec-09bee774eb38
+2025-02-10 16:57:32,036 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7bf5d4d6-dc8d-4c8a-bc63-aaf1e64fa45d
+2025-02-10 16:57:32,042 - basicLogger - DEBUG - Stored event report_container_processed with trace id of df74089d-8f0a-4c26-bca9-94225d363e61
+2025-02-10 16:57:32,098 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 1f8e63f0-f500-49f8-b3c1-11f5dba76923
+2025-02-10 16:57:32,106 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 052acf30-b9de-4037-bac3-6312e7af77df
+2025-02-10 16:57:32,114 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 91ea09b4-d857-4fa7-848e-ccdc1c827dce
+2025-02-10 16:57:32,164 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 031145d3-57da-49fc-8108-2bc6a3ecb031
+2025-02-10 16:57:32,172 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 53da2e3e-cc9e-4a5b-9fbd-6a003abc28e1
+2025-02-10 16:57:32,184 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b6f1ad52-c6bf-4c61-a379-e897d7d31023
+2025-02-10 16:57:32,226 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c78b13b3-eba6-4f59-b707-d18ae31dc49d
+2025-02-10 16:57:32,234 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e9665a47-e1e2-49a2-8b7c-e4c10281b3a6
+2025-02-10 16:57:32,243 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 783616c6-df38-484b-b6e6-6cf014cacdf9
+2025-02-10 16:57:32,298 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of fe9fb8c2-af69-4021-aefb-7b2dde2fb557
+2025-02-10 16:57:32,305 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e3df9e2f-4408-41c1-9698-6e4ec4f86b43
+2025-02-10 16:57:32,340 - basicLogger - INFO - Found 55 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:32.302196)
+2025-02-10 16:57:32,357 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 4bfdd22d-c6f2-45a6-ab0d-f58eed4f1c4e
+2025-02-10 16:57:32,367 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of a3a19dfb-3f5f-403e-ae45-b7fc9aed3288
+2025-02-10 16:57:32,378 - basicLogger - INFO - Found 56 ship arrival events (start: 2025-02-11 00:55:48, end: 2025-02-11 00:57:32.302196)
+2025-02-10 16:57:32,410 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 2c809e6f-8262-48f9-a6a7-bf15943854c7
+2025-02-10 16:57:32,421 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 1a28ee7b-21ce-4d6a-8e84-7a38fe125e95
+2025-02-10 16:57:32,457 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e6992024-ef08-4f4e-95bc-b4108f70a5e1
+2025-02-10 16:57:32,502 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of cb010cb2-c841-4688-b63b-1895fe51e9c2
+2025-02-10 16:57:32,547 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 5af60066-8a2a-4d87-aa5d-b99384608f66
+2025-02-10 16:57:37,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:37.302475)
+2025-02-10 16:57:37,369 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:37.302475)
+2025-02-10 16:57:42,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:42.302860)
+2025-02-10 16:57:42,369 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:42.302860)
+2025-02-10 16:57:47,338 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:47.302489)
+2025-02-10 16:57:47,373 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:47.302489)
+2025-02-10 16:57:52,334 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:52.302550)
+2025-02-10 16:57:52,369 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:52.302550)
+2025-02-10 16:57:57,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:57.302877)
+2025-02-10 16:57:57,370 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:57:57.302877)
+2025-02-10 16:58:02,334 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:02.302196)
+2025-02-10 16:58:02,369 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:02.302196)
+2025-02-10 16:58:07,339 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:07.302307)
+2025-02-10 16:58:07,373 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:07.302307)
+2025-02-10 16:58:12,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:12.302234)
+2025-02-10 16:58:12,368 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:12.302234)
+2025-02-10 16:58:17,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:17.302453)
+2025-02-10 16:58:17,370 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:17.302453)
+2025-02-10 16:58:22,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:22.302525)
+2025-02-10 16:58:22,369 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:22.302525)
+2025-02-10 16:58:27,335 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:27.302277)
+2025-02-10 16:58:27,372 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:27.302277)
+2025-02-10 16:58:32,337 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:32.302236)
+2025-02-10 16:58:32,371 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:32.302236)
+2025-02-10 16:58:37,336 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:37.302295)
+2025-02-10 16:58:37,372 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:37.302295)
+2025-02-10 16:58:42,334 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:42.302593)
+2025-02-10 16:58:42,369 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:42.302593)
+2025-02-10 16:58:45,726 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 777af44b-e358-4898-8dc0-43fd8a2ad5d3
+2025-02-10 16:58:45,777 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 85d22115-ec7f-4f65-b65b-7704913846be
+2025-02-10 16:58:45,823 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c9e91670-776e-49ac-8816-d49ace7a84cc
+2025-02-10 16:58:45,869 - basicLogger - DEBUG - Stored event report_container_processed with trace id of a1cddf95-d846-495b-a099-85f514f84a85
+2025-02-10 16:58:45,930 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 1d300d88-acb6-43f0-8545-5dfe49df867d
+2025-02-10 16:58:45,939 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 166ac546-edfc-42a2-8f70-e9e4aed79f39
+2025-02-10 16:58:45,984 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 1afc472b-5ffe-4c24-95a7-64ee925bc5f8
+2025-02-10 16:58:45,993 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c7c1274b-3cbf-436d-953d-2fd9caf245bf
+2025-02-10 16:58:46,036 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 3f327cd1-fa0a-42dd-b690-d288916b962d
+2025-02-10 16:58:46,048 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 133c62f3-c97a-4e99-b495-a59f4b4abc28
+2025-02-10 16:58:46,096 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 09ba404e-4b53-466e-8e3d-57323d5af644
+2025-02-10 16:58:46,106 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 439e71cd-a9f0-43ec-a8db-dc58818f38d0
+2025-02-10 16:58:46,139 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 6afc1df6-47da-4a52-aea9-4a37bf6c46c5
+2025-02-10 16:58:46,157 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5a9d86cd-1659-4dff-a602-79ab5e3cba5e
+2025-02-10 16:58:46,173 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 99b9f2aa-fe27-4ee3-9a39-5571297a533a
+2025-02-10 16:58:46,196 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 97229fc7-6813-4e07-bfda-46779bdae1cf
+2025-02-10 16:58:46,215 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 64bbebf6-e31d-46cb-b667-1c6dbe5c1cd6
+2025-02-10 16:58:46,237 - basicLogger - DEBUG - Stored event report_container_processed with trace id of bd2edad5-7326-40e7-b2d4-eb97ef20d3e4
+2025-02-10 16:58:46,270 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 062c9d3d-492a-49b5-a6f6-cb7bef3a60eb
+2025-02-10 16:58:46,278 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 53455cbd-dc72-45a1-abdc-fc080cc661b2
+2025-02-10 16:58:46,339 - basicLogger - DEBUG - Stored event report_container_processed with trace id of f96aaffb-dab2-42c6-b054-63d1c6e56cc2
+2025-02-10 16:58:46,345 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 0e2d190e-95ea-4a4b-94aa-8af6d07aa3f5
+2025-02-10 16:58:46,351 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 725706a4-ad14-4f3b-9a74-77db51290f63
+2025-02-10 16:58:46,406 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f8593ec9-4587-4a0d-80f2-750a68bc6549
+2025-02-10 16:58:46,415 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 72ed83e3-4b5c-4940-ac4b-93baf6470202
+2025-02-10 16:58:46,421 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7c849350-fae4-4bc0-9472-5a5e21471342
+2025-02-10 16:58:46,477 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8fb96ad2-6ffb-484e-b80c-2adb5525e341
+2025-02-10 16:58:46,487 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c2b1f58c-216b-4e6d-963c-59d3bdaf0532
+2025-02-10 16:58:46,495 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 52f5396e-2121-4fd0-adc2-738d72e3575c
+2025-02-10 16:58:46,538 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of b70712c6-27c1-4edc-b9ef-ab1300534ae6
+2025-02-10 16:58:46,548 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of e8aaf98f-f9f8-43f3-841f-b81d8cd5060b
+2025-02-10 16:58:46,560 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 97026f7c-19a2-4729-b19c-fc04d84cbcb7
+2025-02-10 16:58:46,599 - basicLogger - DEBUG - Stored event report_container_processed with trace id of fbd3fcad-995d-49e8-be58-11fc802cd6e8
+2025-02-10 16:58:46,611 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 28df85a2-8cf0-49ba-bdb6-c0bffb3ab816
+2025-02-10 16:58:46,623 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 97772438-dc9e-40a6-80dd-eee0312b1efe
+2025-02-10 16:58:46,664 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 0065ab1c-0898-4552-be83-0ed507300fbb
+2025-02-10 16:58:46,677 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 1e7a5b46-ca93-4274-bc24-a67466525f25
+2025-02-10 16:58:46,686 - basicLogger - DEBUG - Stored event report_container_processed with trace id of ce55d31f-283b-4d35-8981-3f744c6cb772
+2025-02-10 16:58:46,725 - basicLogger - DEBUG - Stored event report_container_processed with trace id of a9195e85-edd5-4e67-8f9d-53aae34a4db8
+2025-02-10 16:58:46,748 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 34d5bff8-28f7-46e0-8e6a-6d938c48947b
+2025-02-10 16:58:46,757 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 81c79715-1ccc-45f7-a6bf-d2df9c250021
+2025-02-10 16:58:46,777 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5b38c157-0394-467a-acba-7cafeef1ef50
+2025-02-10 16:58:46,805 - basicLogger - DEBUG - Stored event report_container_processed with trace id of ce232d42-befa-40db-af47-97382d7d8d0d
+2025-02-10 16:58:46,826 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 397cfe42-7b0c-4462-82c9-5589abf70f47
+2025-02-10 16:58:46,855 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of eaf31a7e-0ac1-4a71-8da1-5793fe39763f
+2025-02-10 16:58:46,875 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of ae592a78-1f5e-4228-acc0-40ac9a639d67
+2025-02-10 16:58:46,911 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 08c44656-e2c7-460a-887c-b088be151926
+2025-02-10 16:58:46,931 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 4e77b36a-e0c5-484d-918f-fdffd4838378
+2025-02-10 16:58:46,978 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 956569d0-f410-4e16-b6d9-bfa2f73ad572
+2025-02-10 16:58:47,022 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 41745c4c-8004-4991-ab34-856dd6a08cb2
+2025-02-10 16:58:47,337 - basicLogger - INFO - Found 35 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:47.302778)
+2025-02-10 16:58:47,372 - basicLogger - INFO - Found 36 ship arrival events (start: 2025-02-11 00:57:32, end: 2025-02-11 00:58:47.302778)
+2025-02-10 16:58:52,341 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:58:52.302212)
+2025-02-10 16:58:52,376 - basicLogger - INFO - Found 1 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:58:52.302212)
+2025-02-10 16:58:57,335 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:58:57.302239)
+2025-02-10 16:58:57,371 - basicLogger - INFO - Found 1 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:58:57.302239)
+2025-02-10 16:59:02,335 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:02.302489)
+2025-02-10 16:59:02,369 - basicLogger - INFO - Found 1 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:02.302489)
+2025-02-10 16:59:07,335 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:07.302437)
+2025-02-10 16:59:07,369 - basicLogger - INFO - Found 1 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:07.302437)
+2025-02-10 16:59:12,339 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:12.302476)
+2025-02-10 16:59:12,374 - basicLogger - INFO - Found 1 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:12.302476)
+2025-02-10 16:59:17,335 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:17.302374)
+2025-02-10 16:59:17,370 - basicLogger - INFO - Found 1 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:17.302374)
+2025-02-10 16:59:17,722 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 532b1269-edaa-4ca2-85c3-a08ae512fe17
+2025-02-10 16:59:17,767 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b9a719d1-34e5-4a5e-8783-f7854d7b58ab
+2025-02-10 16:59:17,820 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of dfef6819-21eb-4189-b9db-953eefe99cd4
+2025-02-10 16:59:17,868 - basicLogger - DEBUG - Stored event report_container_processed with trace id of cc2e4966-21fa-4ffe-863c-ada15a968709
+2025-02-10 16:59:17,917 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 7d1d9dc9-9b77-440b-8406-532855565d3a
+2025-02-10 16:59:17,964 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 3ada60b2-9842-4cbe-af07-b49a0770ec74
+2025-02-10 16:59:18,014 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 3e03a57b-58ca-4938-9def-c5645077fa6d
+2025-02-10 16:59:18,060 - basicLogger - DEBUG - Stored event report_container_processed with trace id of f5120653-c4d5-4dce-8565-302f002e2e1d
+2025-02-10 16:59:18,112 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 8cbb7a37-3824-42f8-8ebe-8405a4fd23f4
+2025-02-10 16:59:18,162 - basicLogger - DEBUG - Stored event report_container_processed with trace id of e3c74a67-197b-45b5-ae54-44cdba3a8d14
+2025-02-10 16:59:18,213 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 8f07252b-7777-4119-bfed-c2367b5bf180
+2025-02-10 16:59:18,259 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 0c2b5cfb-7e03-435f-b3db-10904e725d9e
+2025-02-10 16:59:18,316 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 2af00666-a32f-4a2f-abbb-7f147ac6cb4f
+2025-02-10 16:59:18,362 - basicLogger - DEBUG - Stored event report_container_processed with trace id of c3cf390e-dfce-42dc-a556-59145a09b489
+2025-02-10 16:59:18,412 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of b1616736-a972-40dd-a7a4-a3709dc5e452
+2025-02-10 16:59:18,460 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 8f33e326-4b1f-4603-b8a8-e9a322e4ddec
+2025-02-10 16:59:18,511 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 76436577-ea6b-4477-b3ee-504db8d13fca
+2025-02-10 16:59:18,558 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 26eaf55c-a055-4382-8353-ca4af79232c1
+2025-02-10 16:59:18,613 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 88bb9710-fafa-4a4a-bd93-c1478ac4ab53
+2025-02-10 16:59:18,658 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 9417faea-89ec-4f13-aa43-eafb15caaeff
+2025-02-10 16:59:22,338 - basicLogger - INFO - Found 10 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:22.302664)
+2025-02-10 16:59:22,372 - basicLogger - INFO - Found 11 ship arrival events (start: 2025-02-11 00:58:47, end: 2025-02-11 00:59:22.302664)
+2025-02-10 16:59:27,335 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:27.302287)
+2025-02-10 16:59:27,369 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:27.302287)
+2025-02-10 16:59:32,341 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:32.302615)
+2025-02-10 16:59:32,376 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:32.302615)
+2025-02-10 16:59:37,337 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:37.302568)
+2025-02-10 16:59:37,371 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:37.302568)
+2025-02-10 16:59:42,335 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:42.302474)
+2025-02-10 16:59:42,370 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:42.302474)
+2025-02-10 16:59:47,335 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:47.302362)
+2025-02-10 16:59:47,371 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:47.302362)
+2025-02-10 16:59:52,336 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:52.302185)
+2025-02-10 16:59:52,371 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:52.302185)
+2025-02-10 16:59:57,338 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:57.302569)
+2025-02-10 16:59:57,373 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 00:59:57.302569)
+2025-02-10 17:00:02,336 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:02.302870)
+2025-02-10 17:00:02,371 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:02.302870)
+2025-02-10 17:00:07,342 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:07.302226)
+2025-02-10 17:00:07,387 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:07.302226)
+2025-02-10 17:00:12,336 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:12.302746)
+2025-02-10 17:00:12,371 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:12.302746)
+2025-02-10 17:00:17,335 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:17.302308)
+2025-02-10 17:00:17,372 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:17.302308)
+2025-02-10 17:00:22,336 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:22.302306)
+2025-02-10 17:00:22,372 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:22.302306)
+2025-02-10 17:00:27,346 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:27.302294)
+2025-02-10 17:00:27,384 - basicLogger - INFO - Found 7 ship arrival events (start: 2025-02-11 00:59:18, end: 2025-02-11 01:00:27.302294)

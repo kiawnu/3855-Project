@@ -1,7 +1,5 @@
 venv
-storage/__pycache__
-storage/port-data.db
 receiver/arrival.jmx
-receiver/__pycache__
-processing/__pycache__
+**/__pycache__
+**/app_conf.yml
 

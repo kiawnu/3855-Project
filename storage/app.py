@@ -74,8 +74,8 @@ def get_container_event(start_timestamp, end_timestamp):
 
     session = make_session()
 
-    start = datetime.fromtimestamp(start_timestamp)
-    end = datetime.fromtimestamp(end_timestamp)
+    start = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
 
     statement = select(ContainerProcessing).where(ContainerProcessing.date_created >= start).where(ContainerProcessing.date_created < end)
 
