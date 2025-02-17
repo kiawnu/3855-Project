@@ -7,7 +7,6 @@ from threading import Thread
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from datetime import datetime
-from connexion import NoContent
 from db import make_session
 from models import ShipArrivals, ContainerProcessing
 from sqlalchemy import select
@@ -30,13 +29,9 @@ logger = logging.getLogger("basicLogger")
 def process_messages():
     """Process event messages"""
 
-    hostname = f"{HOST}:{PORT}"  # localhost:9092
+    hostname = f"{HOST}:{PORT}"
     client = KafkaClient(hosts=hostname)
     topic = client.topics[str.encode(f"{TOPIC}")]
-
-    # Create a consume on a consumer group, that only reads new messages
-    # (uncommitted messages) when the service re-starts (i.e., it doesn't
-    # read all the old messages from the history in the message queue).
 
     consumer = topic.get_simple_consumer(
         consumer_group=b"event_group",
@@ -89,43 +84,6 @@ def process_messages():
 
         # Commit the new message as being read
         consumer.commit_offsets()
-
-
-# def report_ship_arrived(body):
-#     session = make_session()
-
-#     event = ShipArrivals(**body)
-
-#     event.docking_time = datetime.strptime(event.docking_time, "%Y-%m-%dT%H:%M:%S.%fZ")
-#     trace_id = event.trace_id
-
-#     session.add(event)
-#     session.commit()
-#     session.close()
-
-#     logger.debug(f"Stored event report_ship_arrived with trace id of {trace_id}")
-
-#     return NoContent, 201
-
-
-# def report_container_processed(body):
-#     session = make_session()
-
-#     event = ContainerProcessing(**body)
-
-#     event.unloading_time = datetime.strptime(
-#         event.unloading_time, "%Y-%m-%dT%H:%M:%S.%fZ"
-#     )
-
-#     trace_id = event.trace_id
-
-#     session.add(event)
-#     session.commit()
-#     session.close()
-
-#     logger.debug(f"Stored event report_container_processed with trace id of {trace_id}")
-
-#     return NoContent, 201
 
 
 def get_ship_event(start_timestamp, end_timestamp):

@@ -7,22 +7,6 @@ servers:
   - url: /
 paths:
   /ship/arrival:
-    # post:
-    #   tags: []
-    #   summary: Your POST endpoint
-    #   operationId: app.report_ship_arrived
-    #   parameters: []
-    #   requestBody:
-    #     description: Adds a new entry when a ship arrives to port
-    #     content:
-    #       application/json:
-    #         schema:
-    #           $ref: "#/components/schemas/Ship_Arrival"
-    #   responses:
-    #     "201":
-    #       description: Ship arrived
-    #     "400":
-    #       description: Bad or insufficient ship data
     get:
       tags:
         - ships
@@ -55,21 +39,6 @@ paths:
                   $ref: "#/components/schemas/Ship_Arrival"
 
   /container/arrival:
-    # post:
-    #   tags: []
-    #   summary: Your POST endpoint
-    #   operationId: app.report_container_processed
-    #   requestBody:
-    #     description: Adds a new entry when a container is processed
-    #     content:
-    #       application/json:
-    #         schema:
-    #           $ref: "#/components/schemas/Container_Processing"
-    #   responses:
-    #     "201":
-    #       description: Container Processed
-    #     "400":
-    #       description: Bad or insufficient container data
     get:
       tags:
         - ships

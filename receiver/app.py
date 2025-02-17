@@ -33,8 +33,6 @@ def report_ship_arrived(body):
 
     logger.info(f"Received event report_ship_arrived with trace id {trace_id}")
 
-    # r = httpx.post(app_config["events"]["ship_arrivals"]["url"], json=body)
-
     msg = {
         "type": "ship_arrival",
         "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
@@ -63,8 +61,6 @@ def report_container_processed(body):
     }
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode("utf-8"))
-
-    # r = httpx.post(app_config["events"]["container_processing"]["url"], json=body)
 
     logger.info(
         f"Response for event report_container_processed (id:{body['container_id']}) has status {201}"
