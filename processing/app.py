@@ -3,8 +3,6 @@ import connexion
 import json
 import logging
 import yaml
-import time
-import threading
 import httpx
 from datetime import datetime
 from pathlib import Path
@@ -152,11 +150,6 @@ def populate_stats():
 
     stats_json["last_updated"] = current_time
 
-    # write to json
-    # lock = threading.Lock()
-    # with lock:
-    #     with open(STATS_FILE, "w") as f:
-    #         json.dump(stats_json, f, indent=4)
     with open(STATS_FILE, "w") as f:
         json.dump(stats_json, f, indent=4)
 
