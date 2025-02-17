@@ -1,10 +1,12 @@
 import logging.config
 import connexion
-import httpx
 import uuid
+import json
 import yaml
 import logging
+import datetime
 from connexion import NoContent
+from pykafka import KafkaClient
 
 with open("app_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
@@ -15,6 +17,15 @@ with open("log_conf.yml", "r") as f:
 
 logger = logging.getLogger("basicLogger")
 
+# Kafka set up
+HOST = app_config["events"]["hostname"]
+PORT = app_config["events"]["port"]
+TOPIC = app_config["events"]["topic"]
+
+client = KafkaClient(hosts=f"{HOST}:{PORT}")
+topic = client.topics[str.encode(f"{TOPIC}")]
+producer = topic.get_sync_producer()
+
 
 def report_ship_arrived(body):
     trace_id = str(uuid.uuid4())
@@ -22,13 +33,21 @@ def report_ship_arrived(body):
 
     logger.info(f"Received event report_ship_arrived with trace id {trace_id}")
 
-    r = httpx.post(app_config["events"]["ship_arrivals"]["url"], json=body)
+    # r = httpx.post(app_config["events"]["ship_arrivals"]["url"], json=body)
+
+    msg = {
+        "type": "ship_arrival",
+        "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
+        "payload": body,
+    }
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode("utf-8"))
 
     logger.info(
-        f"Response for event report_ship_arrived (id:{body['ship_id']}) has status {r.status_code}"
+        f"Response for event report_ship_arrived (id:{body['ship_id']}) has status {201}"
     )
 
-    return NoContent, r.status_code
+    return NoContent, 201
 
 
 def report_container_processed(body):
@@ -37,13 +56,21 @@ def report_container_processed(body):
 
     logger.info(f"Received event report_container_processed with trace id {trace_id}")
 
-    r = httpx.post(app_config["events"]["container_processing"]["url"], json=body)
+    msg = {
+        "type": "container_processing",
+        "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
+        "payload": body,
+    }
+    msg_str = json.dumps(msg)
+    producer.produce(msg_str.encode("utf-8"))
+
+    # r = httpx.post(app_config["events"]["container_processing"]["url"], json=body)
 
     logger.info(
-        f"Response for event report_container_processed (id:{body['container_id']}) has status {r.status_code}"
+        f"Response for event report_container_processed (id:{body['container_id']}) has status {201}"
     )
 
-    return NoContent, r.status_code
+    return NoContent, 201
 
 
 app = connexion.FlaskApp(__name__, specification_dir="")

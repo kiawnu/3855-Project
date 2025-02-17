@@ -4,3 +4,6 @@ events:
     url: http://localhost:8090/ship/arrival
   container_processing:
     url: http://localhost:8090/container/arrival
+  hostname: localhost
+  port: 9092
+  topic: events

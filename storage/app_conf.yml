@@ -5,3 +5,7 @@ datastore:
   hostname: 127.0.0.1
   port: 3306
   db: port-data
+events:
+  hostname: localhost
+  port: 9092
+  topic: events
