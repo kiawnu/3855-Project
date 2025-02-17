@@ -5825,3 +5825,67 @@
 2025-02-17 15:32:02,882 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:31:57.812135, end: 2025-02-17 23:32:02.812121)
 2025-02-17 15:32:07,844 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:32:02.812121, end: 2025-02-17 23:32:07.812079)
 2025-02-17 15:32:07,878 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:32:02.812121, end: 2025-02-17 23:32:07.812079)
+2025-02-17 15:36:04,521 - basicLogger - INFO - Found 30 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-17 23:36:04.465020)
+2025-02-17 15:36:04,559 - basicLogger - INFO - Found 30 ship arrival events (start: 1970-02-10 12:34:56.789000, end: 2025-02-17 23:36:04.465020)
+2025-02-17 15:36:09,498 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:04.465020, end: 2025-02-17 23:36:09.464520)
+2025-02-17 15:36:09,533 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:04.465020, end: 2025-02-17 23:36:09.464520)
+2025-02-17 15:36:14,497 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:09.464520, end: 2025-02-17 23:36:14.464716)
+2025-02-17 15:36:14,532 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:09.464520, end: 2025-02-17 23:36:14.464716)
+2025-02-17 15:36:19,500 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:14.464716, end: 2025-02-17 23:36:19.463993)
+2025-02-17 15:36:19,536 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:14.464716, end: 2025-02-17 23:36:19.463993)
+2025-02-17 15:36:20,762 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-02-17T15:36:20.760059Z', 'payload': {'ship_id': 433986, 'port_id': 3668200, 'containers_onboard': 9630, 'docking_time': '2017-11-2T4:16:23.12Z', 'origin_country': 'GQTKNPAKKQ', 'trace_id': '5b230212-590a-48f9-9699-2fd8d6864dc3'}}
+2025-02-17 15:36:20,782 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 5b230212-590a-48f9-9699-2fd8d6864dc3
+2025-02-17 15:36:20,784 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-02-17T15:36:20.764836Z', 'payload': {'container_id': 6614652, 'processing_hub_id': 1124009, 'container_weight': 320380, 'destination': 'XOCUICHPXR', 'unloading_time': '2019-5-20T4:5:13.24Z', 'trace_id': 'bc443f8e-32be-4490-a709-47e3f24fe219'}}
+2025-02-17 15:36:20,795 - basicLogger - DEBUG - Stored event report_container_processed with trace id of bc443f8e-32be-4490-a709-47e3f24fe219
+2025-02-17 15:36:22,760 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-02-17T15:36:22.758585Z', 'payload': {'ship_id': 2950393, 'port_id': 8007036, 'containers_onboard': 2289, 'docking_time': '2024-5-19T20:15:9.62Z', 'origin_country': 'SVIUFPSOVD', 'trace_id': '9d3b6bf5-2cfb-4cfe-be81-b8bb46eea5e8'}}
+2025-02-17 15:36:22,779 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 9d3b6bf5-2cfb-4cfe-be81-b8bb46eea5e8
+2025-02-17 15:36:22,781 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-02-17T15:36:22.762822Z', 'payload': {'container_id': 4361894, 'processing_hub_id': 2852046, 'container_weight': 9692909, 'destination': 'YTAFECTEZW', 'unloading_time': '2019-3-16T16:24:12.15Z', 'trace_id': 'fc504cb8-7291-494a-b21b-c0c4dde6250e'}}
+2025-02-17 15:36:22,791 - basicLogger - DEBUG - Stored event report_container_processed with trace id of fc504cb8-7291-494a-b21b-c0c4dde6250e
+2025-02-17 15:36:24,509 - basicLogger - INFO - Found 2 ship arrival events (start: 2025-02-17 23:36:19.463993, end: 2025-02-17 23:36:24.464095)
+2025-02-17 15:36:24,543 - basicLogger - INFO - Found 2 ship arrival events (start: 2025-02-17 23:36:19.463993, end: 2025-02-17 23:36:24.464095)
+2025-02-17 15:36:24,762 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-02-17T15:36:24.760185Z', 'payload': {'ship_id': 4948557, 'port_id': 367051, 'containers_onboard': 2593, 'docking_time': '2006-5-7T4:48:0.56Z', 'origin_country': 'DJHUDEFUII', 'trace_id': 'f360064d-9fe3-4ca0-b9ea-bc0d9182db51'}}
+2025-02-17 15:36:24,782 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of f360064d-9fe3-4ca0-b9ea-bc0d9182db51
+2025-02-17 15:36:24,783 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-02-17T15:36:24.764308Z', 'payload': {'container_id': 2655970, 'processing_hub_id': 3384445, 'container_weight': 7947553, 'destination': 'OCGCIDUZOW', 'unloading_time': '2005-9-24T3:1:43.52Z', 'trace_id': '3fb26835-177a-4727-a3f9-6c220596218b'}}
+2025-02-17 15:36:24,794 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 3fb26835-177a-4727-a3f9-6c220596218b
+2025-02-17 15:36:26,760 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-02-17T15:36:26.758550Z', 'payload': {'ship_id': 9421976, 'port_id': 2010242, 'containers_onboard': 3192, 'docking_time': '2005-7-8T12:41:53.61Z', 'origin_country': 'UWDFOFPXKP', 'trace_id': 'c838d7c8-878b-4ede-b582-a29c0d1df6d7'}}
+2025-02-17 15:36:26,786 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of c838d7c8-878b-4ede-b582-a29c0d1df6d7
+2025-02-17 15:36:26,787 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-02-17T15:36:26.762050Z', 'payload': {'container_id': 2148464, 'processing_hub_id': 6491603, 'container_weight': 6221786, 'destination': 'DTULGPUPHD', 'unloading_time': '2020-1-4T15:24:41.83Z', 'trace_id': '5d95961a-ab3e-4305-bc6d-079523bad8ac'}}
+2025-02-17 15:36:26,798 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 5d95961a-ab3e-4305-bc6d-079523bad8ac
+2025-02-17 15:36:28,762 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-02-17T15:36:28.760120Z', 'payload': {'ship_id': 7718044, 'port_id': 1949355, 'containers_onboard': 2221, 'docking_time': '2014-8-13T19:57:51.19Z', 'origin_country': 'GBNZQDOVKS', 'trace_id': 'fe5d21e7-7471-4ef3-815b-5d331172d7f5'}}
+2025-02-17 15:36:28,781 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of fe5d21e7-7471-4ef3-815b-5d331172d7f5
+2025-02-17 15:36:28,782 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-02-17T15:36:28.764034Z', 'payload': {'container_id': 5608821, 'processing_hub_id': 8814064, 'container_weight': 4315796, 'destination': 'MMPMFXQZUS', 'unloading_time': '2002-3-16T10:0:56.27Z', 'trace_id': '5bc34b6c-3954-4e4b-97d9-078c293ec8a5'}}
+2025-02-17 15:36:28,791 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 5bc34b6c-3954-4e4b-97d9-078c293ec8a5
+2025-02-17 15:36:29,496 - basicLogger - INFO - Found 2 ship arrival events (start: 2025-02-17 23:36:24.464095, end: 2025-02-17 23:36:29.464413)
+2025-02-17 15:36:29,529 - basicLogger - INFO - Found 2 ship arrival events (start: 2025-02-17 23:36:24.464095, end: 2025-02-17 23:36:29.464413)
+2025-02-17 15:36:34,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:29.464413, end: 2025-02-17 23:36:34.464414)
+2025-02-17 15:36:34,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:29.464413, end: 2025-02-17 23:36:34.464414)
+2025-02-17 15:36:39,500 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:34.464414, end: 2025-02-17 23:36:39.464072)
+2025-02-17 15:36:39,533 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:34.464414, end: 2025-02-17 23:36:39.464072)
+2025-02-17 15:36:44,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:39.464072, end: 2025-02-17 23:36:44.464389)
+2025-02-17 15:36:44,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:39.464072, end: 2025-02-17 23:36:44.464389)
+2025-02-17 15:36:49,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:44.464389, end: 2025-02-17 23:36:49.464183)
+2025-02-17 15:36:49,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:44.464389, end: 2025-02-17 23:36:49.464183)
+2025-02-17 15:36:54,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:49.464183, end: 2025-02-17 23:36:54.464308)
+2025-02-17 15:36:54,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:49.464183, end: 2025-02-17 23:36:54.464308)
+2025-02-17 15:36:59,500 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:54.464308, end: 2025-02-17 23:36:59.464555)
+2025-02-17 15:36:59,533 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:54.464308, end: 2025-02-17 23:36:59.464555)
+2025-02-17 15:37:04,497 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:59.464555, end: 2025-02-17 23:37:04.464141)
+2025-02-17 15:37:04,530 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:36:59.464555, end: 2025-02-17 23:37:04.464141)
+2025-02-17 15:37:09,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:04.464141, end: 2025-02-17 23:37:09.464141)
+2025-02-17 15:37:09,528 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:04.464141, end: 2025-02-17 23:37:09.464141)
+2025-02-17 15:37:14,497 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:09.464141, end: 2025-02-17 23:37:14.464074)
+2025-02-17 15:37:14,530 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:09.464141, end: 2025-02-17 23:37:14.464074)
+2025-02-17 15:37:19,501 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:14.464074, end: 2025-02-17 23:37:19.464277)
+2025-02-17 15:37:19,534 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:14.464074, end: 2025-02-17 23:37:19.464277)
+2025-02-17 15:37:24,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:19.464277, end: 2025-02-17 23:37:24.464182)
+2025-02-17 15:37:24,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:19.464277, end: 2025-02-17 23:37:24.464182)
+2025-02-17 15:37:29,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:24.464182, end: 2025-02-17 23:37:29.464122)
+2025-02-17 15:37:29,530 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:24.464182, end: 2025-02-17 23:37:29.464122)
+2025-02-17 15:37:34,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:29.464122, end: 2025-02-17 23:37:34.464264)
+2025-02-17 15:37:34,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:29.464122, end: 2025-02-17 23:37:34.464264)
+2025-02-17 15:37:39,500 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:34.464264, end: 2025-02-17 23:37:39.464140)
+2025-02-17 15:37:39,533 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:34.464264, end: 2025-02-17 23:37:39.464140)
+2025-02-17 15:37:44,496 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:39.464140, end: 2025-02-17 23:37:44.464175)
+2025-02-17 15:37:44,529 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:39.464140, end: 2025-02-17 23:37:44.464175)
+2025-02-17 15:37:49,497 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:44.464175, end: 2025-02-17 23:37:49.463827)
+2025-02-17 15:37:49,531 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-17 23:37:44.464175, end: 2025-02-17 23:37:49.463827)

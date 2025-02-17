@@ -6316,3 +6316,92 @@
 2025-02-17 15:32:07,879 - basicLogger - INFO - Period processing has ended
 2025-02-17 15:32:12,812 - basicLogger - INFO - Periodic processing has started
 2025-02-17 15:32:17,812 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:04,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:04,465 - basicLogger - INFO - Stats file does not exist. Using default values.
+2025-02-17 15:36:04,563 - basicLogger - INFO - Number of ship events: 30, Number of container events: 30
+2025-02-17 15:36:04,563 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 30, 'num_containers_proccessed': 30, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:04.465020Z'}
+2025-02-17 15:36:04,563 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:09,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:09,534 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:09,534 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 30, 'num_containers_proccessed': 30, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:09.464520Z'}
+2025-02-17 15:36:09,534 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:14,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:14,533 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:14,533 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 30, 'num_containers_proccessed': 30, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:14.464716Z'}
+2025-02-17 15:36:14,533 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:19,463 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:19,537 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:19,537 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 30, 'num_containers_proccessed': 30, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:19.463993Z'}
+2025-02-17 15:36:19,537 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:24,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:24,544 - basicLogger - INFO - Number of ship events: 2, Number of container events: 2
+2025-02-17 15:36:24,544 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 32, 'num_containers_proccessed': 32, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:24.464095Z'}
+2025-02-17 15:36:24,544 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:29,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:29,530 - basicLogger - INFO - Number of ship events: 2, Number of container events: 2
+2025-02-17 15:36:29,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:29.464413Z'}
+2025-02-17 15:36:29,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:34,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:34,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:34,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:34.464414Z'}
+2025-02-17 15:36:34,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:39,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:39,534 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:39,534 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:39.464072Z'}
+2025-02-17 15:36:39,534 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:44,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:44,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:44,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:44.464389Z'}
+2025-02-17 15:36:44,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:49,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:49,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:49,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:49.464183Z'}
+2025-02-17 15:36:49,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:54,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:54,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:54,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:54.464308Z'}
+2025-02-17 15:36:54,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:36:59,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:36:59,534 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:36:59,534 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:36:59.464555Z'}
+2025-02-17 15:36:59,534 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:04,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:04,531 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:04,531 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:04.464141Z'}
+2025-02-17 15:37:04,531 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:09,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:09,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:09,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:09.464141Z'}
+2025-02-17 15:37:09,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:14,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:14,531 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:14,531 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:14.464074Z'}
+2025-02-17 15:37:14,531 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:19,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:19,535 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:19,536 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:19.464277Z'}
+2025-02-17 15:37:19,536 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:24,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:24,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:24,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:24.464182Z'}
+2025-02-17 15:37:24,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:29,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:29,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:29,531 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:29.464122Z'}
+2025-02-17 15:37:29,531 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:34,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:34,530 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:34,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:34.464264Z'}
+2025-02-17 15:37:34,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:39,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:39,534 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:39,534 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:39.464140Z'}
+2025-02-17 15:37:39,534 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:44,464 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:44,529 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:44,530 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:44.464175Z'}
+2025-02-17 15:37:44,530 - basicLogger - INFO - Period processing has ended
+2025-02-17 15:37:49,463 - basicLogger - INFO - Periodic processing has started
+2025-02-17 15:37:49,532 - basicLogger - INFO - Number of ship events: 0, Number of container events: 0
+2025-02-17 15:37:49,532 - basicLogger - DEBUG - New stat values: {'num_ships_arrived': 34, 'num_containers_proccessed': 34, 'max_containers_onboard': 9734, 'heaviest_container': 9756142, 'lightest_container': 20825, 'last_updated': '2025-02-17T23:37:49.463827Z'}
+2025-02-17 15:37:49,532 - basicLogger - INFO - Period processing has ended
