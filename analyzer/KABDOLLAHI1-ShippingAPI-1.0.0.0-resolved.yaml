@@ -1,0 +1,142 @@
+openapi: 3.0.0
+info:
+  title: Port
+  description: Port event tracking
+  version: 1.0.0.0
+servers:
+  - url: /
+paths:
+  /ship_arrival:
+    get:
+      tags:
+        - ships
+      summary: Gets ship arrival data
+      operationId: app.get_ship_event
+      description: Gets ship arrival data
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        "200":
+          description: Successfully returned a list of ship arrival events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Ship_Arrival"
+
+  /container_processing:
+    get:
+      tags:
+        - ships
+      summary: Gets container processing data
+      operationId: app.get_container_event
+      description: Gets container processing data
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: Limits the number of readings returned
+          schema:
+            type: string
+            format: date-time
+            example: 2016-08-29T09:12:33.001Z
+      responses:
+        "200":
+          description: Successfully returned a list of container processing events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Container_Processing"
+components:
+  schemas:
+    Ship_Arrival:
+      required:
+        - ship_id
+        - port_id
+        - containers_onboard
+        - docking_time
+        - origin_country
+        - trace_id
+      title: Ship_Arrival
+      type: object
+      properties:
+        id:
+          type: number
+        ship_id:
+          type: number
+        port_id:
+          type: number
+          x-stoplight:
+            id: 7o2upxybyi8af
+        containers_onboard:
+          type: number
+          x-stoplight:
+            id: tqb3u54ijnr18
+        docking_time:
+          type: string
+          format: date-time
+          x-stoplight:
+            id: 4vx9e78s0qgvm
+        origin_country:
+          type: string
+          x-stoplight:
+            id: hwkbaf3smjas7
+        trace_id:
+          type: string
+      description: ""
+    Container_Processing:
+      required:
+        - container_id
+        - processing_hub_id
+        - container_weight
+        - destination
+        - unloading_time
+        - trace_id
+      title: Container_Processing
+      type: object
+      properties:
+        id:
+          type: number
+        container_id:
+          type: number
+        processing_hub_id:
+          type: number
+          x-stoplight:
+            id: nhbyjvmuueuz7
+        container_weight:
+          type: number
+          x-stoplight:
+            id: zgepuhdzuh05g
+        destination:
+          type: string
+          x-stoplight:
+            id: f15qb11kgqqof
+        unloading_time:
+          type: string
+          format: date-time
+          x-stoplight:
+            id: wo510kxf9qn30
+        trace_id:
+          type: string

@@ -41,6 +41,9 @@ def process_messages():
 
     # This is blocking - it will wait for a new message
     for msg in consumer:
+        logger.debug("in for LOOP")
+        logger.debug(msg)
+
         msg_str = msg.value.decode("utf-8")
         msg = json.loads(msg_str)
         logger.info("Message: %s" % msg)
@@ -48,13 +51,18 @@ def process_messages():
 
         if msg["type"] == "ship_arrival":
             session = make_session()
+            logger.debug("IN IF STATEMENT")
 
             event = ShipArrivals(**payload)
+            logger.debug(event)
+            logger.debug(event.docking_time)
 
             event.docking_time = datetime.strptime(
-                event.docking_time, "%Y-%m-%dT%H:%M:%S.%fZ"
+                event.docking_time, "%Y-%m-%dT%H:%M:%SZ"
             )
             trace_id = event.trace_id
+
+            logger.debug(event)
 
             session.add(event)
             session.commit()
@@ -69,7 +77,7 @@ def process_messages():
             event = ContainerProcessing(**payload)
 
             event.unloading_time = datetime.strptime(
-                event.unloading_time, "%Y-%m-%dT%H:%M:%S.%fZ"
+                event.unloading_time, "%Y-%m-%dT%H:%M:%SZ"
             )
 
             trace_id = event.trace_id
@@ -89,8 +97,8 @@ def process_messages():
 def get_ship_event(start_timestamp, end_timestamp):
     session = make_session()
 
-    start = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
-    end = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    start = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
     statement = (
         select(ShipArrivals)
@@ -112,8 +120,8 @@ def get_ship_event(start_timestamp, end_timestamp):
 def get_container_event(start_timestamp, end_timestamp):
     session = make_session()
 
-    start = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
-    end = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    start = datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%SZ")
+    end = datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%SZ")
 
     statement = (
         select(ContainerProcessing)
@@ -127,7 +135,7 @@ def get_container_event(start_timestamp, end_timestamp):
     session.close()
 
     logger.info(
-        "Found %d ship arrival events (start: %s, end: %s)", len(results), start, end
+        "Found %d ship container events (start: %s, end: %s)", len(results), start, end
     )
     return results
 

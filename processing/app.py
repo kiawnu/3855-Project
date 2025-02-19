@@ -4,7 +4,7 @@ import json
 import logging
 import yaml
 import httpx
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import jsonify
@@ -49,11 +49,11 @@ def get_stats():
 def populate_stats():
     logger.info("Periodic processing has started")
 
-    current_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
+    current_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     # time.sleep(5)
 
     # If no JSON file present, will use the default value to get all events
-    default_values = {"last_updated": "1970-02-10T12:34:56.789Z"}
+    default_values = {"last_updated": "1970-02-10T12:34:56Z"}
 
     if STATS_FILE_PATH.is_file():
         with open(STATS_FILE, "r") as f:
@@ -70,8 +70,16 @@ def populate_stats():
             "last_updated": default_values["last_updated"],
         }
 
+    start = stats_json["last_updated"]
+    # timestamp = datetime.strptime(start, "%Y-%m-%dT%H:%M:%SZ")
+
+    # new_timestamp = timestamp + timedelta(seconds=1)
+
+    # # Convert the new datetime object back to a string in the same format
+    # new_timestamp_str = new_timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
+
     params = {
-        "start_timestamp": stats_json["last_updated"],
+        "start_timestamp": start,
         "end_timestamp": current_time,
     }
 
@@ -139,16 +147,19 @@ def populate_stats():
             ship_events[-1]["date_created"], "%Y-%m-%dT%H:%M:%SZ"
         )
 
-    # Get the most recent timestamp
+        # Get the most recent timestamp
 
     if len(ship_events) > 0 and len(container_events) > 0:
-        most_recent = max(last_ship_event, last_container_event)
+        # most_recent = max(last_ship_event, last_container_event)
+        most_recent = max(last_container_event, last_ship_event)
 
         # Convert back to proper format
-        date_formatted = most_recent.strftime("%Y-%m-%dT%H:%M:%S.%fZ")[:-3] + "Z"
+        date_formatted = most_recent.strftime("%Y-%m-%dT%H:%M:%SZ")[:-2] + "Z"
+        logger.debug(date_formatted)
         stats_json["last_updated"] = date_formatted
 
-    stats_json["last_updated"] = current_time
+    else:
+        stats_json["last_updated"] = current_time
 
     with open(STATS_FILE, "w") as f:
         json.dump(stats_json, f, indent=4)

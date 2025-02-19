@@ -4,3 +4,4 @@ receiver/arrival.jmx
 **/app_conf.yml
 jmeter*
 **/app.log
+app.log
