@@ -149,17 +149,18 @@ def populate_stats():
 
         # Get the most recent timestamp
 
-    if len(ship_events) > 0 and len(container_events) > 0:
-        # most_recent = max(last_ship_event, last_container_event)
-        most_recent = max(last_container_event, last_ship_event)
+    # if len(ship_events) > 0 and len(container_events) > 0:
+    #     # most_recent = max(last_ship_event, last_container_event)
+    #     most_recent = max(last_container_event, last_ship_event)
 
-        # Convert back to proper format
-        date_formatted = most_recent.strftime("%Y-%m-%dT%H:%M:%SZ")[:-2] + "Z"
-        logger.debug(date_formatted)
-        stats_json["last_updated"] = date_formatted
+    #     # Convert back to proper format
+    #     date_formatted = most_recent.strftime("%Y-%m-%dT%H:%M:%SZ")
+    #     logger.debug(date_formatted)
+    #     stats_json["last_updated"] = date_formatted
 
-    else:
-        stats_json["last_updated"] = current_time
+    # else:
+    #     stats_json["last_updated"] = current_time
+    stats_json["last_updated"] = current_time
 
     with open(STATS_FILE, "w") as f:
         json.dump(stats_json, f, indent=4)
