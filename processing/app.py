@@ -71,12 +71,6 @@ def populate_stats():
         }
 
     start = stats_json["last_updated"]
-    # timestamp = datetime.strptime(start, "%Y-%m-%dT%H:%M:%SZ")
-
-    # new_timestamp = timestamp + timedelta(seconds=1)
-
-    # # Convert the new datetime object back to a string in the same format
-    # new_timestamp_str = new_timestamp.strftime("%Y-%m-%dT%H:%M:%SZ")
 
     params = {
         "start_timestamp": start,

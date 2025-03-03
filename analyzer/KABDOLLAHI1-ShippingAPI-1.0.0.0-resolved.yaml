@@ -10,65 +10,84 @@ paths:
     get:
       tags:
         - ships
-      summary: Gets ship arrival data
+      summary: Returns ship event in the Kafka queue
       operationId: app.get_ship_event
-      description: Gets ship arrival data
+      description: Returns the ship event located at index NUMBER in the Kafka queue
       parameters:
-        - name: start_timestamp
+        - name: index
           in: query
-          description: Limits the number of readings returned
+          description: Event index to pull
           schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
-        - name: end_timestamp
-          in: query
-          description: Limits the number of readings returned
-          schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
+            type: number
+            format: integer
+            example: 5
       responses:
         "200":
-          description: Successfully returned a list of ship arrival events
+          description: Successfully returned requeted event
           content:
             application/json:
               schema:
-                type: array
+                type: object
                 items:
                   $ref: "#/components/schemas/Ship_Arrival"
+        "404":
+          description: No event found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
 
   /container_processing:
     get:
       tags:
-        - ships
-      summary: Gets container processing data
+        - containers
+      summary: Returns container event in the Kafka queue
       operationId: app.get_container_event
-      description: Gets container processing data
+      description: Returns the container event located at index NUMBER in the Kafka queue
       parameters:
-        - name: start_timestamp
+        - name: index
           in: query
-          description: Limits the number of readings returned
+          description: Event index to pull
           schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
-        - name: end_timestamp
-          in: query
-          description: Limits the number of readings returned
-          schema:
-            type: string
-            format: date-time
-            example: 2016-08-29T09:12:33.001Z
+            type: number
+            format: integer
+            example: 5
       responses:
         "200":
-          description: Successfully returned a list of container processing events
+          description: Successfully returned requeted event
           content:
             application/json:
               schema:
-                type: array
+                type: object
                 items:
                   $ref: "#/components/schemas/Container_Processing"
+        "404":
+          description: No event found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /stats:
+    get:
+      summary: Get stats about events
+      operationId: app.get_stats
+      description: Get stats about events
+      responses:
+        "200":
+          description: Successfully returned stats
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Stats"
+
 components:
   schemas:
     Ship_Arrival:
@@ -78,7 +97,6 @@ components:
         - containers_onboard
         - docking_time
         - origin_country
-        - trace_id
       title: Ship_Arrival
       type: object
       properties:
@@ -103,8 +121,6 @@ components:
           type: string
           x-stoplight:
             id: hwkbaf3smjas7
-        trace_id:
-          type: string
       description: ""
     Container_Processing:
       required:
@@ -113,7 +129,6 @@ components:
         - container_weight
         - destination
         - unloading_time
-        - trace_id
       title: Container_Processing
       type: object
       properties:
@@ -138,5 +153,7 @@ components:
           format: date-time
           x-stoplight:
             id: wo510kxf9qn30
-        trace_id:
-          type: string
+    Stats:
+      required:
+        - num_ship_events
+        - num_container_events

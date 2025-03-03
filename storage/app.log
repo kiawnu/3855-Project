@@ -18231,3 +18231,27 @@
 2025-02-19 15:08:45,329 - basicLogger - INFO - Found 0 ship container events (start: 2025-02-19 23:08:40, end: 2025-02-19 23:08:45)
 2025-02-19 15:08:50,294 - basicLogger - INFO - Found 0 ship arrival events (start: 2025-02-19 23:08:45, end: 2025-02-19 23:08:50)
 2025-02-19 15:08:50,329 - basicLogger - INFO - Found 0 ship container events (start: 2025-02-19 23:08:45, end: 2025-02-19 23:08:50)
+2025-03-02 18:26:50,929 - basicLogger - DEBUG - in for LOOP
+2025-03-02 18:26:50,930 - basicLogger - DEBUG - <pykafka.protocol.message.Message object at 0x78b73cd860a0>
+2025-03-02 18:26:50,930 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-03-02T18:26:50.916903Z', 'payload': {'ship_id': 6793836, 'port_id': 6013056, 'containers_onboard': 5837, 'docking_time': '2012-6-25T15:53:2Z', 'origin_country': 'UODPMKFSWK', 'trace_id': 'd9082f12-0279-47a6-8ba1-d311dad69e38'}}
+2025-03-02 18:26:50,930 - basicLogger - DEBUG - IN IF STATEMENT
+2025-03-02 18:26:50,931 - basicLogger - DEBUG - <models.ShipArrivals object at 0x78b73ff3ab60>
+2025-03-02 18:26:50,931 - basicLogger - DEBUG - 2012-6-25T15:53:2Z
+2025-03-02 18:26:50,932 - basicLogger - DEBUG - <models.ShipArrivals object at 0x78b73ff3ab60>
+2025-03-02 18:26:50,948 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of d9082f12-0279-47a6-8ba1-d311dad69e38
+2025-03-02 18:26:50,950 - basicLogger - DEBUG - in for LOOP
+2025-03-02 18:26:50,950 - basicLogger - DEBUG - <pykafka.protocol.message.Message object at 0x78b73cd861f0>
+2025-03-02 18:26:50,950 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-03-02T18:26:50.934458Z', 'payload': {'container_id': 8902041, 'processing_hub_id': 2812729, 'container_weight': 216, 'destination': 'ZXSGCDXYSP', 'unloading_time': '2022-9-24T3:22:52Z', 'trace_id': '94d7ebbf-4204-494c-ac1e-6fd14ce6fb8f'}}
+2025-03-02 18:26:50,960 - basicLogger - DEBUG - Stored event report_container_processed with trace id of 94d7ebbf-4204-494c-ac1e-6fd14ce6fb8f
+2025-03-02 18:37:53,178 - basicLogger - DEBUG - in for LOOP
+2025-03-02 18:37:53,179 - basicLogger - DEBUG - <pykafka.protocol.message.Message object at 0x7d690e6c0900>
+2025-03-02 18:37:53,179 - basicLogger - INFO - Message: {'type': 'ship_arrival', 'datetime': '2025-03-02T18:37:19.734757Z', 'payload': {'ship_id': 4180045, 'port_id': 5814718, 'containers_onboard': 9983, 'docking_time': '2001-6-12T7:54:48Z', 'origin_country': 'FJRWSEMLAR', 'trace_id': '2f374862-3372-4b10-828b-7b1de3295623'}}
+2025-03-02 18:37:53,179 - basicLogger - DEBUG - IN IF STATEMENT
+2025-03-02 18:37:53,180 - basicLogger - DEBUG - <models.ShipArrivals object at 0x7d690e6348b0>
+2025-03-02 18:37:53,180 - basicLogger - DEBUG - 2001-6-12T7:54:48Z
+2025-03-02 18:37:53,181 - basicLogger - DEBUG - <models.ShipArrivals object at 0x7d690e6348b0>
+2025-03-02 18:37:53,220 - basicLogger - DEBUG - Stored event report_ship_arrived with trace id of 2f374862-3372-4b10-828b-7b1de3295623
+2025-03-02 18:37:53,221 - basicLogger - DEBUG - in for LOOP
+2025-03-02 18:37:53,221 - basicLogger - DEBUG - <pykafka.protocol.message.Message object at 0x7d690e6c0970>
+2025-03-02 18:37:53,222 - basicLogger - INFO - Message: {'type': 'container_processing', 'datetime': '2025-03-02T18:37:19.842934Z', 'payload': {'container_id': 1525915, 'processing_hub_id': 506876, 'container_weight': 1000, 'destination': 'WRPJTFIFCC', 'unloading_time': '2000-8-27T13:30:22Z', 'trace_id': 'b925f54e-aae9-44b5-8ced-a8455f0341e7'}}
+2025-03-02 18:37:53,233 - basicLogger - DEBUG - Stored event report_container_processed with trace id of b925f54e-aae9-44b5-8ced-a8455f0341e7
