@@ -35,8 +35,8 @@ services:
     ports:
       - "8090"
     depends_on:
-      - kafaka
-      - mysql
+      - kafka
+      - db
     networks:
       - microservice-net
   processing:
