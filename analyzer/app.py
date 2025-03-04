@@ -21,11 +21,6 @@ TOPIC = app_config["kafka"]["topic"]
 INTERVAL = app_config["scheduler"]["interval"]
 
 # Kafka
-client = KafkaClient(hosts=f"{HOST}:{PORT}")
-topic = client.topics[str.encode(f"{TOPIC}")]
-consumer = topic.get_simple_consumer(
-    reset_offset_on_start=True, consumer_timeout_ms=1000
-)
 
 # Start logger
 logger = logging.getLogger("basicLogger")
@@ -33,6 +28,11 @@ logger.info("Analyzer service started")
 
 
 def get_ship_event(index):
+    client = KafkaClient(hosts=f"{HOST}:{PORT}")
+    topic = client.topics[str.encode(f"{TOPIC}")]
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True, consumer_timeout_ms=1000
+    )
     counter = 0
     for msg in consumer:
         message = msg.value.decode("utf-8")
@@ -49,6 +49,11 @@ def get_ship_event(index):
 
 
 def get_container_event(index):
+    client = KafkaClient(hosts=f"{HOST}:{PORT}")
+    topic = client.topics[str.encode(f"{TOPIC}")]
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True, consumer_timeout_ms=1000
+    )
     counter = 0
     for msg in consumer:
         message = msg.value.decode("utf-8")
@@ -66,6 +71,11 @@ def get_container_event(index):
 
 # Get stats endpoint function
 def get_stats():
+    client = KafkaClient(hosts=f"{HOST}:{PORT}")
+    topic = client.topics[str.encode(f"{TOPIC}")]
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True, consumer_timeout_ms=1000
+    )
     ship_counter = 0
     container_counter = 0
     for msg in consumer:
