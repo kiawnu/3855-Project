@@ -1,9 +1,9 @@
 version: 1
 events:
   ship_arrivals:
-    url: http://localhost:8090/ship/arrival
+    url: http://storage:8090/ship/arrival
   container_processing:
-    url: http://localhost:8090/container/arrival
-  hostname: localhost
+    url: http://storage:8090/container/arrival
+  hostname: kafka
   port: 9092
   topic: events
