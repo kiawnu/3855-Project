@@ -18,9 +18,9 @@ with open("log_conf.yml", "r") as f:
 HOST = app_config["kafka"]["hostname"]
 PORT = app_config["kafka"]["port"]
 TOPIC = app_config["kafka"]["topic"]
-
-
 INTERVAL = app_config["scheduler"]["interval"]
+
+# Kafka
 client = KafkaClient(hosts=f"{HOST}:{PORT}")
 topic = client.topics[str.encode(f"{TOPIC}")]
 consumer = topic.get_simple_consumer(
@@ -29,6 +29,7 @@ consumer = topic.get_simple_consumer(
 
 # Start logger
 logger = logging.getLogger("basicLogger")
+logger.info("Analyzer service started")
 
 
 def get_ship_event(index):
@@ -40,9 +41,10 @@ def get_ship_event(index):
 
         if data["type"] == "ship_arrival":
             if counter == index:
+                logger.info(f"ship event found at index {counter}")
                 return payload, 200
             counter += 1
-    # Look for the index requested and return the payload with 200 status code
+
     return {"message": f"No message at index {index}!"}, 404
 
 
@@ -55,10 +57,10 @@ def get_container_event(index):
 
         if data["type"] == "container_processing":
             if counter == index:
+                logger.info(f"Container event found at index {counter}")
                 return payload, 200
             counter += 1
 
-    # Look for the index requested and return the payload with 200 status code
     return {"message": f"No message at index {index}!"}, 404
 
 
@@ -73,7 +75,9 @@ def get_stats():
             ship_counter += 1
         if data["type"] == "container_processing":
             container_counter += 1
+
     stats = {"num_ship_events": ship_counter, "num_container_events": container_counter}
+    logger.info(f"Returning stats {stats} ")
 
     return stats, 200
 
