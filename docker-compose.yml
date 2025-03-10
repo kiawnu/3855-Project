@@ -1,11 +1,15 @@
 services:
   zookeeper:
     image: wurstmeister/zookeeper
+    networks:
+      - microservice-net
   kafka: 
     image: wurstmeister/kafka
-    command: [start-kafka.sh]
+    command: ["/bin/bash", "/reset_cluster.sh"]
     ports:
       - "9092:9092"
+    networks:
+      - microservice-net
     environment:
       KAFKA_CREATE_TOPICS: "events:1:1" 
       KAFKA_ADVERTISED_HOST_NAME: localhost 
@@ -16,12 +20,14 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+      - ./reset_cluster.sh:/reset_cluster.sh
     depends_on:
       - zookeeper
   receiver:
     build: 
       context: receiver
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "8080:8080"
     depends_on:
@@ -32,6 +38,7 @@ services:
     build: 
       context: storage
       dockerfile: Dockerfile
+    restart: always
     ports:
       - "8090"
     depends_on:

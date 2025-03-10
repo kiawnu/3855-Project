@@ -25,7 +25,7 @@ USER nobody
 EXPOSE 8090
 
 # Entrypoint = run Python
-ENTRYPOINT [ "python3" ]
+ENTRYPOINT [ "/bin/bash" ]
 
 # Default = run app.py
-CMD [ "app.py" ]
+CMD [ "-c", "python3 db.py && python3 app.py" ]

@@ -2,10 +2,10 @@ version: 1
 datastore:
   user: dev1
   password: Dev1-mysql
-  hostname: mysql
+  hostname: db
   port: 3306
   db: port-data
 events:
   hostname: kafka
-  port: 9092
+  port: 29092
   topic: events
