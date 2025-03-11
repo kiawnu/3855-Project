@@ -4,7 +4,7 @@ import sys
 import yaml
 from models import Base
 
-with open("/app/data/app_conf.yml", "r") as f:
+with open("/app/config/app_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
 USER = app_config["datastore"]["user"]

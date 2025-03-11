@@ -1,0 +1,8 @@
+{
+    "num_ships_arrived": 0,
+    "num_containers_proccessed": 0,
+    "max_containers_onboard": 0,
+    "heaviest_container": 0,
+    "lightest_container": 10000000,
+    "last_updated": "2025-03-11T17:45:07Z"
+}

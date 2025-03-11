@@ -32,7 +32,9 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/receiver:/app/data:ro
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/receiver:/app/config
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/logs:/app/logs
+
     depends_on:
       - kafka
     networks:
@@ -43,7 +45,9 @@ services:
       dockerfile: Dockerfile
     restart: always
     volumes:
-      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/storage:/app/data:ro
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/storage:/app/config
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/logs:/app/logs
+
     ports:
       - "8090"
     depends_on:
@@ -58,7 +62,9 @@ services:
     ports:
      - "8100:8100"
     volumes:
-      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/processing:/app/data:ro
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/processing:/app/config
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/logs:/app/logs
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/data/processing:/app/stats
     depends_on:
       - storage
       - receiver
@@ -69,7 +75,8 @@ services:
       context: analyzer
       dockerfile: Dockerfile
     volumes:
-      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/analyzer:/app/data:ro
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/analyzer:/app/config
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/logs:/app/logs
     ports:
      - "8200:8200"
     depends_on:

@@ -3,6 +3,9 @@ FROM python:3
 LABEL maintainer="kabdollahi@my.bcit.ca"
 
 RUN mkdir /app
+RUN mkdir -p /app/data
+RUN mkdir -p /app/logs
+RUN mkdir -p /app/config
 # We copy just the requirements.txt first to leverage Docker cache
 # on `pip install`
 

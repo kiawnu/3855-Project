@@ -8,10 +8,10 @@ import datetime
 from connexion import NoContent
 from pykafka import KafkaClient
 
-with open("/app/data/app_conf.yml", "r") as f:
+with open("/app/config/app_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
-with open("/app/data/log_conf.yml", "r") as f:
+with open("/app/config/log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
     logging.config.dictConfig(LOG_CONFIG)
 
