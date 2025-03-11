@@ -11,10 +11,10 @@ from db import make_session
 from models import ShipArrivals, ContainerProcessing
 from sqlalchemy import select
 
-with open("app_conf.yml", "r") as f:
+with open("/app/data/app_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
-with open("log_conf.yml", "r") as f:
+with open("/app/data/log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
     logging.config.dictConfig(LOG_CONFIG)
 

@@ -19,6 +19,7 @@ services:
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
+      - ACIT3855-storage:/kafka
       - /var/run/docker.sock:/var/run/docker.sock
       - ./reset_cluster.sh:/reset_cluster.sh
     depends_on:
@@ -30,6 +31,8 @@ services:
     restart: always
     ports:
       - "8080:8080"
+    volumes:
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/receiver:/app/data:ro
     depends_on:
       - kafka
     networks:
@@ -39,6 +42,8 @@ services:
       context: storage
       dockerfile: Dockerfile
     restart: always
+    volumes:
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/storage:/app/data:ro
     ports:
       - "8090"
     depends_on:
@@ -52,6 +57,8 @@ services:
       dockerfile: Dockerfile
     ports:
      - "8100:8100"
+    volumes:
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/processing:/app/data:ro
     depends_on:
       - storage
       - receiver
@@ -61,6 +68,8 @@ services:
     build:
       context: analyzer
       dockerfile: Dockerfile
+    volumes:
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/analyzer:/app/data:ro
     ports:
      - "8200:8200"
     depends_on:
@@ -68,7 +77,6 @@ services:
       - storage
     networks:
       - microservice-net
-    
   db:
     image: mysql
     environment:
