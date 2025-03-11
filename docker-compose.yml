@@ -21,7 +21,7 @@ services:
     volumes:
       - ACIT3855-storage:/kafka
       - /var/run/docker.sock:/var/run/docker.sock
-      - ./reset_cluster.sh:/reset_cluster.sh
+      - ./scripts/reset_cluster.sh:/reset_cluster.sh
     depends_on:
       - zookeeper
   receiver:
