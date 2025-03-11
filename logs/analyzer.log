@@ -8,3 +8,23 @@
 2025-03-11 17:49:39,180 - basicLogger - INFO - Analyzer service started
 2025-03-11 18:04:39,359 - basicLogger - INFO - Analyzer service started
 2025-03-11 18:04:39,399 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:14:00,033 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:14:00,071 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:19:04,683 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:19:04,722 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:20:00,760 - basicLogger - INFO - Returning stats {'num_ship_events': 0, 'num_container_events': 0} 
+2025-03-11 18:52:54,826 - basicLogger - INFO - Returning stats {'num_ship_events': 0, 'num_container_events': 0} 
+2025-03-11 18:53:24,032 - basicLogger - INFO - Returning stats {'num_ship_events': 1, 'num_container_events': 1} 
+2025-03-11 18:54:56,621 - basicLogger - INFO - Returning stats {'num_ship_events': 1, 'num_container_events': 1} 
+2025-03-11 18:56:56,711 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:56:56,748 - basicLogger - INFO - Analyzer service started
+2025-03-11 18:57:03,640 - basicLogger - INFO - Returning stats {'num_ship_events': 0, 'num_container_events': 0} 
+2025-03-11 18:58:56,976 - basicLogger - INFO - Returning stats {'num_ship_events': 25, 'num_container_events': 25} 
+2025-03-11 19:05:41,392 - basicLogger - INFO - Analyzer service started
+2025-03-11 19:05:41,438 - basicLogger - INFO - Analyzer service started
+2025-03-11 19:22:00,013 - basicLogger - INFO - Analyzer service started
+2025-03-11 19:22:00,053 - basicLogger - INFO - Analyzer service started
+2025-03-11 19:32:24,212 - basicLogger - INFO - Analyzer service started
+2025-03-11 19:32:24,256 - basicLogger - INFO - Analyzer service started
+2025-03-11 19:32:52,914 - basicLogger - INFO - Returning stats {'num_ship_events': 0, 'num_container_events': 0} 
+2025-03-11 19:33:15,866 - basicLogger - INFO - Returning stats {'num_ship_events': 25, 'num_container_events': 25} 

@@ -19,7 +19,7 @@ paths:
           content:
             application/json:
               schema:
-                type: array
+                type: object
                 items:
                   $ref: "#/components/schemas/ReadingStats"
 
@@ -41,6 +41,7 @@ components:
         - max_containers_onboard
         - heaviest_container
         - lightest_container
+        - last_updated
       properties:
         num_ships_arrived:
           type: integer
@@ -57,4 +58,7 @@ components:
         lightest_container:
           type: integer
           example: 250
+        last_updated:
+          type: string
+          format: date-time
       type: object

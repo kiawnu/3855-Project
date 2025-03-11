@@ -3,11 +3,11 @@ services:
     image: wurstmeister/zookeeper
     networks:
       - microservice-net
+    volumes:
+      - ACIT3855-storage:/data
   kafka: 
     image: wurstmeister/kafka
     command: ["/bin/bash", "/reset_cluster.sh"]
-    ports:
-      - "9092:9092"
     networks:
       - microservice-net
     environment:
@@ -19,7 +19,7 @@ services:
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
     volumes:
-      - ACIT3855-storage:/kafka
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/data/kafka:/kafka
       - /var/run/docker.sock:/var/run/docker.sock
       - ./scripts/reset_cluster.sh:/reset_cluster.sh
     depends_on:
@@ -47,9 +47,6 @@ services:
     volumes:
       - /home/kiki/BCIT/Service_Based_Architecture/lab2/config/storage:/app/config
       - /home/kiki/BCIT/Service_Based_Architecture/lab2/logs:/app/logs
-
-    ports:
-      - "8090"
     depends_on:
       - kafka
       - db
@@ -91,12 +88,10 @@ services:
       MYSQL_USER: dev1
       MYSQL_PASSWORD: Dev1-mysql
       MYSQL_DATABASE: port-data
-    ports:
-      - 3306:3306
     networks:
       - microservice-net
     volumes:
-      - ACIT3855-storage:/var/lib/mysql
+      - /home/kiki/BCIT/Service_Based_Architecture/lab2/data/mysql:/var/lib/mysql
 
 networks:
   microservice-net:
