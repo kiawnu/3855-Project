@@ -1,0 +1,37 @@
+- name: Configure production server
+  hosts: prod
+  become: no
+  tasks:
+    - name: Clone branch from remote repo
+      ansible.builtin.git:
+        repo: git@github.com:kiawnu/3855-Project.git
+        dest: /home/dev1/3855-Project
+        single_branch: yes
+        key_file: ~/.ssh/deploy
+        version: containerize
+
+    - name: create directory structure
+      ansible.builtin.file:
+        path: /home/dev1/3855-Project/data
+        state: directory
+        mode: '0755'
+    - name: create directory structure
+      ansible.builtin.file:
+        path: /home/dev1/3855-Project/data/kafka
+        state: directory
+        mode: '0755'
+    - name: create directory structure
+      ansible.builtin.file:
+        path: /home/dev1/3855-Project/data/mysql
+        state: directory
+        mode: '0755'
+    - name: create directory structure
+      ansible.builtin.file:
+        path: /home/dev1/3855-Project/data/processing
+        state: directory
+        mode: '0755'
+    - name: create directory structure
+      ansible.builtin.file:
+        path: /home/dev1/3855-Project/logs
+        state: directory
+        mode: '0755'
