@@ -9,6 +9,7 @@
         single_branch: yes
         key_file: ~/.ssh/deploy
         version: prod
+      become: no
 
     - name: create directory structure
       ansible.builtin.file:
@@ -16,7 +17,7 @@
         state: directory
         mode: '0755'
         owner: nobody
-        group: nobody
+        group: nogroup
 
     - name: create directory structure
       ansible.builtin.file:
@@ -24,7 +25,7 @@
         state: directory
         mode: '0755'
         owner: nobody
-        group: nobody
+        group: nogroup
 
     - name: create directory structure
       ansible.builtin.file:
@@ -32,7 +33,7 @@
         state: directory
         mode: '0755'
         owner: nobody
-        group: nobody
+        group: nogroup
 
     - name: create directory structure
       ansible.builtin.file:
@@ -40,7 +41,7 @@
         state: directory
         mode: '0755'
         owner: nobody
-        group: nobody
+        group: nogroup
 
     - name: create directory structure
       ansible.builtin.file:
@@ -48,4 +49,4 @@
         state: directory
         mode: '0755'
         owner: nobody
-        group: nobody
+        group: nogroup
