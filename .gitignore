@@ -5,3 +5,4 @@ jmeter*
 **/app.log
 app.log
 data/**
+logs/
