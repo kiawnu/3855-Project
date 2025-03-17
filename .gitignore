@@ -6,3 +6,4 @@ jmeter*
 app.log
 data/**
 logs/
+arrival.jmx
