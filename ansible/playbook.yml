@@ -54,7 +54,7 @@
       ansible.builtin.copy:
         src: ../.env
         dest: /home/dev1/3855-Projects
-        owner: nodbody
+        owner: nobody
         group: nogroup
 
     - name: copy conf file
