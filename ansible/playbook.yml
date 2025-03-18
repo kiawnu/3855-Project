@@ -1,4 +1,4 @@
-- name: Configure production server
+- name: Configure production server and deploy
   hosts: prod
   become: yes
   tasks:
@@ -50,3 +50,10 @@
         mode: '0755'
         owner: nobody
         group: nogroup
+    
+    - name: Run containers
+      shell:
+        cmd: "docker compose up -d"
+        chdir: /home/dev1/3855-Project/
+
+    
