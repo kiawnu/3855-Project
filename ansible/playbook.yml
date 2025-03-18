@@ -50,6 +50,12 @@
         mode: '0755'
         owner: nobody
         group: nogroup
+    - name: copy env file
+      ansible.builtin.copy:
+        src: ../.env
+        dest: /home/dev1/3855-Projects
+        owner: nodbody
+        group: nogroup
     
     - name: Run containers
       shell:
