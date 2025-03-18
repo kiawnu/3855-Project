@@ -53,15 +53,15 @@
     - name: copy env file
       ansible.builtin.copy:
         src: ../.env
-        dest: /home/dev1/3855-Projects
+        dest: /home/dev1/3855-Project/.env
         owner: nobody
         group: nogroup
 
     - name: copy conf file
       ansible.builtin.copy:
         src: ../config/storage/app_conf.yml
-        dest: /home/dev1/3855-Projects/config/storage/app/config
-        owner: nodbody
+        dest: /home/dev1/3855-Project/config/storage/app_conf.yml
+        owner: nobody
         group: nogroup
     
     - name: Run containers
