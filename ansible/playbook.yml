@@ -56,6 +56,13 @@
         dest: /home/dev1/3855-Projects
         owner: nodbody
         group: nogroup
+
+    - name: copy conf file
+      ansible.builtin.copy:
+        src: ../config/storage/app_conf.yml
+        dest: /home/dev1/3855-Projects/config/storage/app/config
+        owner: nodbody
+        group: nogroup
     
     - name: Run containers
       shell:
