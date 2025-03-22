@@ -8,7 +8,7 @@
         dest: /home/dev1/3855-Project
         single_branch: yes
         key_file: ~/.ssh/deploy
-        version: prod
+        version: dashboard
         force: yes
       become: no
 
