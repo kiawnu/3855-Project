@@ -7,6 +7,8 @@ import httpx
 from datetime import datetime, timedelta
 from pathlib import Path
 from apscheduler.schedulers.background import BackgroundScheduler
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 from flask import jsonify
 
 # Open conf file
@@ -175,6 +177,15 @@ app.add_api(
     "KABDOLLAHI1-ShippingAPI-1.0.0.0-resolved.yaml",
     strict_validation=True,
     validate_responses=True,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 if __name__ == "__main__":

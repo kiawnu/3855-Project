@@ -4,6 +4,8 @@ import logging
 import yaml
 import json
 from pykafka import KafkaClient
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 
 # Open conf file
 with open("/app/config/app_conf.yml", "r") as f:
@@ -98,6 +100,15 @@ app.add_api(
     "KABDOLLAHI1-ShippingAPI-1.0.0.0-resolved.yaml",
     strict_validation=True,
     validate_responses=True,
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 if __name__ == "__main__":
