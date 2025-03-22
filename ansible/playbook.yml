@@ -9,6 +9,7 @@
         single_branch: yes
         key_file: ~/.ssh/deploy
         version: prod
+        force: yes
       become: no
 
     - name: create directory structure
