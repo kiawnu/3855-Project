@@ -92,7 +92,19 @@ services:
       - microservice-net
     volumes:
       - ${MYSQL_DATA}:/var/lib/mysql
-
+  dashboard:
+    build:
+      context: dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "8300:8300"
+    depends_on:
+      - receiver
+      - storage
+      - analyzer
+      - processing
+    networks:
+      - microservice-net
 networks:
   microservice-net:
     driver: bridge
