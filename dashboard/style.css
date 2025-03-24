@@ -1,41 +1,64 @@
+/* Base styling */
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+/* Use monospace for code/JSON blocks */
+code, pre {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  white-space: pre-wrap; /* Allow wrapping */
+  word-wrap: break-word;
 }
 
+/* Main container */
 #main {
-    width: 70vw;
-    margin: 0 auto;
-    font-size: larger;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+  width: 70vw;
+  margin: 0 auto;
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-#statistics, #analyzer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 1em;
+/* Header styling */
+header {
+  margin-top: 1rem;
 }
 
-#statistics > div, #analyzer > div {
-    border: 1px solid grey;
-    padding: 1em;
+/* Section styling */
+section {
+  width: 100%;
+  margin-top: 2rem;
 }
 
-#message {
-    display: none;
-    background-color: #ccc;
-    border: 1px solid orange;
-    padding: 1em;
+/* Make divs inside sections stack vertically */
+#statistics, #analyzer-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for each box (stats or event) */
+.stat-box, .event-box {
+  width: 90%;
+  border: 1px solid grey;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+/* Messages styling */
+#messages {
+  display: none; /* Hidden by default */
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+  padding: 1em;
+  margin: 1em 0;
+  width: 90%;
 }

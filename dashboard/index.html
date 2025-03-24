@@ -1,46 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="ACIT3855 statistics application" />
-    <script src="updateStats.js"></script>
-    <title>PORT DATA DASHBORAD</title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="ACIT3855 statistics application" />
+  <script src="updateStats.js" defer></script>
+  <title>PORT DATA DASHBOARD</title>
 </head>
-
 <body>
-    <main id="main">
-        <div id="header">
-            <h1>Dashboard</h1>
-        </div>
-        <h5 id="last-updated">Last update: <span id="last-updated-value">N/A</span></h5>
-        <div id="messages"></div>
-        <h2>Statistics</h2>
-        <div id="statistics">
-            <div id="processing">
-                <code id="processing-stats">Placeholder value - processing stats should appear here</code>
-            </div>
-            <div id="analyzer">
-                <code id="analyzer-stats">Placeholder value - analyzer stats should appear here</code>
-            </div>
-        </div>
-        <h2>Analyzer events</h2>
-        <div id="analyzer">
-            <div>
-                <h3>Snow event</h3>
-                <code id="event-ship">
-                </code>
-            </div>
-            <div>
-                <h3>Lift event</h3>
-                <code id="event-container">
-                </code>
-            </div>
-        </div>
-    </main>
-</body>
+  <main id="main">
+    <header id="header">
+      <h1>Dashboard</h1>
+      <h5 id="last-updated">Last update: <span id="last-updated-value">N/A</span></h5>
+    </header>
+    
+    <!-- Error / Status messages -->
+    <div id="messages"></div>
 
+    <!-- Statistics Section -->
+    <section id="statistics">
+      <h2>Statistics</h2>
+      <div class="stat-box" id="processing-box">
+        <h3>Processing Stats</h3>
+        <code id="processing-stats">
+          Placeholder value - processing stats should appear here
+        </code>
+      </div>
+      <div class="stat-box" id="analyzer-stats-box">
+        <h3>Analyzer Stats</h3>
+        <code id="analyzer-stats">
+          Placeholder value - analyzer stats should appear here
+        </code>
+      </div>
+    </section>
+
+    <!-- Analyzer Events Section -->
+    <section id="analyzer-events">
+      <h2>Analyzer Events</h2>
+      <div class="event-box" id="ship-event-box">
+        <h3>Snow Event</h3>
+        <code id="event-ship">
+          Placeholder for snow event
+        </code>
+      </div>
+      <div class="event-box" id="container-event-box">
+        <h3>Lift Event</h3>
+        <code id="event-container">
+          Placeholder for lift event
+        </code>
+      </div>
+    </section>
+  </main>
+</body>
 </html>
