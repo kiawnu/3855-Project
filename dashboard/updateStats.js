@@ -28,8 +28,17 @@ const getStats = () => {
     
     makeReq(PROCESSING_STATS_API_URL, (result) => updateCodeDiv(result, "processing-stats"))
     makeReq(ANALYZER_API_URL.stats, (result) => updateCodeDiv(result, "analyzer-stats"))
-    makeReq(ANALYZER_API_URL.ship, (result) => updateCodeDiv(result, "event-snow"))
-    makeReq(ANALYZER_API_URL.container, (result) => updateCodeDiv(result, "event-lift"))
+    // makeReq(ANALYZER_API_URL.ship, (result) => updateCodeDiv(result, "event-ship"))
+    // makeReq(ANALYZER_API_URL.container, (result) => updateCodeDiv(result, "event-container"))
+
+    const randomIndex = Math.floor(Math.random() * 25);
+    const containerURL = `${ANALYZER_API_URL.container}?index=${randomIndex}`;
+    const shipURL = `${ANALYZER_API_URL.ship}?index=${randomIndex}`;
+
+    makeReq(containerURL, (result) => updateCodeDiv(result, "event-container"));
+    makeReq(shipURL, (result) => updateCodeDiv(result, "event-ship"));
+
+
 }
 
 const updateErrorMessages = (message) => {
