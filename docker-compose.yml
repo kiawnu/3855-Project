@@ -92,6 +92,19 @@ services:
       - microservice-net
     volumes:
       - /home/kiki/BCIT/Service_Based_Architecture/lab2/data/mysql:/var/lib/mysql
+  dashboard:
+    build:
+      context: dashboard
+      dockerfile: Dockerfile
+    ports:
+      - "8300:80"
+    depends_on:
+      - receiver
+      - storage
+      - analyzer
+      - processing
+    networks:
+      - microservice-net
 
 networks:
   microservice-net:
