@@ -8,6 +8,8 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from apscheduler.schedulers.background import BackgroundScheduler
 from flask import jsonify
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 
 # Open conf file
 with open("/app/config/app_conf.yml", "r") as f:
@@ -176,6 +178,16 @@ app.add_api(
     strict_validation=True,
     validate_responses=True,
 )
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 
 if __name__ == "__main__":
     init_scheduler()

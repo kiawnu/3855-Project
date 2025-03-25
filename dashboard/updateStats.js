@@ -1,10 +1,10 @@
 /* UPDATE THESE VALUES TO MATCH YOUR SETUP */
 
-const PROCESSING_STATS_API_URL = "http://microservice-3855.westus2.cloudapp.azure.com:8100/stats"
+const PROCESSING_STATS_API_URL = "http://localhost:8100/stats"
 const ANALYZER_API_URL = {
-    stats: "http://microservice-3855.westus2.cloudapp.azure.com:8200/stats",
-    ship: "http://microservice-3855.westus2.cloudapp.azure.com:8200/ship_arrival",
-    container: "http://microservice-3855.westus2.cloudapp.azure.com:8200/container_processing"
+    stats: "http://localhost:8200/stats",
+    ship: "http://localhost:8200/ship_arrival",
+    container: "http://localhost:8200/container_processing"
 }
 
 // This function fetches and updates the general statistics
