@@ -73,6 +73,38 @@ paths:
                 properties:
                   message:
                     type: string
+  /ship_event_ids:
+    get:
+      tags:
+        - ids
+      summary: Return event ids 
+      operationId: app.get_ship_ids
+      description: Returns list of event and trace ids for ship events
+      responses:
+        "200":
+          description: Successfully returned an array of event IDs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Ship_IDs"
+  /container_event_ids:
+    get:
+      tags:
+        - ids
+      summary: Return event ids
+      operationId: app.get_container_ids
+      description: Returns list of event and trace ids for container events
+      responses:
+        "200":
+          description: Successfully returned an array of event IDs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Container_IDs"
   /stats:
     get:
       summary: Get stats about events
@@ -157,3 +189,13 @@ components:
       required:
         - num_ship_events
         - num_container_events
+    Ship_IDs:
+      type: object
+      required:
+        - event_id
+        - trace_id
+    Container_IDs:
+      type: object
+      required:
+        - event_id
+        - trace_id

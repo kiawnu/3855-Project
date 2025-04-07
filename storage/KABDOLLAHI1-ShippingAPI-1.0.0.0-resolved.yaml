@@ -69,6 +69,55 @@ paths:
                 type: array
                 items:
                   $ref: "#/components/schemas/Container_Processing"
+  /count_records:
+    get:
+      tags:
+        - records
+      summary: Counts records of each event in the db 
+      operationId: app.get_record_counts
+      description: Gets number of records for each event
+      responses:
+        "200":
+          description: Successfully returned a json object of event counts
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Record_Count"
+  /ship_event_ids:
+    get:
+      tags:
+        - ids
+      summary: Return event ids 
+      operationId: app.get_ship_ids
+      description: Returns list of event and trace ids for ship events
+      responses:
+        "200":
+          description: Successfully returned an array of event IDs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Ship_IDs"
+  /container_event_ids:
+    get:
+      tags:
+        - ids
+      summary: Return event ids
+      operationId: app.get_container_ids
+      description: Returns list of event and trace ids for container events
+      responses:
+        "200":
+          description: Successfully returned an array of event IDs
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Container_IDs"
+
 components:
   schemas:
     Ship_Arrival:
@@ -140,3 +189,17 @@ components:
             id: wo510kxf9qn30
         trace_id:
           type: string
+    Record_Count:
+      required:
+        - ship_arrival
+        - container_processing
+    Ship_IDs:
+      type: object
+      required:
+        - event_id
+        - trace_id
+    Container_IDs:
+      type: object
+      required:
+        - event_id
+        - trace_id

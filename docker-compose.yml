@@ -81,6 +81,24 @@ services:
       - storage
     networks:
       - microservice-net
+  consistency_check:
+    build: 
+      context: consistency_check
+      dockerfile: DockerfileS
+    volumes:
+       - ${CONSISTENCY_CONF}:/app/config
+       - ${CONSISTENCY_LOGS}:/app/logs
+    ports:
+     - "8400:8400"
+    depends_on:
+      - receiver
+      - storage
+      - analyzer
+      - db
+      - zookeeper
+      - kafka
+    networks:
+      - microservice-net
   db:
     image: mysql
     environment:
