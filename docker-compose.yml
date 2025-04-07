@@ -84,7 +84,7 @@ services:
   consistency_check:
     build: 
       context: consistency_check
-      dockerfile: DockerfileS
+      dockerfile: Dockerfile
     volumes:
        - ${CONSISTENCY_CONF}:/app/config
        - ${CONSISTENCY_LOGS}:/app/logs
