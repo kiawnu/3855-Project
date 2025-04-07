@@ -26,7 +26,7 @@ logger = logging.getLogger("basicLogger")
 app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(
-    "KABDOLLAHI1-ShippingAPI-1.0.0.0-resolved.yaml",
+    "consistency_check.yaml",
     strict_validation=True,
     validate_responses=True,
 )
