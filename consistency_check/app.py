@@ -21,12 +21,12 @@ with open("/app/config/log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
     logging.config.dictConfig(LOG_CONFIG)
 
-prcessing_stats = LOG_CONFIG["endpoints"]["processing_stats"]["url"]
-analyzer_ship_ids = LOG_CONFIG["endpoints"]["analyzer_stats"]["ship_url"]
-analyzer_container_ids = LOG_CONFIG["endpoints"]["analyzer_stats"]["container_url"]
+prcessing_stats = app_config["endpoints"]["processing_stats"]["url"]
+analyzer_ship_ids = app_config["endpoints"]["analyzer_stats"]["ship_url"]
+analyzer_container_ids = app_config["endpoints"]["analyzer_stats"]["container_url"]
 
-storage_ship_ids = LOG_CONFIG["endpoints"]["storage_stats"]["ship_url"]
-storage_container_ids = LOG_CONFIG["endpoints"]["storage_stats"]["container_url"]
+storage_ship_ids = app_config["endpoints"]["storage_stats"]["ship_url"]
+storage_container_ids = app_config["endpoints"]["storage_stats"]["container_url"]
 
 
 def run_consistency_checks():
