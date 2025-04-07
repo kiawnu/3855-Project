@@ -21,6 +21,32 @@ with open("/app/config/log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
     logging.config.dictConfig(LOG_CONFIG)
 
+prcessing_stats = LOG_CONFIG["endpoints"]["processing_stats"]["url"]
+analyzer_ship_ids = LOG_CONFIG["endpoints"]["analyzer_stats"]["ship_url"]
+analyzer_container_ids = LOG_CONFIG["endpoints"]["analyzer_stats"]["container_url"]
+
+storage_ship_ids = LOG_CONFIG["endpoints"]["storage_stats"]["ship_url"]
+storage_container_ids = LOG_CONFIG["endpoints"]["storage_stats"]["container_url"]
+
+
+def run_consistency_checks():
+    processing_event_counts = httpx.get(prcessing_stats)
+
+    analyzer_ship_event_ids = httpx.get(analyzer_ship_ids)
+    analyzer_container_event_ids = httpx.get(analyzer_container_ids)
+
+    storage_ship_event_ids = httpx.get(storage_ship_ids)
+    storage_container_event_ids = httpx.get(storage_container_ids)
+
+    return (
+        processing_event_counts,
+        analyzer_container_event_ids,
+        analyzer_ship_event_ids,
+        storage_container_event_ids,
+        storage_ship_event_ids,
+    )
+
+
 logger = logging.getLogger("basicLogger")
 
 app = connexion.FlaskApp(__name__, specification_dir="")

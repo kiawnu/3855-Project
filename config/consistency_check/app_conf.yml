@@ -1,11 +1,10 @@
 version: 1
-# datastore:
-#   user: dev1
-#   password: Dev1-mysql
-#   hostname: db
-#   port: 3306
-#   db: port-data
-# events:
-#   hostname: kafka
-#   port: 29092
-#   topic: events
+endpoints:
+  processing_stats: 
+    url: http://processing:8100/stats
+  analyzer_stats:
+    ship_url: http://analyzer:8200/ship_event_ids
+    container_url : http://analyzer:8200/container_event_ids
+  storage_stats:
+    ship_url: http://storage:8090/ship_event_ids
+    container_url : http://storage:8090/container_event_ids

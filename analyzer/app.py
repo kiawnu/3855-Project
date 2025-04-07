@@ -94,6 +94,48 @@ def get_stats():
     return stats, 200
 
 
+def get_ship_ids():
+    client = KafkaClient(hosts=f"{HOST}:{PORT}")
+    topic = client.topics[str.encode(f"{TOPIC}")]
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True, consumer_timeout_ms=1000
+    )
+
+    event_ids = []
+
+    for msg in consumer:
+        message = msg.value.decode("utf-8")
+        data = json.loads(message)
+        payload = data["payload"]
+        if data["type"] == "ship_arrival":
+            event_ids.append(
+                {"ship_id": payload["ship_id"], "trace_id": payload["trace_id"]}
+            )
+
+    return event_ids
+
+
+def get_container_ids():
+    client = KafkaClient(hosts=f"{HOST}:{PORT}")
+    topic = client.topics[str.encode(f"{TOPIC}")]
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True, consumer_timeout_ms=1000
+    )
+
+    event_ids = []
+
+    for msg in consumer:
+        message = msg.value.decode("utf-8")
+        data = json.loads(message)
+        payload = data["payload"]
+        if data["type"] == "container_processing":
+            event_ids.append(
+                {"ship_id": payload["container_id"], "trace_id": payload["trace_id"]}
+            )
+
+    return event_ids
+
+
 app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(

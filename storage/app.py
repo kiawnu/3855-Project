@@ -8,6 +8,7 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from datetime import datetime
 from db import make_session
+from sqlalchemy import func
 from models import ShipArrivals, ContainerProcessing
 from sqlalchemy import select
 
@@ -137,6 +138,50 @@ def get_container_event(start_timestamp, end_timestamp):
     logger.info(
         "Found %d ship container events (start: %s, end: %s)", len(results), start, end
     )
+    return results
+
+
+def get_record_counts():
+    session = make_session()
+
+    ship_count_stmt = select(func.count()).select_from(ShipArrivals)
+    ship_count = session.execute(ship_count_stmt).scalar()
+
+    container_count_stmt = select(func.count()).select_from(ContainerProcessing)
+    container_count = session.execute(container_count_stmt).scalar()
+
+    session.close()
+
+    json_obj = {"ship_arrival": ship_count, "container_processing": container_count}
+
+    return json_obj
+
+
+def get_ship_ids():
+    session = make_session()
+
+    statement = select(ShipArrivals.ship_id, ShipArrivals.trace_id)
+
+    results = [
+        result.to_dict() for result in session.execute(statement).scalars().all()
+    ]
+
+    session.close()
+
+    return results
+
+
+def get_container_ids():
+    session = make_session()
+
+    statement = select(ContainerProcessing.container_id, ContainerProcessing.trace_id)
+
+    results = [
+        result.to_dict() for result in session.execute(statement).scalars().all()
+    ]
+
+    session.close()
+
     return results
 
 
