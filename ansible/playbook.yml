@@ -67,7 +67,7 @@
     
     - name: Run containers
       shell:
-        cmd: "docker compose up -d"
+        cmd: "docker compose up -d --build"
         chdir: /home/dev1/3855-Project/
 
     
