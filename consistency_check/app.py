@@ -63,15 +63,15 @@ def run_consistency_checks():
     container_analyzer_count = len(analyzer_container_event_ids)
     container_storage_count = len(storage_container_event_ids)
 
-    trace_ids_ship_queue = {event["trace_id"] for event in analyzer_ship_event_ids}
+    trace_ids_ship_queue = {event["trace_id"] for event in analyzer_ship_event_ids_r}
 
-    trace_ids_ship_db = {event["trace_id"] for event in storage_ship_event_ids}
+    trace_ids_ship_db = {event["trace_id"] for event in storage_ship_event_ids_r}
 
     trace_ids_container_queue = {
-        event["trace_id"] for event in analyzer_container_event_ids
+        event["trace_id"] for event in analyzer_container_event_ids_r
     }
     trace_ids_container_db = {
-        event["trace_id"] for event in storage_container_event_ids
+        event["trace_id"] for event in storage_container_event_ids_r
     }
 
     missing_ship_in_db = trace_ids_ship_queue - trace_ids_ship_db
