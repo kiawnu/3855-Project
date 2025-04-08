@@ -88,6 +88,7 @@ services:
     volumes:
        - ${CONSISTENCY_CONF}:/app/config
        - ${CONSISTENCY_LOGS}:/app/logs
+       - ${CONSISTENCY_STATS}:/app/stats
     ports:
      - "8400:8400"
     depends_on:

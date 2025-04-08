@@ -46,11 +46,21 @@
 
     - name: create directory structure
       ansible.builtin.file:
+        path: /home/dev1/3855-Project/data/consistency
+        state: directory
+        mode: '0755'
+        owner: nobody
+        group: nogroup
+
+    - name: create directory structure
+      ansible.builtin.file:
         path: /home/dev1/3855-Project/logs
         state: directory
         mode: '0755'
         owner: nobody
         group: nogroup
+
+
     - name: copy env file
       ansible.builtin.copy:
         src: ../.env
