@@ -8,3 +8,6 @@ endpoints:
   storage_stats:
     ship_url: http://storage:8090/ship_event_ids
     container_url : http://storage:8090/container_event_ids
+datafile:
+  path: /app/stats/consistency_stats.json
+  file: consistency_stats.json
