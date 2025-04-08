@@ -37,14 +37,26 @@ def run_consistency_checks():
     logger.info("Update process has started...")
 
     start = time.time()
-    processing_event_counts = httpx.get(prcessing_stats)
 
-    analyzer_ship_event_ids = httpx.get(analyzer_ship_ids)
+    processing_event_counts_r = httpx.get(prcessing_stats)
 
-    analyzer_container_event_ids = httpx.get(analyzer_container_ids)
+    processing_event_counts = processing_event_counts_r.json()
 
-    storage_ship_event_ids = httpx.get(storage_ship_ids)
-    storage_container_event_ids = httpx.get(storage_container_ids)
+    analyzer_ship_event_ids_r = httpx.get(analyzer_ship_ids)
+
+    analyzer_ship_event_ids = analyzer_ship_event_ids_r.json()
+
+    analyzer_container_event_ids_r = httpx.get(analyzer_container_ids)
+
+    analyzer_container_event_ids = analyzer_container_event_ids_r.json()
+
+    storage_ship_event_ids_r = httpx.get(storage_ship_ids)
+
+    storage_ship_event_ids = storage_ship_event_ids_r.json()
+
+    storage_container_event_ids_r = httpx.get(storage_container_ids)
+
+    storage_container_event_ids = storage_container_event_ids_r.json()
 
     ship_analyzer_count = len(analyzer_ship_event_ids)
     ship_storage_count = len(storage_ship_event_ids)
