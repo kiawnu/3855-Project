@@ -15,3 +15,5 @@ datafile:
 # curl -X POST http://consistency_check:8400/update
 # curl  http://storage:8090/ship_event_ids
 # curl  http://storage:8090/container_event_ids
+# curl http://analyzer:8200/ship_event_ids
+# curl http://analyzer:8200/container_event_ids

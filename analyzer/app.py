@@ -130,7 +130,10 @@ def get_container_ids():
         payload = data["payload"]
         if data["type"] == "container_processing":
             event_ids.append(
-                {"ship_id": payload["container_id"], "trace_id": payload["trace_id"]}
+                {
+                    "container_id": payload["container_id"],
+                    "trace_id": payload["trace_id"],
+                }
             )
 
     return event_ids
