@@ -11,3 +11,5 @@ endpoints:
 datafile:
   path: /app/stats/consistency_stats.json
   file: consistency_stats.json
+
+# curl -X POST http://consistency_check:8400/update

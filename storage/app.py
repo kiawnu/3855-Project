@@ -162,9 +162,7 @@ def get_ship_ids():
 
     statement = select(ShipArrivals.ship_id, ShipArrivals.trace_id)
 
-    results = [
-        result.to_dict() for result in session.execute(statement).scalars().all()
-    ]
+    results = [result.to_dict() for result in session.execute(statement).all()]
 
     session.close()
 
@@ -176,9 +174,7 @@ def get_container_ids():
 
     statement = select(ContainerProcessing.container_id, ContainerProcessing.trace_id)
 
-    results = [
-        result.to_dict() for result in session.execute(statement).scalars().all()
-    ]
+    results = [result.to_dict() for result in session.execute(statement).all()]
 
     session.close()
 
