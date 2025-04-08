@@ -8,7 +8,7 @@ from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from datetime import datetime
 from db import make_session
-from sqlalchemy import func, 
+from sqlalchemy import func
 from models import ShipArrivals, ContainerProcessing
 from sqlalchemy import select
 
@@ -177,8 +177,8 @@ def get_container_ids():
     statement = select(ContainerProcessing.container_id, ContainerProcessing.trace_id)
 
     results = [
-    {"ship_id": ship_id, "trace_id": trace_id}
-    for ship_id, trace_id in session.execute(statement).all()
+        {"ship_id": ship_id, "trace_id": trace_id}
+        for ship_id, trace_id in session.execute(statement).all()
     ]
 
     session.close()
