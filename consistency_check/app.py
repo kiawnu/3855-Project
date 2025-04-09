@@ -81,25 +81,25 @@ def run_consistency_checks():
 
     missing_ship_events_in_db = [
         event
-        for event in storage_ship_event_ids
+        for event in analyzer_ship_event_ids
         if event["trace_id"] in missing_ship_in_db
     ]
 
     missing_ship_events_in_queue = [
         event
-        for event in analyzer_ship_event_ids
+        for event in storage_ship_event_ids
         if event["trace_id"] in missing_ship_in_queue
     ]
 
     missing_container_events_in_db = [
         event
-        for event in storage_container_event_ids
+        for event in analyzer_container_event_ids
         if event["trace_id"] in missing_container_in_db
     ]
 
     missing_container_events_in_queue = [
         event
-        for event in analyzer_container_event_ids
+        for event in storage_container_event_ids
         if event["trace_id"] in missing_container_in_queue
     ]
 
