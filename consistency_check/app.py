@@ -139,9 +139,9 @@ def run_consistency_checks():
 
         with open(stats_file_path, "w") as f:
             f.write(json.dumps({}))
-    else:
-        with open(stats_file_path, "w") as f:
-            json.dump(stats_json)
+
+    with open(stats_file_path, "w") as f:
+        json.dump(stats_json, f)
 
     return {"processing_time_ms": processing_time_ms}
 
