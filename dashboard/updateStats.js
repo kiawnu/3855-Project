@@ -60,6 +60,56 @@ const getStats = () => {
 
 }
 
+//START
+document.addEventListener('DOMContentLoaded', () => {
+  // Update the endpoints URLs as per your host
+  const updateUrl = 'http://microservice-3855.westus2.cloudapp.azure.com:8400/update';
+  const checksUrl = 'http://microservice-3855.westus2.cloudapp.azure.com:8400/checks';
+
+  // Event listener for running consistency checks
+  document.getElementById('run-checks-button').addEventListener('click', async () => {
+    const shipEventCode = document.getElementById('update-result');
+    shipEventCode.textContent = 'Running consistency checks...';
+
+    try {
+      const response = await fetch(updateUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      if (!response.ok) {
+        throw new Error(`Server responded with status ${response.status}`);
+      }
+      const data = await response.json();
+      
+      shipEventCode.textContent = `Processing Time (ms): ${data.processing_time_ms}`;
+    } catch (error) {
+      shipEventCode.textContent = `Error: ${error.message}`;
+    }
+  });
+
+  // Event listener for getting detailed check results
+  document.getElementById('get-checks-button').addEventListener('click', async () => {
+    const containerEventCode = document.getElementById('check-result');
+    containerEventCode.textContent = 'Fetching check results...';
+
+    try {
+      const response = await fetch(checksUrl);
+      if (!response.ok) {
+        throw new Error(`Server responded with status ${response.status}`);
+      }
+      const data = await response.json();
+      // Pretty-print the JSON response
+      containerEventCode.textContent = JSON.stringify(data, null, 2);
+    } catch (error) {
+      containerEventCode.textContent = `Error: ${error.message}`;
+    }
+  });
+});
+//END
+
+
 const updateErrorMessages = (message) => {
     const id = Date.now()
     console.log("Creation", id)

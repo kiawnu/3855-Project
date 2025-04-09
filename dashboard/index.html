@@ -20,6 +20,14 @@
       <h1>Dashboard</h1>
       <h5 id="last-updated">Last update: <span id="last-updated-value">N/A</span></h5>
     </header>
+
+    <section id="endpoint-buttons">
+      <h2>Actions</h2>
+      <button id="run-checks-button">Run Consistency Checks</button>
+      <button id="get-checks-button">Get Check Results</button>
+    </section>
+
+
     <div id="messages"></div>
     <section id="statistics">
       <h2>Statistics</h2>
@@ -52,6 +60,26 @@
         </code>
       </div>
     </section>
+
+      <section id="analyzer-events">
+      <h2>Consistency Checks</h2>
+      <div class="event-box" id="ship-event-box">
+        <h3>Consistency Check Result</h3>
+        <code id="update-result">
+          Placeholder for consistency check result (processing time)
+        </code>
+      </div>
+      <div class="event-box" id="container-event-box">
+        <h3>Detailed Check Results</h3>
+        <code id="check-result">
+          Placeholder for detailed check results
+        </code>
+        
+      </div>
+    </section>
+
+
+
   </main>
 </body>
 </html>
