@@ -177,7 +177,7 @@ def get_container_ids():
     statement = select(ContainerProcessing.container_id, ContainerProcessing.trace_id)
 
     results = [
-        {"ship_id": ship_id, "trace_id": trace_id}
+        {"container_id": ship_id, "trace_id": trace_id}
         for ship_id, trace_id in session.execute(statement).all()
     ]
 
