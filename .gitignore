@@ -9,3 +9,4 @@ logs/
 arrival.jmx
 .env
 /config/storage/app_conf.yml
+cmds.txt
