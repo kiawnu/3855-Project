@@ -64,58 +64,58 @@ components:
             db:
               type: object
               properties:
-                event1:
+                ship_event:
                   type: integer
-                event2:
+                container_event:
                   type: integer
             queue:
               type: object
               properties:
-                event1:
+                ship_event:
                   type: integer
-                event2:
+                container_event:
                   type: integer
             processing:
               type: object
               properties:
-                event1:
+                ship_event:
                   type: integer
-                event2:
+                container_event:
                   type: integer
         missing_ship_in_db:
           type: array
           items:
             type: object
             properties:
-              event_id:
+              ship_id:
                 type: integer
               trace_id:
-                type: integer
+                type: string
         missing_container_in_db:
           type: array
           items:
             type: object
             properties:
-              event_id:
+              container_id:
                 type: integer
               trace_id:
-                type: integer
+                type: string
         missing_ship_in_queue:
           type: array
           items:
             type: object
             properties:
-              event_id:
+              ship_id:
                 type: integer
               trace_id:
-                type: integer
+                type: string
         missing_container_in_queue:
           type: array
           items:
             type: object
             properties:
-              event_id:
+              container_id:
                 type: integer
               trace_id:
-                type: integer
+                type: string
 
