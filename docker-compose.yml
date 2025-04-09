@@ -25,6 +25,8 @@ services:
     depends_on:
       - zookeeper
   receiver:
+    deploy:
+      replicas: 3
     build: 
       context: receiver
       dockerfile: Dockerfile
