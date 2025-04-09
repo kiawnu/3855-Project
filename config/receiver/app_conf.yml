@@ -1,9 +1,9 @@
 version: 1
 events:
   ship_arrivals:
-    url: /storage/ship/arrival
+    url: http://storage:8090/storage/ship/arrival
   container_processing:
-    url: /storage/container/arrival
+    url: http://storage:8090/storage/container/arrival
   hostname: kafka
   port: 29092
   topic: events
