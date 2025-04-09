@@ -4,7 +4,8 @@ import json
 import logging
 import yaml
 import httpx
-from datetime import datetime, timedelta
+import os
+from datetime import datetime
 from pathlib import Path
 from apscheduler.schedulers.background import BackgroundScheduler
 from connexion.middleware import MiddlewarePosition
@@ -175,18 +176,20 @@ app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(
     "KABDOLLAHI1-ShippingAPI-1.0.0.0-resolved.yaml",
+    base_path="/processing",
     strict_validation=True,
     validate_responses=True,
 )
 
-app.add_middleware(
-    CORSMiddleware,
-    position=MiddlewarePosition.BEFORE_EXCEPTION,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    app.add_middleware(
+        CORSMiddleware,
+        position=MiddlewarePosition.BEFORE_EXCEPTION,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
 if __name__ == "__main__":
     init_scheduler()

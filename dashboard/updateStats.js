@@ -1,10 +1,10 @@
 /* UPDATE THESE VALUES TO MATCH YOUR SETUP */
 
-const PROCESSING_STATS_API_URL = "http://microservice-3855.westus2.cloudapp.azure.com:8100/stats"
+const PROCESSING_STATS_API_URL = "http://microservice-3855.westus2.cloudapp.azure.com/processing/stats"
 const ANALYZER_API_URL = {
-    stats: "http://microservice-3855.westus2.cloudapp.azure.com:8200/stats",
-    ship: "http://microservice-3855.westus2.cloudapp.azure.com:8200/ship_arrival",
-    container: "http://microservice-3855.westus2.cloudapp.azure.com:8200/container_processing"
+    stats: "http://microservice-3855.westus2.cloudapp.azure.com/analyzer/stats",
+    ship: "http://microservice-3855.westus2.cloudapp.azure.com/analyzer/ship_arrival",
+    container: "http://microservice-3855.westus2.cloudapp.azure.com/analyzer/container_processing"
 }
 
 // This function fetches and updates the general statistics
@@ -62,8 +62,8 @@ const getStats = () => {
 
 //START
 document.addEventListener('DOMContentLoaded', () => {
-  const updateUrl = 'http://microservice-3855.westus2.cloudapp.azure.com:8400/update';
-  const checksUrl = 'http://microservice-3855.westus2.cloudapp.azure.com:8400/checks';
+  const updateUrl = 'http://microservice-3855.westus2.cloudapp.azure.com/consistency_check/update';
+  const checksUrl = 'http://microservice-3855.westus2.cloudapp.azure.com/consistency_check/checks';
 
   document.getElementById('run-checks-button').addEventListener('click', async () => {
     const shipEventCode = document.getElementById('update-result');

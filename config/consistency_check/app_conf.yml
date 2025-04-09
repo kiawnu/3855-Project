@@ -1,13 +1,13 @@
 version: 1
 endpoints:
   processing_stats: 
-    url: http://processing:8100/stats
+    url: http://processing:8100/processing/stats
   analyzer_stats:
-    ship_url: http://analyzer:8200/ship_event_ids
-    container_url : http://analyzer:8200/container_event_ids
+    ship_url: http://analyzer:8200/analyzer/ship_event_ids
+    container_url : http://analyzer:8200/analyzer/container_event_ids
   storage_stats:
-    ship_url: http://storage:8090/ship_event_ids
-    container_url : http://storage:8090/container_event_ids
+    ship_url: http://storage:8090/storage/ship_event_ids
+    container_url : http://storage:8090/storage/container_event_ids
 datafile:
   path: /app/stats/consistency_stats.json
   file: consistency_stats.json
