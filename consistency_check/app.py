@@ -132,14 +132,15 @@ def run_consistency_checks():
         "missing_ship_in_queue": missing_ship_events_in_queue,
         "missing_container_in_queue": missing_container_events_in_queue,
     }
+    stats_file_path = Path(STATS_FILE_PATH)
 
-    if not STATS_FILE_PATH.is_file():
+    if not stats_file_path.is_file():
         logger.error("Stats file does not exist..creating")
 
-        with open(STATS_FILE_PATH, "w") as f:
+        with open(stats_file_path, "w") as f:
             f.write(json.dumps({}))
     else:
-        with open(STATS_FILE_PATH, "w") as f:
+        with open(stats_file_path, "w") as f:
             json.dump(stats_json)
 
     return {"processing_time_ms": processing_time_ms}
