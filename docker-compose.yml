@@ -122,7 +122,7 @@ services:
       context: dashboard
       dockerfile: Dockerfile
     ports:
-      - "80:80"
+      - "8300:80"
     depends_on:
       - receiver
       - storage
