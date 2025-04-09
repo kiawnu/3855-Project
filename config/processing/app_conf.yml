@@ -5,6 +5,6 @@ scheduler:
   interval: 5
 eventstores:
   ship_arrivals:
-    url: http://storage:8090/storage/ship/arrival
+    url: http://storage/storage/ship/arrival
   container_processing:
-    url: http://storage:8090/storage/container/arrival
+    url: http://storage/storage/container/arrival
