@@ -103,7 +103,7 @@ def run_consistency_checks():
     ]
 
     end = time.time()
-    processing_time_ms = end - start
+    processing_time_ms = int((end - start) * 1000)
 
     current_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
