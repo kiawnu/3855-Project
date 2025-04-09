@@ -29,8 +29,8 @@ services:
       context: receiver
       dockerfile: Dockerfile
     restart: always
-    ports:
-      - "8080:8080"
+    # ports:
+    #   - "8080:8080"
     volumes:
       - ${RECEIVER_CONF}:/app/config
       - ${RECEIVER_LOGS}:/app/logs
@@ -58,8 +58,8 @@ services:
       dockerfile: Dockerfile
     environment:
       CORS_ALLOW_ALL: no
-    ports:
-     - "8100:8100"
+    # ports:
+    #  - "8100:8100"
     volumes:
       - ${PROCESSING_CONF}:/app/config
       - ${PROCESSING_LOGS}:/app/logs
@@ -78,8 +78,8 @@ services:
     volumes:
       - ${ANALYZER_CONF}:/app/config
       - ${ANALYZER_LOGS}:/app/logs
-    ports:
-     - "8200:8200"
+    # ports:
+    #  - "8200:8200"
     depends_on:
       - receiver
       - storage
@@ -95,8 +95,8 @@ services:
        - ${CONSISTENCY_CONF}:/app/config
        - ${CONSISTENCY_LOGS}:/app/logs
        - ${CONSISTENCY_STATS}:/app/stats
-    ports:
-     - "8400:8400"
+    # ports:
+    #  - "8400:8400"
     depends_on:
       - receiver
       - storage
@@ -128,6 +128,8 @@ services:
       - storage
       - analyzer
       - processing
+      - db
+      - kafka
     networks:
       - microservice-net
 networks:
