@@ -24,6 +24,7 @@ with open("/app/config/log_conf.yml", "r") as f:
 
 STATS_FILE_PATH = app_config["datafile"]["path"]
 STATS_FILE = app_config["datafile"]["file"]
+stats_file_path = Path(STATS_FILE_PATH)
 
 prcessing_stats = app_config["endpoints"]["processing_stats"]["url"]
 analyzer_ship_ids = app_config["endpoints"]["analyzer_stats"]["ship_url"]
@@ -132,7 +133,6 @@ def run_consistency_checks():
         "missing_ship_in_queue": missing_ship_events_in_queue,
         "missing_container_in_queue": missing_container_events_in_queue,
     }
-    stats_file_path = Path(STATS_FILE_PATH)
 
     if not stats_file_path.is_file():
         logger.error("Stats file does not exist..creating")
@@ -147,12 +147,12 @@ def run_consistency_checks():
 
 
 def get_checks():
-    if not STATS_FILE_PATH.is_file():
+    if not stats_file_path.is_file():
         logger.error("Stats file does not exist")
         return 404
 
     else:
-        with open(STATS_FILE_PATH, "r") as f:
+        with open(stats_file_path, "r") as f:
             data = json.load(f)
 
         return jsonify(data), 200
