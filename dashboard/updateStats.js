@@ -1,6 +1,6 @@
 /* UPDATE THESE VALUES TO MATCH YOUR SETUP */
 
-const PROCESSING_STATS_API_URL = "/processing/stats"
+const PROCESSING_STATS_API_URL = "http://microservice-3855.westus2.cloudapp.azure.com/processing/stats"
 const ANALYZER_API_URL = {
     stats: "/analyzer/stats",
     ship: "/analyzer/ship_arrival",
