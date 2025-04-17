@@ -99,7 +99,7 @@ def update_anomalies():
 
 
 def get_anomalies(event_type=None):
-    logger.debug("EVENTTYPE", event_type)
+    logger.debug(event_type)
     if (
         event_type != "ship_arrival"
         or event_type != "container_processing"
