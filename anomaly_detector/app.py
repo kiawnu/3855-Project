@@ -103,7 +103,7 @@ def get_anomalies(event_type=None):
     if (
         event_type != "ship_arrival"
         or event_type != "container_processing"
-        or event_type is not None
+        or event_type != "None"
     ):
         return {"message": " Invalid Event Type, must be EVENT1 or EVENT2"}, 400
 
@@ -118,7 +118,7 @@ def get_anomalies(event_type=None):
 
         if len(data["anomalies"]) == 0:
             return 204
-        if event_type is None:
+        if event_type == "None":
             return data, 200
 
 
