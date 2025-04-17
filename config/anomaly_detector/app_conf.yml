@@ -1,0 +1,8 @@
+version: 1
+kafka:
+  hostname: kafka
+  port: 29092
+  topic: events
+datafile:
+  path: /app/stats/anomaly_stats.json
+  file: anomaly_stats.json

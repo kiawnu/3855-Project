@@ -1,0 +1,106 @@
+import logging.config
+import connexion
+import json
+import logging
+import yaml
+import os
+from datetime import datetime
+from pykafka import KafkaClient
+from pathlib import Path
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
+from flask import jsonify
+
+# Open conf file
+with open("/app/config/app_conf.yml", "r") as f:
+    app_config = yaml.safe_load(f.read())
+
+
+# Open log config
+with open("/app/config/log_conf.yml", "r") as f:
+    LOG_CONFIG = yaml.safe_load(f.read())
+    logging.config.dictConfig(LOG_CONFIG)
+
+STATS_FILE_PATH = app_config["datafile"]["path"]
+STATS_FILE = app_config["datafile"]["file"]
+stats_file_path = Path(STATS_FILE_PATH)
+
+# KAFKA
+HOST = app_config["kafka"]["hostname"]
+PORT = app_config["kafka"]["port"]
+TOPIC = app_config["kafka"]["topic"]
+
+
+logger = logging.getLogger("basicLogger")
+
+
+def update_anomalies():
+    client = KafkaClient(hosts=f"{HOST}:{PORT}")
+    topic = client.topics[str.encode(f"{TOPIC}")]
+    consumer = topic.get_simple_consumer(
+        reset_offset_on_start=True, consumer_timeout_ms=1000
+    )
+    anomalies = []
+
+    for msg in consumer:
+        message = msg.value.decode("utf-8")
+        data = json.loads(message)
+        payload = data["payload"]
+
+        if data["type"] == "ship_arrival":
+            if payload["containers_onboard"] > 10000:
+                anomalies.append(
+                    {
+                        "event_id": payload["ship_id"],
+                        "trace_id": payload["trace_id"],
+                        "event_type": "ship_arrival",
+                        "anomaly_type": "Too High",
+                        "description": f"Too many conatainers aboard, detected {payload['containers_onboard']} containers",
+                    }
+                )
+        if data["type"] == "container_processing":
+            if payload["container_weight"] > 1000:
+                anomalies.append(
+                    {
+                        "event_id": payload["container_id"],
+                        "trace_id": payload["trace_id"],
+                        "event_type": "container_processing",
+                        "anomaly_type": "Too High",
+                        "description": f"Container weight too high, detected weight of: {payload['container_weight']}",
+                    }
+                )
+    stats_json = {"anomalies": anomalies}
+
+    if not stats_file_path.is_file():
+        logger.error("Stats file does not exist..creating")
+
+        with open(stats_file_path, "w") as f:
+            f.write(json.dumps({}))
+
+    with open(stats_file_path, "w") as f:
+        json.dump(stats_json, f)
+
+    return {"anomalies_count": len(anomalies)}
+
+
+app = connexion.FlaskApp(__name__, specification_dir="")
+
+app.add_api(
+    "anomaly.yaml",
+    base_path="/anomaly_detector",
+    strict_validation=True,
+    validate_responses=True,
+)
+
+if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+    app.add_middleware(
+        CORSMiddleware,
+        position=MiddlewarePosition.BEFORE_EXCEPTION,
+        allow_origins=["*"],
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
+
+if __name__ == "__main__":
+    app.run(port=8500, host="0.0.0.0")
