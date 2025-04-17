@@ -99,7 +99,11 @@ def update_anomalies():
 
 
 def get_anomalies(event_type=None):
-    if event_type != "ship_arrival" or event_type != "container_processing":
+    if (
+        event_type != "ship_arrival"
+        or event_type != "container_processing"
+        or event_type is not None
+    ):
         return {"message": " Invalid Event Type, must be EVENT1 or EVENT2"}, 400
 
     if not stats_file_path.is_file():

@@ -47,7 +47,7 @@ paths:
         '204':
           description: No anomalies found for the given event type
         '400':
-          description: Invalid Event Type, must be EVENT1 or EVENT2 # CHANGE THIS
+          description: Invalid Event Type, must be container_processing or ship_arrival 
           content:
             application/json:
               schema:
