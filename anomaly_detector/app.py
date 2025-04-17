@@ -82,6 +82,9 @@ def update_anomalies():
 
     return {"anomalies_count": len(anomalies)}
 
+def get_anomalies:
+    pass
+
 
 app = connexion.FlaskApp(__name__, specification_dir="")
 
