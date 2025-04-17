@@ -99,20 +99,20 @@ def update_anomalies():
 
 
 def get_anomalies(event_type=None):
-    if event_type != "ship_arrival":
+    if event_type not in ["ship_arrival", "container_processing", None]:
         return {
             "message": " Invalid Event Type, must be container_processing or ship_arrival"
         }, 400
 
-    if event_type != "container_processing":
-        return {
-            "message": " Invalid Event Type, must be container_processing or ship_arrival"
-        }, 400
+    # if event_type != "container_processing":
+    #     return {
+    #         "message": " Invalid Event Type, must be container_processing or ship_arrival"
+    #     }, 400
 
-    if event_type is not None:
-        return {
-            "message": " Invalid Event Type, must be container_processing or ship_arrival"
-        }, 400
+    # if event_type is not None:
+    #     return {
+    #         "message": " Invalid Event Type, must be container_processing or ship_arrival"
+    #     }, 400
 
     if not stats_file_path.is_file():
         logger.error("Stats file does not exist")
