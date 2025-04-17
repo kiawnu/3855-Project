@@ -108,6 +108,28 @@ services:
       - kafka
     networks:
       - microservice-net
+
+  anomaly_detector:
+    build: 
+      context: anomaly_detector
+      dockerfile: Dockerfile
+    environment:
+      CORS_ALLOW_ALL: no
+    volumes:
+       - ${ANOMALY_CONF}:/app/config
+       - ${ANOMALY_LOGS}:/app/logs
+       - ${ANOMALY_STATS}:/app/stats
+    # ports:
+    #  - "8400:8400"
+    depends_on:
+      - receiver
+      - storage
+      - analyzer
+      - db
+      - zookeeper
+      - kafka
+    networks:
+      - microservice-net
   db:
     image: mysql
     environment:
