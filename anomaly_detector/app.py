@@ -10,6 +10,14 @@ from pathlib import Path
 from connexion.middleware import MiddlewarePosition
 from starlette.middleware.cors import CORSMiddleware
 from flask import jsonify
+from dotenv import load_dotenv
+
+dotenv_path = Path("../.env")
+load_dotenv(dotenv_path=dotenv_path)
+
+CONTAINER_WEIGHT_MAX = os.getenv("CONTAINER_WEIGHT_MAX")
+CONTAINER_ONB_MAX = os.getenv("CONTAINER_ONB_MAX")
+
 
 # Open conf file
 with open("/app/config/app_conf.yml", "r") as f:
@@ -33,6 +41,10 @@ TOPIC = app_config["kafka"]["topic"]
 
 logger = logging.getLogger("basicLogger")
 
+logger.info(
+    f"Anomaly service started with CONTAINER_WEIGHT_MAX: {CONTAINER_WEIGHT_MAX} and CONTAINER_ONB_MAX: {CONTAINER_ONB_MAX}"
+)
+
 
 def update_anomalies():
     client = KafkaClient(hosts=f"{HOST}:{PORT}")
@@ -41,6 +53,7 @@ def update_anomalies():
         reset_offset_on_start=True, consumer_timeout_ms=1000
     )
     anomalies = []
+    logger.debug("update endpoint request received")
 
     for msg in consumer:
         message = msg.value.decode("utf-8")
@@ -58,6 +71,7 @@ def update_anomalies():
                         "description": f"Too many conatainers aboard, detected {payload['containers_onboard']} containers",
                     }
                 )
+                logger.debug("Anomaly found for ship event")
         if data["type"] == "container_processing":
             if payload["container_weight"] > 1000:
                 anomalies.append(
@@ -69,6 +83,7 @@ def update_anomalies():
                         "description": f"Container weight too high, detected weight of: {payload['container_weight']}",
                     }
                 )
+                logger.debug("Anomaly found for container event")
     stats_json = {"anomalies": anomalies}
 
     if not stats_file_path.is_file():
@@ -83,8 +98,23 @@ def update_anomalies():
     return {"anomalies_count": len(anomalies)}
 
 
-def get_anomalies():
-    pass
+def get_anomalies(event_type=None):
+    if event_type != "ship_arrival" or event_type != "container_processing":
+        return {"message": " Invalid Event Type, must be EVENT1 or EVENT2"}, 400
+
+    if not stats_file_path.is_file():
+        logger.error("Stats file does not exist")
+        return {"message": "The anomalies datastore is missing or corrupted"}, 404
+
+    else:
+        with open(stats_file_path, "r") as f:
+            data = json.load(f)
+            data = jsonify(data)
+
+        if len(data["anomalies"]) == 0:
+            return 204
+        if event_type is None:
+            return data, 200
 
 
 app = connexion.FlaskApp(__name__, specification_dir="")

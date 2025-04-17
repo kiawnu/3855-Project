@@ -31,10 +31,10 @@ paths:
       parameters:
         - name: event_type
           in: query
-          description: Filter by event type (EVENT1, EVENT2) - shows all anomalies if not provided
+          description: Filter by event type (container_processing, ship_arrival) - shows all anomalies if not provided
           schema:
             type: string
-            example: EVENT1 # CHANGE THIS
+            example: ship_arrival
       responses:
         '200':
           description: Successfully returned a non-empty list of anomalies of the given event type
