@@ -82,7 +82,8 @@ def update_anomalies():
 
     return {"anomalies_count": len(anomalies)}
 
-def get_anomalies:
+
+def get_anomalies():
     pass
 
 
