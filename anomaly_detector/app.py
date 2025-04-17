@@ -123,7 +123,7 @@ def get_anomalies(event_type=None):
             data = json.load(f)
             data = jsonify(data)
 
-        if event_type == "None":
+        if event_type is None:
             return data, 200
 
 
